@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- <Modifier id="PIKE_SQUARE_CULTURE_ON_UNIT_DEFEAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
+		<Argument name="YieldType">YIELD_CULUTRE</Argument>
+		<Argument name="PercentDefeatedStrength">50</Argument>
+		<String context="Description">LOC_TRAIT_CIVILIZATION_GERMANIA_ABILITY_NAME</String>
+		<String context="WorldText">LOC_WORLD_CULTURE_INCREASE_FLOATER</String>
+	</Modifier> -->
+
+	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_SIEGE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">10</Argument>
+		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
+	</Modifier>
+
+</GameEffects>

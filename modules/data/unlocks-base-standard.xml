@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY"/>
+	</Unlocks>
+	<UnlockRewards>
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY" Name="CivilizationType" Value="CIVILIZATION_SWISS_CONFEDERACY"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY" RequirementId="REQ_CIV_IS_SWISS_CONFEDERACY"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY" Description="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_FRANCE_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" ConfigurationValue="CIVILIZATION_SWISS_CONFEDERACY"/>
+	</UnlockConfigurationValues>
+</Database>

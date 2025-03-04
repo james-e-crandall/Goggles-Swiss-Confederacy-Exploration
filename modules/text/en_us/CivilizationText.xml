@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Swiss Confederacy Names-->
+		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME">
+			<Text>Swiss Confederacy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_FULLNAME">
+			<Text>Swiss Confederacy Exploration Age Civilization</Text>
+		</Row>
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_ADJECTIVE">
+			<Text>Eidgenossenschaft</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+		<!--Swiss Confederacy Ability-->
+		<Row Tag="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_NAME">
+			<Text>Tagsatzung</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
+			<Text>[LIST][LI]The Capital being adjacent to Moutains and Lakes has increase [icon:YIELD_PRODUCTION]Production.[LI]Cities adjacent to Moutains and Lakes has increase [icon:YIELD_CULTURE]Culture.[LI] Increase further for Tundra Mountains.[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI]The Capital being adjacent to Moutains and Lakes has increase [icon:YIELD_PRODUCTION]Production.[LI]Cities adjacent to Moutains and Lakes has increase [icon:YIELD_CULTURE]Culture.[LI] Increase further for Tundra Mountains.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Shwedagon Zedi Daw[/B].[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY_DESCRIPTION">
+			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Swiss Confederacy's associated Wonder.</Text>
+		</Row>
+		<!--Swiss Confederacy Ability-->
+
+		<Row Tag="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_NAME">
+			<Text>CS Bolster with Pike Square</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_DESCRIPTION">
+			<Text>CS Bolster with Pike Square Description</Text>
+		</Row>
+
+		<!-- 
+		LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY_INITIAL
+		LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY
+		 -->
+
+
+
+		<!--Swiss Confederacy Ability-->
+	</EnglishText>
+</Database>

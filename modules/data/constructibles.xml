@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>  
+	<Kinds>
+
+	</Kinds>
+	<Types>
+
+		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+
+	</TypeQuotes>
+	<AgeGrowthBalances>
+
+	</AgeGrowthBalances>
+	<Constructibles>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
+	
+	</Constructibles>
+	<Buildings>
+	
+	</Buildings>
+
+	<Improvements>
+		<!-- Civ Unique Improvements -->
+
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_2"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_2"/>
+
+	</Improvements>
+	<Wonders>
+
+	</Wonders>
+	<TypeTags>
+		
+		<!-- Civ Unique Improvements -->
+
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" DistrictType="DISTRICT_RURAL"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" DistrictType="DISTRICT_RURAL"/>
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+		<Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="5"/>
+		<Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="5"/>
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" BiomeType="BIOME_TUNDRA"/>
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+		<!-- Wonders -->
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" BiomeType="BIOME_TUNDRA"/>
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+
+		<!-- Civ Unique Improvements -->
+
+		<!-- Wonders -->
+	</Constructible_ValidTerrains>
+	<AgeConstructibleDefaultYields>
+
+	</AgeConstructibleDefaultYields>
+	<AgeConstructibleDefaultMaintenances>
+
+	</AgeConstructibleDefaultMaintenances>
+	<Constructible_YieldChanges>
+
+		<!-- Civ Unique Buildings -->
+
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+
+		<!-- Civ Unique Buildings -->
+
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		
+	
+		<!-- Civ Uniques -->
+
+		<!-- Antique Revived Buildings -->
+
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Civ Uniques -->
+		<Row ID="SwissConfederacyBuildingCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyBuildingScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyImprovementInfluence" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<!-- Wildcard Adjacency Yields Changes -->
+
+	</Adjacency_YieldChanges>
+
+	<Constructible_WarehouseYields>
+		<!-- Warehouse Buildings -->
+
+		<!-- Civ Uniques -->
+
+	</Constructible_WarehouseYields>
+
+	<Warehouse_YieldChanges>
+		<!-- Warehouse Buildings -->
+
+		<!-- Civ Uniques -->
+		<Row ID="SwissConfederacyMountainHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
+		<Row ID="SwissConfederacyMountainCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
+ 	</Warehouse_YieldChanges>
+
+	<Constructible_WildcardAdjacencies>
+		<!-- Civ Uniques -->
+		<Row YieldChangeId="SwissConfederacyBuildingCulture" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+		<Row YieldChangeId="SwissConfederacyBuildingScience" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+		<Row YieldChangeId="SwissConfederacyImprovementInfluence" RequiresActivation="true" ConstructibleClass="IMPROVEMENT"/>
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+
+		<!-- Civ Unique Buildings -->
+
+		<!-- Civ Unique Improvements -->
+
+		<!-- City-State Improvements -->
+
+		<!-- Antique Revived Buildings -->
+
+	</Constructible_Plunders>
+	<ConstructibleModifiers>
+		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
+		<!-- Civ Uniques -->
+		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" ModifierId="MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SPECIALIST_CAP_INCREASE"/> -->
+		<!-- Wonders -->
+
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+
+	</UniqueQuarters>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+		
+		<!-- Antique Revived Buildings -->
+
+	</Constructible_Advisories>
+
+	
+	
+
+</Database>

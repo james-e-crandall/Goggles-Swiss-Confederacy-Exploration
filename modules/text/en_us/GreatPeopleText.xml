@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Amtsbürgermeister-->
+		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_NAME">
+			<Text>Amtsbürgermeister</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_DESCRIPTION">
+			<Text>A Great Person with one charge. Can only be trained in a Fürstabtei, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
+		</Row>
+		 <!-- Amtsbürgermeister individuals -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME">
+			<Text>Joachim Vadian</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION">
+			<Text>Activate on a University to grant an increase in yeilds for each Codex.</Text>
+		</Row>
+		
+	</EnglishText>
+</Database>

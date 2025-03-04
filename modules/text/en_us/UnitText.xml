@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unit Abilities -->
+
+		<!-- Greece Unique Units -->
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_NAME">
+			<Text>Pike Square</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_BASE_DESCRIPTION">
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_DESCRIPTION">
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION">
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
+		</Row>
+
+
+	</EnglishText>
+</Database>

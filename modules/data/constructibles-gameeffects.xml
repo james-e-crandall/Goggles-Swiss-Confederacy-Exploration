@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- <Modifier id="MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SPECIALIST_CAP_INCREASE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
+		<Argument name="Amount">1</Argument>
+	</Modifier> -->
+
+
+</GameEffects>

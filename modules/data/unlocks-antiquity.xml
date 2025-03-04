@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY"/>
+	</Unlocks>
+	<UnlockRewards>
+
+	</UnlockRewards>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_SWISS_CONFEDERACY_TOOLTIP"/>
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" ConfigurationValue="CIVILIZATION_SWISS_CONFEDERACY"/>
+	</UnlockConfigurationValues>
+</Database>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+
+		<!-- Commander -->
+
+	</Types>
+	<Units>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+		<!-- Great People.  There is a 'base' definition, and definitions for indivduals. The individual's unit definition must also be specified in the GreatPersonIndivdual definition. -->
+		<!-- This does allow for Individuals to have custom Unit properties, but they usually mirro the base version. -->
+		<!-- Note that the Individual entries are set to not allow the user to directly train/purchase, only the base is, then the code picks an individual. -->
+
+		<!--Germania-->
+
+	</Units>
+	<Unit_Stats>
+
+	</Unit_Stats>
+	<Unit_Costs>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+
+
+	</Unit_Costs>
+	<UnitUpgrades>
+		<!-- Civ Unique Military -->
+	</UnitUpgrades>
+	<UnitReplaces>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+	</Unit_TransitionRetains>
+	<AiUnitEfficiencyBonuses>
+	</AiUnitEfficiencyBonuses>
+	<Tags>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+
+	</Tags>
+	<TypeTags>
+		<!-- Civ Unique Military -->
+		
+
+		<!-- Civ Unique Civilian -->
+
+	</TypeTags>
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+
+	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+	</ChargedUnitAbilities>
+	<Unit_Advisories>
+		<!-- Civ Unique Military -->
+
+		<!-- Civ Unique Civilian -->
+
+	</Unit_Advisories>
+	<ProjectModifiers>
+		<!-- Warehouse Modifiers -->
+
+	</ProjectModifiers>
+</Database>

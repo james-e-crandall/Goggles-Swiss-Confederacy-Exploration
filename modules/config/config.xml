@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CivilizationName="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" CivilizationFullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" CivilizationIcon="civ_sym_swiss_CONFEDERACY.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" Type="TRAIT_SWISS_CONFEDERACY_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_NAME" Description="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_DESCRIPTION"/>
+
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_MILITARISTIC"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" Icon="ICON_CIVILIZATION_SWISS_CONFEDERACY"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_FRENCH_EMPIRE" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_FRENCH_EMPIRE_NAME" Description="LOC_CIVILIZATION_FRENCH_EMPIRE_DESCRIPTION" Icon="ICON_CIVILIZATION_FRANCE_FRENCH_EMPIRE"/>
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

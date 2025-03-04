@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_DESCRIPTION">
+			<Text>Play as the [B]Swiss Confederacy[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_FRANCE_TOOLTIP">
+			<Text>The [B]Swiss Confederacy [/B] is from the same continent as [B]France[/b].</Text>
+		</Row>
+	</EnglishText>
+</Database>

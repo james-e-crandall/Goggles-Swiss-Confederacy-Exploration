@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+    <IconDefinitions>
+        <Row>
+            <ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>civ_line_swiss_confederacy</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy.png</Path>
+        </Row>
+        <Row>
+            <ID>cult_swiss_confederacy</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/cult_swiss_confederacy.png</Path>
+        </Row>
+        <Row>
+            <ID>UNIT_PIKE_SQUARE</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_PIKE_SQUARE_2</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/nitflag_pike_square.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>        
+        
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+
+
+    </IconDefinitions>
+</Database>

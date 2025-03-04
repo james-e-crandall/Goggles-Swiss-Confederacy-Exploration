@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_SWISS_CONFEDERACY_ABILITY" Kind="KIND_TRAIT"/>
+
+		<Row Type="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" Kind="KIND_DIPLOMACY_ACTION" />
+		<Row Type="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" Kind="KIND_DIPLOMACY_ACTION_STAGE" />
+		<Row Type="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" Kind="KIND_DIPLOMACY_ACTION_STAGE" />
+
+	</Types>
+	<!-- Test End -->
+
+	<Civilizations>
+		<!--Full Civs -->
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" FullName="LOC_CIVILIZATION_SWISS_CONFEDERACY_FULLNAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" Adjective="LOC_CIVILIZATION_SWISS_CONFEDERACY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_SWISS_CONFEDERACY" CapitalName="LOC_CITY_NAME_SWISS_CONFEDERACY1" RandomCityNameDepth="10" />	
+	</Civilizations>
+	<CivilizationFavoredWonders>
+		<!-- <Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" FavoredWonderType="WONDER_SHWEDAGON_ZEDI_DAW" FavoredWonderName="LOC_WONDER_SHWEDAGON_ZEDI_DAW_NAME"/> -->
+	</CivilizationFavoredWonders>
+	<Modifiers/>
+	<ModifierArguments/>
+	<ModifierStrings/>
+	<Traits>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY" Name="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_NAME" Description="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_DESCRIPTION" InternalOnly="true"/>
+
+		
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY"/>
+		<!-- Civ Abilities -->
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY" ModifierId="TRAIT_MOD_SWISS_CONFEDERACY_CULTURE_ADJACENCY"/>
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY" ModifierId="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE"/>
+
+		<Row TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY" ModifierId="TRAIT_MOD_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE"/>
+	</TraitModifiers>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_ANTIQUITY_CIV"/>
+
+		<!-- <Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_EXPLORATION_CIV"/> -->
+
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_SWISS_CONFEDERACY_2"/>
+
+
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_SWISS_CONFEDERACY_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_ATTRIBUTE_CULTURAL"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TraitType="TRAIT_ATTRIBUTE_MILITARISTIC"/>
+	</CivilizationTraits>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_CHARLEMAGNE" Civilization="CIVILIZATION_SWISS_CONFEDERACY" Priority="2"/>
+		<Row Leader="LEADER_FRIEDRICH" Civilization="CIVILIZATION_SWISS_CONFEDERACY" Priority="2"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!--SWISS_CONFEDERACY-->
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY1"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY2"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY3"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY4"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY5"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY6"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY7"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY8"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY9"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY10"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY11"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY12"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY13"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY14"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY15"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY16"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY17"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY18"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY19"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY20"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY21"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CityName="LOC_CITY_NAME_SWISS_CONFEDERACY22"/>
+	</CityNames>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" BiomeType="BIOME_TUNDRA" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TerrainType="TERRAIN_MOUNTAIN" Score="100"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+	</StartBiasRivers>
+	<StartBiasLakes>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" Score="100"/>
+	</StartBiasLakes>
+	<StartBiasAdjacentToCoasts>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" BuildingCulture="BUILDING_CULTURE_NEU"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+
+
+
+
+
+
+
+	<!-- Dipl -->
+	<DiplomacyActions>
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" Name="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_NAME" Description="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_DESCRIPTION" BaseTokenCost="1" BaseDuration="3" EnvoysInfluenceProgress="true" Symmetrical="true" SingleInstanceProject="false" Opposed="true" IsMutualSupport="false" TargetFavors="0" UIIconPath="blp:dipaction_bolster"/>
+	</DiplomacyActions>
+
+	<DiplomaticActionValidTokens>
+			<Row TokenType="DIPLOMACY_TOKEN_GLOBAL" DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE"/>
+	</DiplomaticActionValidTokens>
+
+	<DiplomaticActionStages>
+		<!-- City-State Bolster Military -->
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" ProgressRequirement="0"/>
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" ProgressRequirement="3"/>
+	</DiplomaticActionStages>
+
+	<DiplomaticProjects_UI_Data>
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" DiplomacyActionGroup="DIPLOMACY_ACTION_GROUP_PROJECT" PlayerOperationType="COOPERATIVE_YIELDS_DIPLOMATIC_ACTION" UIStartProject="true" Target1Type="DIPLOMACY_TARGET_CITY_STATE" Target2Type="DIPLOMACY_TARGET_NONE" MaxNumEnvoys="1" MinNumVirtEnvoys="1" MaxNumVirtEnvoys="1" MaxNumSupportEnvoys="0" MaxNumOpposeEnvoys="0" Description="LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY_INITIAL" ActiveDescription="LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY"/>
+	</DiplomaticProjects_UI_Data>
+
+	<DiplomacyBonusEnvoyData>
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" InitialUnfriendly="0" InitialFriendly="0" TargetUnfriendly="0" TargetFriendly="0"/>
+	</DiplomacyBonusEnvoyData>
+
+	<DiplomaticActionInfluenceCosts>
+			<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" InfCostNoRelationship="60"/>
+	</DiplomaticActionInfluenceCosts>
+
+	<DiplomaticActionResponses>
+		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" DiplomaticResponseType="DIPLOMACY_RESPONSE_ACCEPT" InfCost="0" Name="LOC_DIPLOMACY_RESPONSE_ACCEPT"/>
+	</DiplomaticActionResponses>
+
+	<EnterStageModifiers>
+			<!-- City-State Bolster Military -->
+			<Row StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" ModifierId="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" />
+			<Row StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" ModifierId="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" />
+	</EnterStageModifiers>
+
+</Database>
