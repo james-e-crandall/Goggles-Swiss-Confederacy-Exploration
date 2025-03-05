@@ -10,6 +10,7 @@
 		</Row>
 
 		<!--wiss Confederacy Civics Description-->
+		<!-- RUTLISCHWUR -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_NAME">
 			<Text>Rütlischwur</Text>
 		</Row>
@@ -19,7 +20,11 @@
 		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_QUOTE_AUTHOR">
 			<Text>Swiss Confederacy Civics</Text>
 		</Row>
-		
+		<Row Tag="NODE_CIVIC_AQ_SWISS_CONFEDERACY_RUTLISCHWUR_WORKER_CAP_DESCRIPTION">
+			<Text>Increased Worker Cap in Cities</Text>
+		</Row>
+
+		<!-- GOTTHARD_PASS -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_GOTTHARD_PASS_NAME">
 			<Text>Gotthard Pass</Text>
 		</Row>
@@ -30,6 +35,12 @@
 			<Text>Swiss Confederacy Civics</Text>
 		</Row>
 
+		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
+			<Text>+10 healing in Combat Units adjacent to mountains</Text>
+		</Row>
+
+
+		<!-- ZUGEWANDTE_ORTE -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_NAME">
 			<Text>Zugewandte Orte</Text>
 		</Row>
@@ -40,6 +51,7 @@
 			<Text>Swiss Confederacy Civics</Text>
 		</Row>
 		
+		<!-- PFAFFENBRIEF -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_NAME">
 			<Text>Pfaffenbrief</Text>
 		</Row>

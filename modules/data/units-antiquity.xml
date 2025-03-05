@@ -30,11 +30,11 @@
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="100"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="70"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="110"/>
 		<!-- Civ Unique Civilian -->
-		<Row UnitType="UNIT_AMTSBURGERMEISTER" YieldType="YIELD_PRODUCTION" Cost="60"/>
-		<Row UnitType="UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_AMTSBURGERMEISTER" YieldType="YIELD_PRODUCTION" Cost="130"/>
+		<Row UnitType="UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN" YieldType="YIELD_PRODUCTION" Cost="130"/>
 
 	</Unit_Costs>
 	<UnitUpgrades>
@@ -43,8 +43,7 @@
 	</UnitUpgrades>
 	<UnitReplaces>
 		<!-- Civ Unique Military -->
-		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE" ReplacesUnitType="UNIT_SPEARMAN"/>
-		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_2" ReplacesUnitType="UNIT_PHALANX"/>
+
 		<!-- Civ Unique Civilian -->
 	</UnitReplaces>
 	<Unit_TransitionRetains>
@@ -95,6 +94,6 @@
 	</Unit_Advisories>
 	<ProjectModifiers>
 		<!-- Warehouse Modifiers -->
-
+		<Row ProjectType="PROJECT_TOWN_FORT" ModifierId="PIKE_SQUARE_PROJECT_TOWN_FORT_PURCHASE_EFFICIENCY"/>
 	</ProjectModifiers>
 </Database>

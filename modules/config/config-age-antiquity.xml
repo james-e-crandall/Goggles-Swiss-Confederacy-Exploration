@@ -29,7 +29,7 @@
 
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_SCIENTIFIC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_MILITARISTIC"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>

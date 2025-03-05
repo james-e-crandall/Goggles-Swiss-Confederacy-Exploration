@@ -41,7 +41,7 @@
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_KLOSTER" Tag="CULTURE"/>
+		<Row Type="BUILDING_KLOSTER" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_KLOSTER" Tag="UNIQUE"/>
 		<Row Type="BUILDING_KLOSTER" Tag="AGELESS"/>
 		<Row Type="BUILDING_STIFTSARCHIV" Tag="SCIENCE"/>
@@ -88,7 +88,7 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		
 		<!-- Civ Unique Improvements -->
@@ -103,13 +103,17 @@
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="WonderCulture"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="WonderScience"/>
 		<!-- Antique Revived Buildings -->
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="SwissConfederacyTundraMountainFood"/>
 
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
+		<Row ID="SwissConfederacyTundraMountainFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		
 		<!-- Wildcard Adjacency Yields Changes -->
 		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
@@ -117,18 +121,17 @@
 
 	<Constructible_WarehouseYields>
 		<!-- Warehouse Buildings -->
-
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="TundraMountainKlosterMountainCulture"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="TundraMountainStiftsarchivScience"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="TundraMountainKlosterMountainWarehouseCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/>
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-		<Row ID="TundraMountainKlosterMountainCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN"/>
-		<Row ID="TundraMountainStiftsarchivScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		<Row ID="TundraMountainKlosterMountainWarehouseCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN"/>
+		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
 		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyMountainHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
+		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
@@ -140,7 +143,6 @@
 
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER" PlunderType="PLUNDER_HEAL" Amount="30"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" PlunderType="PLUNDER_HEAL" Amount="30"/>
@@ -164,15 +166,15 @@
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<!-- <Row ModifierId="MOD_MAYA_UWAYBIL_KUH_PRODUCTION_ON_TECH_COMPLETED"/> -->
+		<Row ModifierId="FURSTABTEI_MOD_WORKER_SCIENCE"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_WORKER_SCIENCE"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Constructible_Advisories>
 
