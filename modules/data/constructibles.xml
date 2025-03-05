@@ -16,8 +16,8 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" Name="LOC_BUILDING_KLOSTER_NAME" Description="LOC_BUILDING_KLOSTER_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_TOOLTIP" ConstructibleClass="BUILDING" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Name="LOC_BUILDING_STIFTSARCHIV_NAME" Description="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_TOOLTIP" ConstructibleClass="BUILDING" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" Name="LOC_BUILDING_KLOSTER_NAME" Description="LOC_BUILDING_KLOSTER_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Name="LOC_BUILDING_STIFTSARCHIV_NAME" Description="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_ANTIQUITY"/>
 		
 		<!-- Civ Unique Improvements -->
 		<!-- Cost="240" -->
@@ -88,8 +88,8 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="2"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		
 		<!-- Civ Unique Improvements -->
 
@@ -122,14 +122,14 @@
 	<Constructible_WarehouseYields>
 		<!-- Warehouse Buildings -->
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="TundraMountainKlosterMountainWarehouseCulture"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldChangeId="MountainStiftsarchivWarehouseScience"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/>
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-		<Row ID="TundraMountainKlosterMountainWarehouseCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN"/>
-		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		<Row ID="MountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
+		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
 		<!-- Civ Uniques -->
 		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
  	</Warehouse_YieldChanges>
@@ -177,8 +177,5 @@
 		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Constructible_Advisories>
-
-	
-	
 
 </Database>
