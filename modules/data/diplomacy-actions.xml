@@ -2,38 +2,36 @@
 <Database>
 	<!-- Dipl -->
 	<DiplomacyActions>
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" Name="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_NAME" Description="LOC_DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE_DESCRIPTION" BaseTokenCost="1" BaseDuration="3" EnvoysInfluenceProgress="true" Symmetrical="true" SingleInstanceProject="false" Opposed="true" IsMutualSupport="false" TargetFavors="0" UIIconPath="blp:dipaction_bolster"/>
+
 	</DiplomacyActions>
 
 	<DiplomaticActionValidTokens>
-			<Row TokenType="DIPLOMACY_TOKEN_GLOBAL" DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE"/>
+
 	</DiplomaticActionValidTokens>
 
 	<DiplomaticActionStages>
 		<!-- City-State Bolster Military -->
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" ProgressRequirement="0"/>
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" ProgressRequirement="3"/>
+
 	</DiplomaticActionStages>
 
 	<DiplomaticProjects_UI_Data>
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" DiplomacyActionGroup="DIPLOMACY_ACTION_GROUP_PROJECT" PlayerOperationType="COOPERATIVE_YIELDS_DIPLOMATIC_ACTION" UIStartProject="true" Target1Type="DIPLOMACY_TARGET_CITY_STATE" Target2Type="DIPLOMACY_TARGET_NONE" MaxNumEnvoys="1" MinNumVirtEnvoys="1" MaxNumVirtEnvoys="1" MaxNumSupportEnvoys="0" MaxNumOpposeEnvoys="0" Description="LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY_INITIAL" ActiveDescription="LOC_DIPLOMACY_PROJECT_CS_BOLSTER_MILITARY"/>
+
 	</DiplomaticProjects_UI_Data>
 
 	<DiplomacyBonusEnvoyData>
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" InitialUnfriendly="0" InitialFriendly="0" TargetUnfriendly="0" TargetFriendly="0"/>
+
 	</DiplomacyBonusEnvoyData>
 
 	<DiplomaticActionInfluenceCosts>
-			<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" InfCostNoRelationship="60"/>
+
 	</DiplomaticActionInfluenceCosts>
 
 	<DiplomaticActionResponses>
-		<Row DiplomacyActionType="DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE" DiplomaticResponseType="DIPLOMACY_RESPONSE_ACCEPT" InfCost="0" Name="LOC_DIPLOMACY_RESPONSE_ACCEPT"/>
+
 	</DiplomaticActionResponses>
 
 	<EnterStageModifiers>
-			<!-- City-State Bolster Military -->
-			<Row StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" ModifierId="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" />
-			<Row StageType="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" ModifierId="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" />
+		<!-- City-State Bolster Military -->
+
 	</EnterStageModifiers>
 </Database>

@@ -16,6 +16,10 @@
 		<Row Tag="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION">
 			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_PIKE_SQUARE_PREVIEW">
+			<Text>+{1_Amount} Combat Strength against Cavalry.</Text>
+		</Row>
+
 
 
 	</EnglishText>

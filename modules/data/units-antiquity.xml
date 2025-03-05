@@ -30,8 +30,8 @@
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="70"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="110"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="60"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="100"/>
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER" YieldType="YIELD_PRODUCTION" Cost="60"/>
 		<Row UnitType="UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN" YieldType="YIELD_PRODUCTION" Cost="60"/>
@@ -43,7 +43,8 @@
 	</UnitUpgrades>
 	<UnitReplaces>
 		<!-- Civ Unique Military -->
-
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE" ReplacesUnitType="UNIT_SPEARMAN"/>
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_2" ReplacesUnitType="UNIT_PHALANX"/>
 		<!-- Civ Unique Civilian -->
 	</UnitReplaces>
 	<Unit_TransitionRetains>
@@ -58,12 +59,10 @@
 	</Tags>
 	<TypeTags>
 		<!-- Civ Unique Military -->
-		
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_INFANTRY"/>
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_PIKE_SQUARE"/>
-		
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_INFANTRY"/>
@@ -82,7 +81,7 @@
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" Name="LOC_ABILITY_PIKE_SQUARE_NAME" Description="LOC_ABILITY_PIKE_SQUARE_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" ModifierId="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY"/>
 
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>

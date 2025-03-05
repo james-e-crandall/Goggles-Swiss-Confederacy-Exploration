@@ -142,6 +142,7 @@
 					<Item>data/greatpeople.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-antiquity.xml</Item>
+					<Item>data/units-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
 					
