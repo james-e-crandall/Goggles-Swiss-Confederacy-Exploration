@@ -36,6 +36,16 @@
             <Context>DEFAULT</Context>
         </Row>
 
+        <Row>
+            <ID>BUILDING_KLOSTER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_STIFTSARCHIV</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
 
 
     </IconDefinitions>

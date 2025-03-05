@@ -15,6 +15,10 @@ look at inca in the exploration age.  they have an improvement for mountains.  n
 
 ----------------------------
 
+[localization]: Database XML root elements must start with either <Database> or <GameEffects>.
+might be a misnamed file
+
+----------------------------
 
 https://en.wikipedia.org/wiki/Old_Swiss_Confederacy
 
@@ -78,13 +82,16 @@ https://en.wikipedia.org/wiki/William_Tell
 
 Abbey
 
+FURSTABTEI
 Fürstabtei St. Gallen =  Abbey of Saint Gall
 Adds culture to  Mountains 
 
+KLOSTER
 Kloster = Monestary
 Adjacency with Lakes
 
-
+STIFTSARCHIV
+monastery archive
 Stiftsarchiv St. Gallen  = Abbey Archives St. Gallen
 Adds science from codexes?
 

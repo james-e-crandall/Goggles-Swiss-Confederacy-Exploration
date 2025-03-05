@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>  
-	<Kinds>
-
-	</Kinds>
 	<Types>
-
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_KLOSTER" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_STIFTSARCHIV" Kind="KIND_CONSTRUCTIBLE"/>
+		<!-- Civ Unique Improvements -->
 		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Kind="KIND_CONSTRUCTIBLE"/>
 		<Row Type="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
@@ -15,30 +15,48 @@
 
 	</AgeGrowthBalances>
 	<Constructibles>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_KLOSTER" Name="LOC_BUILDING_KLOSTER_NAME" Description="LOC_BUILDING_KLOSTER_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_TOOLTIP" ConstructibleClass="BUILDING" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Name="LOC_BUILDING_STIFTSARCHIV_NAME" Description="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_TOOLTIP" ConstructibleClass="BUILDING" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
+		
+		<!-- Civ Unique Improvements -->
+		<!-- Cost="240" -->
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
 	
 	</Constructibles>
 	<Buildings>
-	
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_KLOSTER" Movable="false" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Movable="false" TraitType="TRAIT_SWISS_CONFEDERACY"/>
 	</Buildings>
 
 	<Improvements>
 		<!-- Civ Unique Improvements -->
-
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_2"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TraitType="TRAIT_SWISS_CONFEDERACY_2"/>
-
 	</Improvements>
 	<Wonders>
 
 	</Wonders>
 	<TypeTags>
-		
-		<!-- Civ Unique Improvements -->
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_KLOSTER" Tag="CULTURE"/>
+		<Row Type="BUILDING_KLOSTER" Tag="UNIQUE"/>
+		<Row Type="BUILDING_KLOSTER" Tag="AGELESS"/>
+		<Row Type="BUILDING_STIFTSARCHIV" Tag="SCIENCE"/>
+		<Row Type="BUILDING_STIFTSARCHIV" Tag="UNIQUE"/>
+		<Row Type="BUILDING_STIFTSARCHIV" Tag="AGELESS"/>
 
+		<!-- Civ Unique Improvements -->
 	</TypeTags>
 	<Constructible_ValidDistricts>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_KLOSTER" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" DistrictType="DISTRICT_URBAN"/>
+		<!-- Civ Unique Improvements -->
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" DistrictType="DISTRICT_RURAL"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
@@ -70,52 +88,53 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		
 		<!-- Civ Unique Improvements -->
 
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 
 		<!-- Civ Unique Buildings -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_GOLD" Amount="3"/>
+		
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		
-	
 		<!-- Civ Uniques -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="WonderScience"/>
 		<!-- Antique Revived Buildings -->
 
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyBuildingCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyBuildingScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyImprovementInfluence" Age="AGE_ANTIQUITY" YieldType="YIELD_DIPLOMACY" YieldChange="10" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<!-- Wildcard Adjacency Yields Changes -->
-
+		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
 		<!-- Warehouse Buildings -->
 
 		<!-- Civ Uniques -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="TundraMountainKlosterMountainCulture"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="TundraMountainStiftsarchivScience"/>
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-
+		<Row ID="TundraMountainKlosterMountainCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN"/>
+		<Row ID="TundraMountainStiftsarchivScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
 		<!-- Civ Uniques -->
 		<Row ID="SwissConfederacyMountainHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
-		<Row ID="SwissConfederacyMountainCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
 		<!-- Civ Uniques -->
-		<Row YieldChangeId="SwissConfederacyBuildingCulture" RequiresActivation="true" ConstructibleClass="BUILDING"/>
-		<Row YieldChangeId="SwissConfederacyBuildingScience" RequiresActivation="true" ConstructibleClass="BUILDING"/>
-		<Row YieldChangeId="SwissConfederacyImprovementInfluence" RequiresActivation="true" ConstructibleClass="IMPROVEMENT"/>
+		<Row YieldChangeId="SwissConfederacyLakeHappiness" RequiresActivation="true" ConstructibleTag="HAPPINESS" />
+		<Row YieldChangeId="SwissConfederacyLakeFood" RequiresActivation="true" ConstructibleTag="FOOD" />
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 
@@ -123,7 +142,9 @@
 	<Constructible_Plunders>
 
 		<!-- Civ Unique Buildings -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		
 		<!-- Civ Unique Improvements -->
 
 		<!-- City-State Improvements -->
@@ -139,20 +160,20 @@
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" BuildingType1="BUILDING_KLOSTER" BuildingType2="BUILDING_STIFTSARCHIV" Name="LOC_QUARTER_FURSTABTEI_NAME" Description="LOC_QUARTER_FURSTABTEI_DESCRIPTION" TraitType="TRAIT_SWISS_CONFEDERACY"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-
+		<!-- <Row ModifierId="MOD_MAYA_UWAYBIL_KUH_PRODUCTION_ON_TECH_COMPLETED"/> -->
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
 
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
-		
 		<!-- Antique Revived Buildings -->
-
+		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Constructible_Advisories>
 
 	

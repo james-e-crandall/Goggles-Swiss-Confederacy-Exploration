@@ -112,11 +112,13 @@
 
 				</UpdateIcons>
 				<UpdateText>
+					<!-- Standard Text -->
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/GreatPeopleText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/ConstructiblesText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -131,6 +133,8 @@
 				<UpdateDatabase>
 					<Item>data/civilizations.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
+					<Item>data/diplomacy-actions.xml</Item>
+					<Item>data/diplomacy-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
 					<Item>data/progression-trees-tech-common.xml</Item>
 					<Item>data/progression-trees-culture-common.xml</Item>
@@ -146,8 +150,8 @@
 
 				</UpdateIcons>
 				<UpdateText>
+					<!-- Loading Screen Text -->
 					<Item>text/en_us/LoadingText.xml</Item>
-					
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -202,13 +206,16 @@
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
+					<!-- Standard Text -->
+					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/CivilizationText.xml</Item>
-					<Item>text/en_us/ConstructibleText.xml</Item>
-					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/UnitText.xml</Item>
+					<!-- Civ Chosing Screen Text -->
 					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

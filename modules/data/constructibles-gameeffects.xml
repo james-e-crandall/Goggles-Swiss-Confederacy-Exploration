@@ -5,4 +5,15 @@
 	</Modifier> -->
 
 
+	<!-- SWISS_CONFEDERACY -->
+	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+		<Argument name="ConstructibleAdjacency">SwissConfederacyLakeHappiness, SwissConfederacyLakeFood</Argument>
+	</Modifier>
+
+	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">SwissConfederacyMountainHappiness</Argument>
+	</Modifier>
+
+
+
 </GameEffects>

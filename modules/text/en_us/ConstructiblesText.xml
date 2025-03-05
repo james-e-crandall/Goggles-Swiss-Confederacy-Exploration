@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Swiss Confederacy Names-->
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME">
+			<Text>Stadel</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_KLOSTER_NAME">
+			<Text>Kloster</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KLOSTER_DESCRIPTION">
+			<Text>Kloster (Monestary) +1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KLOSTER_TOOLTIP">
+			<Text>+1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_NAME">
+			<Text>Stiftsarchiv</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION">
+			<Text>Stiftsarchiv (Abbey Archives) +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_TOOLTIP">
+			<Text> +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city</Text>
+		</Row>
+
+		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
+			<Text>Fürstabtei (Abby)</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
+			<Text>Fürstabtei (Abby) +1</Text>
+		</Row>
+
+
+
+
+
+	</EnglishText>
+</Database>

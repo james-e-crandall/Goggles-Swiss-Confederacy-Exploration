@@ -5,41 +5,8 @@
 	<!-- ==================================================	-->
 	
 	<!-- ==================================================	-->
-	<!--	Civ-Specific Traits			
-	LOC_TRAIT_LEADER_NAPOLEON_ALT_ABILITY_NAME				-->
+	<!--	Civ-Specific Traits							-->
 	<!-- ==================================================	-->
-	<!-- SWISS_CONFEDERACY -->
-	<!-- <Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_CULTURE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
-		<Argument name="ConstructibleAdjacency">SwissConfederacyLakeCulture, SwissConfederacyMountainCulture</Argument>
-	</Modifier> -->
-
-	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_CULTURE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
-		<Argument name="ConstructibleAdjacency">SwissConfederacyBuildingCulture, SwissConfederacyBuildingScience, SwissConfederacyImprovementInfluence</Argument>
-	</Modifier>
-
-	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">SwissConfederacyMountainFood, SwissConfederacyMountainProduction, SwissConfederacyMountainHappiness, SwissConfederacyMountainHappiness, SwissConfederacyMountainScience</Argument>
-	</Modifier>
-
-
-	<!-- DIPLOMACY_ACTION_CS_BOLSTER_MILITARY -->
-	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
-		<Argument name="ActionType">DIPLOMACY_SWISS_CONFEDERACY_ACTION_CS_BOLSTER_MILITARY_PIKE_SQUARE</Argument>
-	</Modifier>
-
-	<Modifier id="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DESCRIBE" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING"/>
-	<Modifier id="DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_COMPLETE" collection="COLLECTION_OWNER" effect="EFFECT_DAE_COOPERATIVE_ATTACH_MODIFIER">
-		<String context="Name">LOC_DIPLOMACY_WISS_CONFEDERACY_PROJECT_CS_BOLSTER_MILITARY_NAME</String>
-		<Argument name="InitialPlayerAccept">PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DO_NOTHING</Argument>
-		<Argument name="TargetPlayerAccept">PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_TARGET</Argument>
-		<Argument name="InitialPlayerSupport">PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DO_NOTHING</Argument>
-		<Argument name="TargetPlayerSupport">PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DO_NOTHING</Argument>
-	</Modifier>
-	<Modifier id="PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_DO_NOTHING" collection="COLLECTION_OWNER" effect="EFFECT_DO_NOTHING"/>
-	<Modifier id="PLAYER_DIPLOMACY_SWISS_CONFEDERACY_CS_BOLSTER_MILITARY_TARGET" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
-		<Argument name="Amount">5</Argument>
-		<Argument name="UnitTag">UNIT_CLASS_MELEE</Argument>
-	</Modifier>
 
 
 	<!-- ==================================================	-->
