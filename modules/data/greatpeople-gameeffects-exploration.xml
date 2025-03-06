@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<Modifier id="AMTSBURGERMEISTER_GRANT_RELICS" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_GREAT_WORK" run-once="true" permanent="true">
+		<Argument name="Amount">1</Argument>
+		<Argument name="ObjectType">GREATWORKOBJECT_RELIC</Argument>
+		<String context="Description">LOC_AMTSBURGERMEISTER_RELICS_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_KLOSTER</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION</String>
+	</Modifier>
+	
+	<Modifier id="AMTSBURGERMEISTER_BANK" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_BANK</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_BANK</String>
+	</Modifier>
+	<Modifier id="AMTSBURGERMEISTER_BANK_SMALL_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_BANK</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">4</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_BANK_SMALL_GOLD</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_ARMORER" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_ARMORER</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_ARMORER</String>
+	</Modifier>
+	<Modifier id="AMTSBURGERMEISTER_ARMORER_SMALL_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_ARMORER</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_ARMORER_SMALL_PRODUCTION</String>
+	</Modifier>
+
+
+
+
+</GameEffects>

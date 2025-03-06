@@ -1,19 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-
-    <!-- <Modifier id="AMTSBURGERMEISTER_JOACHIM_VADIAN_PLACE_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLOT_PLACE_RESOURCE" run-once="true" permanent="true">
-        <Argument name="ResourceType">RESOURCE_IRON</Argument>
-        <String context="Summary">LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION</String>
-    </Modifier> -->
-
-
-	<Modifier id="AMTSBURGERMEISTER_JOACHIM_VADIAN_MINE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+	<Modifier id="AMTSBURGERMEISTER_MINE_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
 		<Argument name="ConstructibleType">IMPROVEMENT_MINE</Argument>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">5</Argument>
-		<String context="Summary">LOC_GREATPERSON_MINE_LARGE_GOLD</String>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION</String>
 	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_MINE_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">IMPROVEMENT_MINE</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_MINE_HAPPINESS_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_FARM_FOOD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_FARM_FOOD_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_LIBRARY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
+		<String context="Summary">LOC_GREATPERSON_LIBRARY</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_LIBRARY_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">3</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_LIBRARY</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_LEGACY_POINT_SCIENTIFIC" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_LEGACY_POINTS">
+		<Argument name="Amount">1</Argument>
+		<Argument name="Type">CARD_CATEGORY_SCIENTIFIC</Argument>
+	</Modifier>
+
+	<!-- WILHELM_HERTER_VON_HERTNECK -->
+	<Modifier id="GREATPERSON_RENAME_COMMANDER_WILHELM_HERTER_VON_HERTNECK" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">
+		<Argument name="Name">LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_COMMANDER_NAME</Argument>
+	</Modifier>
+	<Modifier id="GREATPERSON_COMMANDER_HIGH_COMBAT_WILHELM_HERTER_VON_HERTNECK" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_WILHELM_HERTER_VON_HERTNECK</Argument>
+	</Modifier>
+	<Modifier id="WILHELM_HERTER_VON_HERTNECK_COMMANDER_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_IN_COMMAND_RADIUS"/>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_INFANTRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_WILHELM_HERTER_VON_HERTNECK_COMBAT</Argument>
+	</Modifier>
+	<Modifier id="WILHELM_HERTER_VON_HERTNECK_COMBAT_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING"/>
+		</SubjectRequirements>
+		<Argument name="Amount">4</Argument>
+		<String context="Preview">LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_PREVIEW</String>
+	</Modifier>
+	<!-- MARX_ROIST -->
+	<Modifier id="GREATPERSON_GRANT_UNIT_PROMOTION_MARX_ROIST" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+	</Modifier>
+
+
 
 
 </GameEffects>

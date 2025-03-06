@@ -14,6 +14,18 @@
             <ID>cult_swiss_confederacy</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/cult_swiss_confederacy.png</Path>
         </Row>
+
+        <Row>
+            <ID>BUILDING_KLOSTER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_STIFTSARCHIV</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
         <Row>
             <ID>UNIT_PIKE_SQUARE</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
@@ -31,22 +43,51 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
             <ID>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_MARX_ROIST</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 
         <Row>
-            <ID>BUILDING_KLOSTER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>BUILDING_STIFTSARCHIV</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+                <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_BANIEL_BERNOULLI</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_LEONHARD_EULER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_AMTSBURGERMEISTER_PARACELSUS</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
 
     </IconDefinitions>
 </Database>

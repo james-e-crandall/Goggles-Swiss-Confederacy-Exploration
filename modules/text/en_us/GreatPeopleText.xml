@@ -8,13 +8,113 @@
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in a Fürstabtei, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
 		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION">
+			<Text>Mines in this city recieve +1[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_HAPPINESS_DESCRIPTION">
+			<Text>Mines in this city recieve +1[icon:YIELD_HAPPINESS] Happiness.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_FARM_FOOD_DESCRIPTION">
+			<Text>This Farm receives +1[icon:YIELD_FOOD] Production.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION">
+			<Text>Gain 1 Relic. Kloster gains 1 Relic slot.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_GRANT_COMMANDER_DESCRIPTION">
+			<Text>Activate on an Army Commander to grant 2 promotions.</Text>
+		</Row>
+
+		<Row Tag="LOC_AMTSBURGERMEISTER_LIBRARY">
+			<Text>This Library receives +3[icon:YIELD_SCIENCE] Science.</Text>
+		</Row>
 		 <!-- Amtsbürgermeister individuals -->
+
+		<!-- Johann Conrad Fischer -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_NAME">
+			<Text>Joachim Vadian</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION} {LOC_AMTSBURGERMEISTER_MINE_HAPPINESS_DESCRIPTION}</Text>
+		</Row>
+		<!-- Commanders -->
+		
+		<!-- Wilhelm Herter von Hertneck -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_NAME">
+			<Text>Wilhelm Herter von Hertneck</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_DESCRIPTION">
+			<Text>Activate on an Army Commander to change its name to “Honorable men" Units within this Command Radius gain +4 Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_COMMANDER_NAME">
+			<Text>Honorable men</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_PREVIEW">
+			<Text>+{1_Amount} from Honorable men</Text>
+		</Row>
+
+		<!-- Marx Röist -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_MARX_ROIST_NAME">
+			<Text>Marx Röist</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_MARX_ROIST_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_GRANT_COMMANDER_DESCRIPTION}</Text>
+		</Row>
+
+		<!-- Buildings -->
+		<!-- Joachim Vadian -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME">
 			<Text>Joachim Vadian</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION">
-			<Text>Create a Horse Resource.</Text>
+			<Text>{LOC_AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION}</Text>
 		</Row>
-		
+
+
+		<!-- Elisabeth of Wetzikon -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON_NAME">
+			<Text>Elisabeth of Wetzikon</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON_DESCRIPTION">
+			<Text>Create a Bank in a City. This Bank receives +4[icon:YIELD_GOLD] Gold. Tile must have less than 2 Buildings and the City cannot have a Bank.</Text>
+		</Row>
+		<!-- Huldrych Zwingli -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_NAME">
+			<Text>Huldrych Zwingli</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
+		</Row>
+		<!-- Daniel Bernoulli -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_BANIEL_BERNOULLI_NAME">
+			<Text>Daniel Bernoulli</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_BANIEL_BERNOULLI_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
+		</Row>
+		<!-- Leonhard Euler -->
+		<!-- activate on a foreign university for +1 science
+		gain a trade route with that civ 
+		SELECT "_rowid_",* FROM "main"."GreatPersonIndividuals" WHERE "ActionRequiresForeignTile" LIKE '%1%' ESCAPE '\' LIMIT 49999 OFFSET 0;
+		-->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME">
+			<Text>Leonhard Euler</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_LIBRARY}</Text>
+		</Row>
+		<!-- Paracelsus -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_PARACELSUS_NAME">
+			<Text>Paracelsus</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_PARACELSUS_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
+		</Row>
+		<!-- BUILDING_HOSPITAL -->
+
 	</EnglishText>
 </Database>

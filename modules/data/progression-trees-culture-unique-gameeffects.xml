@@ -25,8 +25,19 @@
 	<Modifier id="ABILITY_GOTTHARD_PASS_MOUNTAIN_ADJACENCY_ADJUST_HEAL_PER_TURN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
 		<Argument name="Amount">10</Argument>
 	</Modifier>
-		
 	<!-- ZUGEWANDTE_ORTE -->
+
+	<!-- WARS_OF_KAPPLE -->
+	<Modifier id="SWISS_CONFEDERACY_WARS_OF_KAPPLE_OVERBUILD_GRANT_UNIT" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+		<SubjectRequirements>
+        <Requirement type="REQUIREMENT_PLAYER_OVERBUILDS">
+            <Argument name="OldConstructibleType">BUILDING_ALTAR</Argument>
+        </Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitTag">UNIT_CLASS_INFANTRY</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Summary">LOC_GREATPERSON_GRANT_INFANTRY</String>
+	</Modifier>
 
 	<!-- PFAFFENBRIEF -->
 	<Modifier id="NODE_CIVIC_AQ_SWISS_CONFEDERACY_RUTLISCHWUR_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
