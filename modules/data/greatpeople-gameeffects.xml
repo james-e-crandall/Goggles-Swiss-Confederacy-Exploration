@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+
+    <!-- <Modifier id="AMTSBURGERMEISTER_JOACHIM_VADIAN_PLACE_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLOT_PLACE_RESOURCE" run-once="true" permanent="true">
+        <Argument name="ResourceType">RESOURCE_IRON</Argument>
+        <String context="Summary">LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION</String>
+    </Modifier> -->
+
+
+	<Modifier id="AMTSBURGERMEISTER_JOACHIM_VADIAN_MINE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+		<Argument name="ConstructibleType">IMPROVEMENT_MINE</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">5</Argument>
+		<String context="Summary">LOC_GREATPERSON_MINE_LARGE_GOLD</String>
+	</Modifier>
+
+
+</GameEffects>

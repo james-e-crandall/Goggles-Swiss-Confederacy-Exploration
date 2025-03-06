@@ -3,10 +3,8 @@
 	<Types>
 		<!--Great Person Classes-->
 		<Row Type="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" Kind="KIND_GREAT_PERSON_CLASS"/>
-
 		<!--Swiss Confederation Great Person Individuals-->
 		<Row Type="GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
-
 	</Types>
 	<GreatPersonClasses>
 		<Row GreatPersonClassType="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" Name="LOC_UNIT_AMTSBURGERMEISTER_NAME" UnitType="UNIT_AMTSBURGERMEISTER" ConstructibleType="BUILDING_PALACE" AvailableInTimeline="true" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_STANDING_ARMY_COMMANDER" IconString="unitflag_amtburgermeister" ActionIcon="action_greatperson"/>
@@ -14,11 +12,14 @@
 	<GreatPersonIndividuals>
 		<!--Swiss Confederation-->
 
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" AgeType="AGE_ANTIQUITY" Gender="M" ActionCharges="1" ActionRequiresOnUnitType="UNIT_ARMY_COMMANDER" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN"/>
+		
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME" ActionEffectTextOverride="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN_DESCRIPTION" GreatPersonClassType="GREAT_PERSON_CLASS_AMTSBURGERMEISTER" AgeType="AGE_ANTIQUITY" Gender="M" ActionRequiresCompletedDistrictType="DISTRICT_RURAL" ActionRequiresCompletedConstructibleType="IMPROVEMENT_MINE" ActionCharges="2"  ActionRequiresOwnedTile="true" ActionRequiresCity="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" UnitType="UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN"/>
+	
 
 	</GreatPersonIndividuals>
 	<GreatPersonIndividualActionModifiers>
-
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN" ModifierId="AMTSBURGERMEISTER_JOACHIM_VADIAN_MINE_GOLD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		
 	</GreatPersonIndividualActionModifiers>
 	<UnitAbilities>
 
@@ -29,4 +30,6 @@
 	<UnitAbilityModifiers>
 
 	</UnitAbilityModifiers>
+
+
 </Database>

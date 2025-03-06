@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="SWISS_CONFEDERACY_150A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SWISS_CONFEDERACY_150B" Kind="KIND_NARRATIVE_STORY"/>
+
+
+        <!-- <Row Type="SWISS_CONFEDERACY_SWISS_CONFEDERACY_160A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SWISS_CONFEDERACY_SWISS_CONFEDERACY_160B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SWISS_CONFEDERACY_SWISS_CONFEDERACY_160C" Kind="KIND_NARRATIVE_STORY"/> -->
+    </Types>
+
+    <NarrativeStory_Queues>
+        <Row QueueType="NARRATIVE_GROUP_GREAT_PERSON_AMTSBURGERMEISTER" ActivationCount="1" StartAll="0" />
+   </NarrativeStory_Queues>
+
+
+   <NarrativeStories>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_150A" Name="LOC_SWISS_CONFEDERACY_150A_NAME" Description="LOC_SWISS_CONFEDERACY_150A_DESCRIPTION" Completion="LOC_SWISS_CONFEDERACY_150A_COMPLETION" StoryTitle="LOC_SWISS_CONFEDERACY_150A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="REQUISITE" RequirementSetId="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE" ActivationRequirementSetId="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE_REQUISITE" UIActivation="STANDARD" Queue="NARRATIVE_GROUP_GREAT_PERSON_AMTSBURGERMEISTER"/>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_150B" Name="LOC_SWISS_CONFEDERACY_150B_NAME" Description="LOC_SWISS_CONFEDERACY_150B_DESCRIPTION" Completion="LOC_SWISS_CONFEDERACY_150B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        
+        <!-- <Row NarrativeStoryType="SWISS_CONFEDERACY_160A" Name="LOC_SWISS_CONFEDERACY_160A_NAME" Description="LOC_SWISS_CONFEDERACY_160A_DESCRIPTION" Completion="LOC_SWISS_CONFEDERACY_160A_COMPLETION" StoryTitle="LOC_SWISS_CONFEDERACY_160A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="LINKED" Imperative="LOC_SWISS_CONFEDERACY_160A_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_SWISS_CONFEDERACY_160A_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_160B" Name="LOC_SWISS_CONFEDERACY_160B_NAME" Description="LOC_SWISS_CONFEDERACY_160B_DESCRIPTION" Completion="LOC_SWISS_CONFEDERACY_160B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_160C" Name="LOC_SWISS_CONFEDERACY_160C_NAME" Description="LOC_SWISS_CONFEDERACY_160C_DESCRIPTION" Completion="LOC_SWISS_CONFEDERACY_160C_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+         -->
+
+   </NarrativeStories>
+
+
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="SWISS_CONFEDERACY_150A" ToNarrativeStoryType="SWISS_CONFEDERACY_160A" Priority="0" Name="LOC_SWISS_CONFEDERACY_160A_NAME" Description="LOC_SWISS_CONFEDERACY_160A_DESCRIPTION" Imperative="LOC_SWISS_CONFEDERACY_160A_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="SWISS_CONFEDERACY_150A" ToNarrativeStoryType="SWISS_CONFEDERACY_150B" Priority="1" Name="LOC_SWISS_CONFEDERACY_150B_NAME" Description="LOC_SWISS_CONFEDERACY_150B_DESCRIPTION"/>
+        
+        <!-- <Row FromNarrativeStoryType="SWISS_CONFEDERACY_160A" ToNarrativeStoryType="SWISS_CONFEDERACY_160B" Priority="0" Name="LOC_SWISS_CONFEDERACY_160B_NAME" Description="LOC_SWISS_CONFEDERACY_160B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="SWISS_CONFEDERACY_160A" ToNarrativeStoryType="SWISS_CONFEDERACY_160C" Priority="1" Name="LOC_SWISS_CONFEDERACY_160C_NAME" Description="LOC_SWISS_CONFEDERACY_160C_DESCRIPTION"/> -->
+
+    </NarrativeStory_Links>
+
+    <NarrativeRewards>
+            <Row NarrativeRewardType="SWISS_CONFEDERACY_150B_REWARD" ModifierID="SWISS_CONFEDERACY_150B_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_150B" NarrativeRewardType="SWISS_CONFEDERACY_150B_REWARD" Activation="START"/>
+    </NarrativeStory_Rewards>
+
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="SWISS_CONFEDERACY_150B" RewardIconType="YIELD_DIPLOMACY"/>
+    </NarrativeRewardIcons>
+
+</Database>    
+    

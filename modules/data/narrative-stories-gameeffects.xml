@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Requirement id="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+        <Argument name="CivilizationType">CIVILIZATION_SWISS_CONFEDERACY</Argument>
+    </Requirement>
+
+
+    <RequirementSet id="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CREATE_GREAT_PERSON01</Argument>
+            <Argument name="GOSSIP_CREATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN</Argument>
+        </Requirement>
+    </RequirementSet>
+
+
+    <Modifier id="SWISS_CONFEDERACY_150B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+        <Argument name="MultiplierType">REWARD_TYPE_MINOR_LATE</Argument>
+    </Modifier>
+
+</GameEffects>
