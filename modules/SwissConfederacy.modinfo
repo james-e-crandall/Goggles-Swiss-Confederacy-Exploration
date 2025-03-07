@@ -56,9 +56,7 @@
                 <UpdateDatabase>
 					<Item>data/unlocks-base-standard.xml</Item>
 					<Item>tests/updates.sql</Item>
-					<!-- <Item>data/narrative-display.xml</Item>
-					<Item>data/narrative-stories-gameeffects.xml</Item>
-					<Item>data/narrative-stories.xml</Item> -->
+
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/UnlockText.xml</Item>
@@ -113,6 +111,10 @@
 					<Item>data/greatpeople.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
+
+					<Item>data/narrative-display.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/narrative-stories.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
 					
@@ -130,6 +132,8 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
+
+					<Item>text/en_us/narrative-stories.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -145,6 +149,8 @@
 					<Item>data/constructibles-exploration.xml</Item>
 					<Item>data/greatpeople-gameeffects-exploration.xml</Item>
 					<Item>data/greatpeople-exploration.xml</Item>
+
+
 				</UpdateDatabase>
 				<ImportFiles>
 					

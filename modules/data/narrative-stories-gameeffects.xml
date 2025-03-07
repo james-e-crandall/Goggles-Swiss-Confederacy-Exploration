@@ -4,23 +4,29 @@
         <Argument name="CivilizationType">CIVILIZATION_SWISS_CONFEDERACY</Argument>
     </Requirement>
 
-
-    <RequirementSet id="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE_REQUISITE">
+    <RequirementSet id="REQSET_LEONHARD_EULER_A_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
-    </RequirementSet>
-
-    <RequirementSet id="REQSET_SWISS_CONFEDERACY_150A_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
-        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
-            <Argument name="GossipTypes">GOSSIP_CREATE_GREAT_PERSON01</Argument>
-            <Argument name="GOSSIP_CREATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOACHIM_VADIAN</Argument>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
+            <Argument name="UnitType">UNIT_AMTSBURGERMEISTER_LEONHARD_EULER</Argument>
+            <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
 
+    <RequirementSet id="REQSET_LEONHARD_EULER_A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+    </RequirementSet>
 
-    <Modifier id="SWISS_CONFEDERACY_150B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD_NARRATIVE" run-once="false" permanent="true">
-        <Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-        <Argument name="MultiplierType">REWARD_TYPE_MINOR_LATE</Argument>
+    <RequirementSet id="REQSET_LEONHARD_EULER_C_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_ACTIVATE_GREAT_PERSON01</Argument>
+            <Argument name="GOSSIP_ACTIVATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <Modifier id="LEONHARD_EULER_C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+        <Argument name="Amount">1</Argument>
     </Modifier>
+
 
 </GameEffects>
