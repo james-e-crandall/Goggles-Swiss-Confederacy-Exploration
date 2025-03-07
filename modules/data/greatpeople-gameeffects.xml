@@ -22,22 +22,6 @@
 		<String context="Summary">LOC_AMTSBURGERMEISTER_FARM_FOOD_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="AMTSBURGERMEISTER_LIBRARY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
-		<String context="Summary">LOC_GREATPERSON_LIBRARY</String>
-	</Modifier>
-
-	<Modifier id="AMTSBURGERMEISTER_LIBRARY_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="true" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount">3</Argument>
-		<String context="Summary">LOC_AMTSBURGERMEISTER_LIBRARY</String>
-	</Modifier>
-
-	<Modifier id="AMTSBURGERMEISTER_LEGACY_POINT_SCIENTIFIC" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_LEGACY_POINTS">
-		<Argument name="Amount">1</Argument>
-		<Argument name="Type">CARD_CATEGORY_SCIENTIFIC</Argument>
-	</Modifier>
 
 	<!-- WILHELM_HERTER_VON_HERTNECK -->
 	<Modifier id="GREATPERSON_RENAME_COMMANDER_WILHELM_HERTER_VON_HERTNECK" collection="COLLECTION_OWNER" effect="EFFECT_ARMY_ADJUST_NAME">

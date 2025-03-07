@@ -35,6 +35,19 @@
 		<String context="Summary">LOC_AMTSBURGERMEISTER_ARMORER_SMALL_PRODUCTION</String>
 	</Modifier>
 
+	<Modifier id="AMTSBURGERMEISTER_LIBRARY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_GRANT_FREE_BUILDING_IGNORE" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
+		<String context="Summary">LOC_GREATPERSON_LIBRARY</String>
+	</Modifier>
+
+	<Modifier id="AMTSBURGERMEISTER_LIBRARY_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="true" permanent="true">
+		<Argument name="ConstructibleType">BUILDING_LIBRARY</Argument>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">3</Argument>
+		<String context="Summary">LOC_AMTSBURGERMEISTER_LIBRARY</String>
+	</Modifier>
+
+	
 
 
 
