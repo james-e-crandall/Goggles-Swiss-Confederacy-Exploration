@@ -10,7 +10,7 @@
 		</Row>
 		<!--Civilization Adjectives-->
 		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_ADJECTIVE">
-			<Text>Eidgenossenschaft</Text>
+			<Text>Swiss</Text>
 			<Gender>Masculine:an</Gender>
 		</Row>
 		<!--Swiss Confederacy Ability-->

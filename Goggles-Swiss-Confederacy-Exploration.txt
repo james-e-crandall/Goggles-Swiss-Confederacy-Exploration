@@ -37,6 +37,9 @@ Wars of Kappel
 
 In the Pfaffenbrief, a treaty of 1370 among six of the eight members (Glarus and Bern did not participate) forbidding feuds and denying clerical courts jurisdiction over the confederacy, the cantons for the first time used the term Eidgenossenschaft. 
 
+		TAGSATZUNG
+Tagsatzung
+
 ----------------------------
 
 cult_germania

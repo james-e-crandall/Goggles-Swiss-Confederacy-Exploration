@@ -11,27 +11,38 @@
 
 		<!--wiss Confederacy Civics Description-->
 		<!-- RUTLISCHWUR -->
-		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_NAME">
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_RUTLISCHWUR_NAME">
 			<Text>Rütlischwur</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_QUOTE">
-			<Text>Wir wollen sein ein einzig Volk von Brüdern,</Text>
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_RUTLISCHWUR_QUOTE">
+			<Text>the people of the valley of Uri, the democracy of the valley of Schwiz, and the community of the mountaineers of the Lower Valley</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_QUOTE_AUTHOR">
-			<Text>Friedrich Schiller</Text>
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_RUTLISCHWUR_QUOTE_AUTHOR">
+			<Text>Federal Charter of 1291</Text>
 		</Row>
+
 		<Row Tag="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE">
 			<Text>Mountain Tiles are workable.</Text>
 		</Row>
+		<!-- Tradition -->
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_WARS_OF_KAPPEL_NAME">
+			<Text>Wars of Kappel</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_WARS_OF_KAPPEL_DESCRIPTION">
+			<Text>Peace Deal</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_WARS_OF_KAPPEL_MOD_TRADE_ROUTES_DESCRIPTION">
+			<Text>Bonus to Peace Deal where you take no cities</Text>
+		</Row>
 
 		<!-- GOTTHARD_PASS -->
-		<Row Tag="LOC_CIVIC_TEMPLATE_GOTTHARD_PASS_NAME">
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME">
 			<Text>Gotthard Pass</Text>
 		</Row>
-		<Row Tag="LOC_NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS_QUOTE">
+		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE">
 			<Text>King of Mountain Passes</Text>
 		</Row>
-		<Row Tag="LOC_NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS_QUOTE_AUTHOR">
+		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE_AUTHOR">
 			<Text>The Swiss</Text>
 		</Row>
 
@@ -49,37 +60,42 @@
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION">
 			<Text>Land Trade Routes ignore Mountain Terrain</Text>
 		</Row>
-		<Row Tag="LOC_MOD_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION">
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION">
 			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION}</Text>
 		</Row>
 
-
-
-
-		<!-- ZUGEWANDTE_ORTE -->
-		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_NAME">
-			<Text>Zugewandte Orte</Text>
+		<!-- TAGSATZUNG -->
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_TAGSATZUNG_NAME">
+			<Text>Tagsatzung</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_QUOTE">
-			<Text>Facing Places</Text>
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_TAGSATZUNG_QUOTE">
+			<Text>Wir wollen sein ein einzig Volk von Brüdern,</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_QUOTE_AUTHOR">
-			<Text>The Swiss</Text>
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_TAGSATZUNG_QUOTE_AUTHOR">
+			<Text>Friedrich Schiller</Text>
 		</Row>
-		
+
 		<!-- PFAFFENBRIEF -->
-		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_NAME">
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME">
 			<Text>Pfaffenbrief</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_QUOTE">
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_PFAFFENBRIEF_QUOTE">
 			<Text>...safety on the highways for traders and nonintervention by foreign priests.</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_AUTHOR">
+		<Row Tag="LOC_CIVIC_SWISS_CONFEDERACY_PFAFFENBRIEF_AUTHOR">
 			<Text>Priests’ Charter</Text>
 		</Row>
 
 		<Row Tag="NODE_CIVIC_AQ_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
 			<Text>Increased Worker Cap in Cities</Text>
+		</Row>
+
+		<!-- Tradition -->
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">
+			<Text>Eidgenossenschaft</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
+			<Text>+2 War support joining an ally in war</Text>
 		</Row>
 
 </EnglishText>
