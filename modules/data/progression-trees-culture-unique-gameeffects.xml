@@ -25,6 +25,19 @@
 	<Modifier id="ABILITY_GOTTHARD_PASS_MOUNTAIN_ADJACENCY_ADJUST_HEAL_PER_TURN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
 		<Argument name="Amount">10</Argument>
 	</Modifier>
+
+	<Modifier id="NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+		<String context="Description">LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
+	</Modifier>
+
 	<!-- ZUGEWANDTE_ORTE -->
 
 	<!-- WARS_OF_KAPPLE -->

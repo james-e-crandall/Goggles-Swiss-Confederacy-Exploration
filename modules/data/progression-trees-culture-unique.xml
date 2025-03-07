@@ -48,6 +48,8 @@
 		
 		<!-- GOTTHARD_PASS -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY" UnlockDepth="1" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS" TargetKind="KIND_TRADITION" TargetType="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS" UnlockDepth="1"/>
+		
 		<!-- Higher strength to wall next to mountains -->
 		
 		<!-- ZUGEWANDTE_ORTE -->

@@ -39,6 +39,23 @@
 			<Text>+10 healing in Combat Units adjacent to mountains</Text>
 		</Row>
 
+		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
+			<Text>Cities settled in Tundra have extended trade route range.</Text>
+		</Row>
+		<!-- Tradition -->
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_NAME">
+			<Text>Mountain Passes</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION">
+			<Text>Land Trade Routes ignore Mountain Terrain</Text>
+		</Row>
+		<Row Tag="LOC_MOD_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION">
+			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION}</Text>
+		</Row>
+
+
+
+
 		<!-- ZUGEWANDTE_ORTE -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_NAME">
 			<Text>Zugewandte Orte</Text>

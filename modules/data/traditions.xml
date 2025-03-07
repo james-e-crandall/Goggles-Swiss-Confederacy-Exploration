@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS" Kind="KIND_TRADITION"/>
+
+	</Types>
+	<Traditions>
+		<Row TraditionType="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS" Name="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_NAME" Description="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION" TraitType="TRAIT_SWISS_CONFEDERACY" AgeType="AGE_ANTIQUITY"/>
+
+	</Traditions>
+	<TraditionModifiers>
+		<Row TraditionType="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS" ModifierId="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES"/>
+
+	</TraditionModifiers>
+
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+</Database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	
+	<Modifier id="TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_IGNORE_MOVEMENT_OBSTACLE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_LAND_TRADE_ROUTE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Obstacle">TERRAIN_MOUNTAIN</Argument>
+		<String context="Description">LOC_MOD_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION</String>
+	</Modifier>
+
+
+
+</GameEffects>
