@@ -24,7 +24,7 @@
     </RequirementSet>
 
     <Modifier id="LEONHARD_EULER_C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
-        <Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+        <Argument name="AttributeType">ATTRIBUTE_SCIENTIFIC</Argument>
         <Argument name="Amount">1</Argument>
     </Modifier>
 

@@ -2,49 +2,34 @@
 <Database>
 	<EnglishText>
 		<!-- Unit Abilities -->
-		<!-- <Row Tag="LOC_SWISS_CONFEDERACY_150A_NAME">
-			<Text>150A_NAME</Text>
+	
+		<!-- Opening Screen Order -->
+			<Row Tag="LOC_LEONHARD_EULER_A_STORYTITLE">
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 
-		<Row Tag="LOC_SWISS_CONFEDERACY_150A_DESCRIPTION">
-			<Text>150A_DESCRIPTION</Text>
+		<Row Tag="LOC_LEONHARD_EULER_A_COMPLETION">
+			<Text>Create Libraries in foreign capitals and receive Scientific Attributes points</Text>
+		</Row>
+		<Row Tag="LOC_LEONHARD_EULER_A_NAME">
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_LEONHARD_EULER_A_IMPERATIVE">
+			<Text>Create Libraries in foreign capitols and recive Scientific Attributes points.</Text>
+		</Row>
+		<!-- Upper Left -->
+		<Row Tag="LOC_LEONHARD_EULER_C_STORYTITLE">
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 
-		<Row Tag="LOC_SWISS_CONFEDERACY_150B_NAME">
-			<Text>150B_NAME</Text>
+		<Row Tag="LOC_LEONHARD_EULER_C_IMPERATIVE">
+			<Text>{LOC_LEONHARD_EULER_A_IMPERATIVE}</Text>
 		</Row>
+		<!-- Close Screen Order -->
 
-		<Row Tag="LOC_SWISS_CONFEDERACY_150B_DESCRIPTION">
-			<Text>150B_DESCRIPTION</Text>
-		</Row> -->
-
-		<Row Tag="LOC_SWISS_CONFEDERACY_150A_STORYTITLE">
-            <Text>{GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER} 150A STORYTITLE</Text>
-        </Row>
-        <Row Tag="LOC_SWISS_CONFEDERACY_150A_COMPLETION">
-            <Text>{GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER} 150A COMPLETION</Text>
-        </Row>
-
-        <Row Tag="LOC_SWISS_CONFEDERACY_150B_NAME">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 150B STORYTITLE</Text>
-        </Row>
-        <Row Tag="LOC_SWISS_CONFEDERACY_150B_DESCRIPTION">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 150B COMPLETION</Text>
-        </Row>
-
-		<Row Tag="LOC_SWISS_CONFEDERACY_160A_STORYTITLE">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 160A STORYTITLE</Text>
-        </Row>
-        <Row Tag="LOC_SWISS_CONFEDERACY_160A_COMPLETION">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 160A COMPLETION</Text>
-        </Row>
-
-        <Row Tag="LOC_SWISS_CONFEDERACY_160B_NAME">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 160B STORYTITLE</Text>
-        </Row>
-        <Row Tag="LOC_SWISS_CONFEDERACY_160B_DESCRIPTION">
-            <Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME} 160B COMPLETION</Text>
-        </Row>
+		<Row Tag="LOC_LEONHARD_EULER_C_COMPLETION">
+			<Text>Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the human mind will never penetrate.</Text>
+		</Row>
 
 	</EnglishText>
 </Database>
