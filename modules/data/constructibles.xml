@@ -21,8 +21,8 @@
 		
 		<!-- Civ Unique Improvements -->
 		<!-- Cost="240" -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
 	
 	</Constructibles>
 	<Buildings>
@@ -41,7 +41,7 @@
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_KLOSTER" Tag="CULTURE"/>
+		<Row Type="BUILDING_KLOSTER" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_KLOSTER" Tag="UNIQUE"/>
 		<Row Type="BUILDING_KLOSTER" Tag="AGELESS"/>
 		<Row Type="BUILDING_STIFTSARCHIV" Tag="SCIENCE"/>
@@ -88,7 +88,7 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		
 		<!-- Civ Unique Improvements -->
@@ -103,9 +103,10 @@
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="NaturalWonderHappiness"/>
-		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="WonderCulture"/>
-
+		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="WonderHappiness"/>
+		
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="ResourceScience"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="WonderScience"/>
 		<!-- Antique Revived Buildings -->

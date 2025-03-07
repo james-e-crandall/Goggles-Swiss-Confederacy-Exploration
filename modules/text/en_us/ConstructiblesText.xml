@@ -6,6 +6,30 @@
 			<Text>Stadel</Text>
 		</Row>
 
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION">
+			<Text>Non-Tundra Mountain Tile</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_TOOLTIP">
+			<Text>+1[icon:YIELD_SCIENCE]Science per Non-Tundra Mountain in a city.</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
+			<Text>Stadel</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION">
+			<Text>Tundra Mountain Tile</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_TOOLTIP">
+			<Text>+2[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION">
+			<Text>Mountain tiles can be worked</Text>
+		</Row>
+
 		<Row Tag="LOC_BUILDING_KLOSTER_NAME">
 			<Text>Kloster</Text>
 		</Row>
@@ -13,7 +37,7 @@
 			<Text>Kloster (Monestary) {LOC_BUILDING_KLOSTER_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KLOSTER_TOOLTIP">
-			<Text>+4[icon:YIELD_HAPPINESS] Happiness. Has 1 Relic slot.</Text>
+			<Text>+3[icon:YIELD_HAPPINESS] Happiness. Has 1 Relic slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_NAME">
@@ -23,7 +47,7 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city. +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city.</Text>
+			<Text>+1[icon:YIELD_SCIENCE]Science per Non-Tundra Mountain Tile in a city. +2[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">

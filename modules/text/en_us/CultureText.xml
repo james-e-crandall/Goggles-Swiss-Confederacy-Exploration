@@ -15,13 +15,13 @@
 			<Text>Rütlischwur</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_QUOTE">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>Wir wollen sein ein einzig Volk von Brüdern,</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_RUTLISCHWUR_QUOTE_AUTHOR">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>Friedrich Schiller</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_AQ_SWISS_CONFEDERACY_RUTLISCHWUR_WORKER_CAP_DESCRIPTION">
-			<Text>Increased Worker Cap in Cities</Text>
+		<Row Tag="TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE">
+			<Text>Mountain Tiles are workable.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->
@@ -29,26 +29,25 @@
 			<Text>Gotthard Pass</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS_QUOTE">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>King of Mountain Passes</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_TEMPLATE_GOTTHARD_PASS_QUOTE_AUTHOR">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>The Swiss</Text>
 		</Row>
 
 		<Row Tag="LOC_NODE_CIVIC_AQ_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
 			<Text>+10 healing in Combat Units adjacent to mountains</Text>
 		</Row>
 
-
 		<!-- ZUGEWANDTE_ORTE -->
 		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_NAME">
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_QUOTE">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>Facing Places</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_ZUGEWANDTE_ORTE_QUOTE_AUTHOR">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>The Swiss</Text>
 		</Row>
 		
 		<!-- PFAFFENBRIEF -->
@@ -56,10 +55,14 @@
 			<Text>Pfaffenbrief</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_QUOTE">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>...safety on the highways for traders and nonintervention by foreign priests.</Text>
 		</Row>
 		<Row Tag="LOC_CIVIC_TEMPLATE_PFAFFENBRIEF_AUTHOR">
-			<Text>Swiss Confederacy Civics</Text>
+			<Text>Priests’ Charter</Text>
+		</Row>
+
+		<Row Tag="NODE_CIVIC_AQ_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
+			<Text>Increased Worker Cap in Cities</Text>
 		</Row>
 
 </EnglishText>
