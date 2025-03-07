@@ -10,27 +10,27 @@
 			<Text>Kloster</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KLOSTER_DESCRIPTION">
-			<Text>Kloster (Monestary) +1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city</Text>
+			<Text>Kloster (Monestary) {LOC_BUILDING_KLOSTER_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KLOSTER_TOOLTIP">
-			<Text>+1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city</Text>
+			<Text>+4[icon:YIELD_HAPPINESS] Happiness. Has 1 Relic slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_NAME">
 			<Text>Stiftsarchiv</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION">
-			<Text>Stiftsarchiv (Abbey Archives) +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city</Text>
+			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_TOOLTIP">
-			<Text> +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city</Text>
+			<Text>+1[icon:YIELD_CULTURE]Culture per Non-Tundra Mountain Tile in a city. +1[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>Fürstabtei (Abby) +1</Text>
+			<Text>+1[icon:YIELD_SCIENCE] Science to all Specialists in this City.</Text>
 		</Row>
 
 
