@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="STORY_LEONHARD_EULER_START" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="STORY_LEONHARD_EULER_END" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+
+    <NarrativeStory_Queues>
+        <Row QueueType="NARRATIVE_GROUP_GREAT_PERSON_AMTSBURGERMEISTER" ActivationCount="1" StartAll="0" />
+   </NarrativeStory_Queues>
+
+   <NarrativeStories>
+        <Row NarrativeStoryType="STORY_LEONHARD_EULER_START" Name="LOC_STORY_LEONHARD_EULER_START_NAME" Description="LOC_STORY_LEONHARD_EULER_START_DESCRIPTION" Completion="LOC_STORY_LEONHARD_EULER_START_COMPLETION" StoryTitle="LOC_STORY_LEONHARD_EULER_START_STORYTITLE" Age="AGE_ANTIQUITY" Activation="REQUISITE" RequirementSetId="REQSET_STORY_LEONHARD_EULER_START_NARRATIVE" ActivationRequirementSetId="REQSET_STORY_LEONHARD_EULER_START_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        
+        <Row NarrativeStoryType="STORY_LEONHARD_EULER_END" Name="LOC_STORY_LEONHARD_EULER_END_NAME" Description="LOC_STORY_LEONHARD_EULER_END_DESCRIPTION" Completion="LOC_STORY_LEONHARD_EULER_END_COMPLETION" StoryTitle="LOC_STORY_LEONHARD_EULER_END_STORYTITLE" Age="AGE_ANTIQUITY" Activation="LINKED" Imperative="LOC_STORY_LEONHARD_EULER_END_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_STORY_LEONHARD_EULER_END_NARRATIVE" UIActivation="STANDARD" ReducedScaling="TRUE"/>
+
+   </NarrativeStories>
+
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="STORY_LEONHARD_EULER_START" ToNarrativeStoryType="STORY_LEONHARD_EULER_END" Priority="1" Name="LOC_4C_NAME" Description="LOC_4C_DESCRIPTION" Imperative="LOC_4C_IMPERATIVE"/>
+    </NarrativeStory_Links>
+
+    <NarrativeRewards>
+        <Row NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD" ModifierID="STORY_LEONHARD_EULER_END_NARRATIVE_MODIFIER"/>
+    </NarrativeRewards>
+
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="STORY_LEONHARD_EULER_END" NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD" Activation="COMPLETE"/>
+    </NarrativeStory_Rewards>
+
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="STORY_LEONHARD_EULER_END" RewardIconType="ATTRIBUTE_SCIENTIFIC"/>
+    </NarrativeRewardIcons>
+
+</Database>    
+    

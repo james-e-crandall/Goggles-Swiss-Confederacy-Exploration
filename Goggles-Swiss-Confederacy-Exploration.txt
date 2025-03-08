@@ -49,7 +49,12 @@ cult_swiss_confederacy
 base-standard
 diplomacy-gameeffects.xml
 
+----------------------------
+LEONHARD_EULER_A
+STORY_LEONHARD_EULER_START
 
+LEONHARD_EULER_C
+STORY_LEONHARD_EULER_END
 ----------------------------
 
 Rütlischwur

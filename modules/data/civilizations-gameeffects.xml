@@ -18,7 +18,7 @@
 				<Argument name="TraitType">TRAIT_SWISS_CONFEDERACY</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_SWISS_CONFEDERACY</Argument>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_EX_SWISS_CONFEDERACY</Argument>
 		<String context="Description">LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_SWISS_CONFEDERACY_DESCRIPTION</String>
 	</Modifier> 
 	 

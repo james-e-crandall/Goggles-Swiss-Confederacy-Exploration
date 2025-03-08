@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Trees -->
+		<!-- Civ Unique Tree Nodes -->
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!--  -->
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE_2" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_ARCHITECTURE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_ZYTGLOGGE" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

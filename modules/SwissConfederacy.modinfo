@@ -57,6 +57,7 @@
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
+					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
                 <ScenarioScripts>
                 </ScenarioScripts>
@@ -69,6 +70,8 @@
 			</Properties>
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/progression-trees-tech-common-antiquity.xml</Item>
+					<Item>data/progression-trees-culture-common-antiquity.xml</Item>
 					<Item>data/greatpeople-gameeffects-antiquity.xml</Item>
 				</UpdateDatabase>
 			</Actions>
@@ -95,13 +98,16 @@
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 
-					<Item>data/progression-trees-tech-common.xml</Item>
-					<Item>data/progression-trees-culture-common.xml</Item>
+					<Item>data/progression-trees-tech-common-exploration.xml</Item>
 					<Item>data/progression-trees-culture-unique.xml</Item>
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 
 					<Item>data/units.xml</Item>
+					<Item>data/wonder-units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
+
+					<Item>data/wonders.xml</Item>
+					<Item>data/wonders-gameeffects.xml</Item>
 					<!-- Test -->
 
 					
@@ -123,6 +129,7 @@
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/narrative-stories.xml</Item>
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -142,8 +149,8 @@
 					<Item>data/greatpeople-lehrbeauftragter.xml</Item>
 
 					<Item>data/narrative-display.xml</Item>
-					<Item>data/narrative-stories-gameeffects.xml</Item>
-					<Item>data/narrative-stories.xml</Item>
+					<Item>data/narrative-stories-lehrbeauftragter-gameeffects.xml</Item>
+					<Item>data/narrative-stories-lehrbeauftragter.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
 					
@@ -166,8 +173,8 @@
 				<UpdateColors>
 				</UpdateColors>
 				<UpdateDatabase>
-					<!-- <Item>config/config.xml</Item> -->
-					<Item>config/config-age-antiquity.xml</Item>
+					<Item>config/config.xml</Item>
+					<!-- <Item>config/config-age-antiquity.xml</Item> -->
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>

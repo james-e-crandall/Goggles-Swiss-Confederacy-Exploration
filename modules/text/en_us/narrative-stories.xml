@@ -4,30 +4,30 @@
 		<!-- Unit Abilities -->
 	
 		<!-- Opening Screen Order -->
-			<Row Tag="LOC_LEONHARD_EULER_A_STORYTITLE">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 
-		<Row Tag="LOC_LEONHARD_EULER_A_COMPLETION">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_START_COMPLETION">
 			<Text>Create Libraries in foreign capitals and receive Scientific Attributes points</Text>
 		</Row>
-		<Row Tag="LOC_LEONHARD_EULER_A_NAME">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_START_NAME">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
-		<Row Tag="LOC_LEONHARD_EULER_A_IMPERATIVE">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_START_IMPERATIVE">
 			<Text>Create Libraries in foreign capitols and recive Scientific Attributes points.</Text>
 		</Row>
 		<!-- Upper Left -->
-		<Row Tag="LOC_LEONHARD_EULER_C_STORYTITLE">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_END_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 
-		<Row Tag="LOC_LEONHARD_EULER_C_IMPERATIVE">
-			<Text>{LOC_LEONHARD_EULER_A_IMPERATIVE}</Text>
+		<Row Tag="LOC_STORY_LEONHARD_EULER_END_IMPERATIVE">
+			<Text>{LOC_STORY_LEONHARD_EULER_START_IMPERATIVE}</Text>
 		</Row>
 		<!-- Close Screen Order -->
 
-		<Row Tag="LOC_LEONHARD_EULER_C_COMPLETION">
+		<Row Tag="LOC_STORY_LEONHARD_EULER_END_COMPLETION">
 			<Text>Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the human mind will never penetrate.</Text>
 		</Row>
 

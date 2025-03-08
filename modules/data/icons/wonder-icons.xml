@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>WONDER_ZYTGLOGGE</ID>
+			<Path>blp:wondericon_zytglogge</Path>
+		</Row>
+    </IconDefinitions>
+</Database>

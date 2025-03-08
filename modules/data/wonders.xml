@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Wonders -->
+		<Row Type="WONDER_ZYTGLOGGE" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="WONDER_ZYTGLOGGE_TRAIT" Kind="KIND_TRAIT"/>
+    </Types>
+	<Traits>
+		<Row TraitType="WONDER_ZYTGLOGGE_TRAIT" InternalOnly="true"/>
+	</Traits>
+	<TypeQuotes>
+		<!-- Wonders -->
+		<Row Type="WONDER_ZYTGLOGGE" Quote="LOC_QUOTE_WONDER_ZYTGLOGGE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_ZYTGLOGGE" QuoteAudio="VO_Quote_Zytglogge"/>
+    </TypeQuotes>
+	<Constructibles>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" Name="LOC_WONDER_ZYTGLOGGE_NAME" Description="LOC_WONDER_ZYTGLOGGE_DESCRIPTION" Tooltip="LOC_WONDER_ZYTGLOGGE_TOOLTIP" ConstructibleClass="WONDER" Cost="475" Population="0" ImmuneDamage="true" Age="AGE_EXPLORATION" AdjacentDistrict="DISTRICT_URBAN" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" MaxWorldInstances="1" AdjacentConstructible="BUILDING_PALACE" />
+    </Wonders>
+	<Constructible_ValidDistricts>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" ModifierId="MOD_WONDER_ZYTGLOGGE_ATTACH_AMTSBURGERMEISTER"/>
+    </ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
+    </Constructible_Advisories>
+</Database>
