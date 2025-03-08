@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Kinds>
-		<InsertOrIgnore Kind="KIND_UNLOCK"/>
-	</Kinds>
 	<Types>
 		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_UNLOCK"/>
 	</Types>
@@ -10,6 +7,7 @@
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY"/>
 	</Unlocks>
 	<UnlockRewards>
+	
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIV_IS_SWISS_CONFEDERACY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>

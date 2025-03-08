@@ -16,13 +16,13 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" Name="LOC_BUILDING_KLOSTER_NAME" Description="LOC_BUILDING_KLOSTER_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Name="LOC_BUILDING_STIFTSARCHIV_NAME" Description="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" Name="LOC_BUILDING_KLOSTER_NAME" Description="LOC_BUILDING_KLOSTER_DESCRIPTION" Tooltip="LOC_BUILDING_KLOSTER_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" Name="LOC_BUILDING_STIFTSARCHIV_NAME" Description="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION" Tooltip="LOC_BUILDING_STIFTSARCHIV_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION"/>
 		
 		<!-- Civ Unique Improvements -->
 		<!-- Cost="240" -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" Name="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME" Description="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION" ConstructibleClass="IMPROVEMENT" Cost="10" Population="1" Age="AGE_EXPLORATION"/>
 	
 	</Constructibles>
 	<Buildings>
@@ -115,11 +115,11 @@
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyTundraMountainFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		<Row ID="SwissConfederacyTundraMountainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
 		
 		<!-- Wildcard Adjacency Yields Changes -->
-		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyLakeFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -131,10 +131,10 @@
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-		<Row ID="MountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
-		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
+		<Row ID="MountainStiftsarchivWarehouseScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
+		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
 		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
+		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>

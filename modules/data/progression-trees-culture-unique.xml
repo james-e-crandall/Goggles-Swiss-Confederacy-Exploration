@@ -24,7 +24,7 @@
 	<ProgressionTrees>
 		<!-- Civ Unique Trees -->
 		<!-- Swiss Confederacy -->
-		<Row ProgressionTreeType="TREE_CIVICS_EX_SWISS_CONFEDERACY" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_SWISS_CONFEDERACY_NAME"/>
+		<Row ProgressionTreeType="TREE_CIVICS_EX_SWISS_CONFEDERACY" AgeType="AGE_EXPLORATION" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_SWISS_CONFEDERACY_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
 		<!-- Swiss Confederacy -->
@@ -37,10 +37,10 @@
 	<ProgressionTreeNodeUnlocks>
 		<!-- Swiss Confederacy -->
 		<!-- RUTLISCHWUR -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_UNIT" TargetType="UNIT_AMTSBURGERMEISTER" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR_MOUNTAIN_WAREHOUSE" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" UnlockDepth="1" Hidden="true" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" UnlockDepth="1" Hidden="true" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_UNIT" TargetType="UNIT_AMTSBURGERMEISTER" UnlockDepth="2" />
 
 		<!-- WARS_OF_KAPPLE -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_OVERBUILD_GRANT_UNIT" UnlockDepth="1"/>

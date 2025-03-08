@@ -34,9 +34,27 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+		<Criteria all="true" id="goggles_civ_germania-enable">
+			<ModInUse>oggles_civ_germania</ModInUse>
+		</Criteria>
+		
 	</ActionCriteria>
 	
 	<ActionGroups>
+		<ActionGroup id="base-game-main-swiss-confederacy" scope="game" criteria="goggles_civ_germania-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/unlocks-germania-antiquity.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>text/en_us/UnlockGermaniaText.xml</Item>
+                </UpdateText>
+            </Actions>
+		</ActionGroup>
+
         <ActionGroup id="base-game-main-swiss-confederacy" scope="game" criteria="always">
             <Properties>
 				<LoadOrder>100</LoadOrder>
@@ -63,19 +81,6 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
-
-		<ActionGroup id="age-antiquity-current-swiss-confederacy" scope="game" criteria="antiquity-age-current">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
-			<Actions>
-				<UpdateDatabase>
-					<Item>data/progression-trees-tech-common-antiquity.xml</Item>
-					<Item>data/progression-trees-culture-common-antiquity.xml</Item>
-					<Item>data/greatpeople-gameeffects-antiquity.xml</Item>
-				</UpdateDatabase>
-			</Actions>
-		</ActionGroup>
 
 		<ActionGroup id="age-exploration-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
 			<Properties>
@@ -174,7 +179,6 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<!-- <Item>config/config-age-antiquity.xml</Item> -->
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>

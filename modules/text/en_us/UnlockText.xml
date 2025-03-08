@@ -11,11 +11,6 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
 			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
 		</Row>
-		
-		<Row Tag="LOC_UNLOCK_PLAY_AS_GERMANIA_SWISS_CONFEDERACY_TOOLTIP">
-			<Text>The [B]Germania[/B] is from the same continent as [B]Swiss Confederacy[/b].</Text>
-		</Row>
-
-		
+				
 	</EnglishText>
 </Database>
