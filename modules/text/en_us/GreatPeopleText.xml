@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
+		<!--Lehrbeauftragter-->
+		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_NAME">
+			<Text>Lehrbeauftragter</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_DESCRIPTION">
+			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once. Cost increases per Lehrbeauftragter trained.</Text>
+		</Row>
+
+		<!-- Daniel Bernoulli -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME">
+			<Text>Daniel Bernoulli</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION">
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
+		</Row>
+
 		<!--Amtsbürgermeister-->
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_NAME">
 			<Text>Amtsbürgermeister</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_DESCRIPTION">
-			<Text>A Great Person with one charge. Can only be trained in a Fürstabtei, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
+			<Text>A Great Person with one charge. Can only be trained in a Capitol, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
 		</Row>
 
 		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION">
@@ -89,13 +105,7 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_DESCRIPTION">
 			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
 		</Row>
-		<!-- Daniel Bernoulli -->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_BANIEL_BERNOULLI_NAME">
-			<Text>Daniel Bernoulli</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_BANIEL_BERNOULLI_DESCRIPTION">
-			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
-		</Row>
+
 		<!-- Leonhard Euler -->
 		<!-- activate on a foreign university for +1 science
 		gain a trade route with that civ 

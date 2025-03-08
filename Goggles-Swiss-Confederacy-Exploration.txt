@@ -98,9 +98,16 @@ monastery archive
 Stiftsarchiv St. Gallen  = Abbey Archives St. Gallen
 Adds science from codexes?
 
+---------------------------------
 
 
+Lehrbeauftragter
 
+GREAT_PERSON_CLASS_LEHRBEAUFTRAGTER
+unitflag_lehbeauftragter
+
+LEHRBEAUFTRAGTER
+lehbeauftragter
 ---------------------------------
 So it has reached this pass? Obedience and fear take flight together?
 

@@ -56,7 +56,18 @@
 		<Argument name="Amount">2</Argument>
 	</Modifier>
 
+	<!-- GREAT_PERSON_CLASS_LEHRBEAUFTRAGTER -->
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" run-once="true" permanent="true">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
+		<String context="Summary">LOC_GREATPERSON_SCIENCE</String>
+	</Modifier>
 
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_PRODUCTION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" run-once="true" permanent="true">
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
+		<String context="Summary">LOC_GREATPERSON_PRODUCTION</String>
+	</Modifier>
 
 
 </GameEffects>

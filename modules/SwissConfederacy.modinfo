@@ -66,6 +66,7 @@
 					<Item>icons/cult_swiss_confederacy.png</Item>
 					<Item>icons/unitflag_amtsburgermeister.png</Item>
 					<Item>icons/unitflag_pike_square.png</Item>
+					<Item>icons/unitflag_lehbeauftragter.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
@@ -186,6 +187,7 @@
 					<Item>icons/cult_swiss_confederacy.png</Item>
 					<Item>icons/unitflag_amtsburgermeister.png</Item>
 					<Item>icons/unitflag_pike_square.png</Item>
+					<Item>icons/unitflag_lehbeauftragter.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>

@@ -89,5 +89,12 @@
             <Context>DEFAULT</Context>
         </Row>
 
+
+        <Row>
+            <ID>UNIT_LEHRBEAUFTRAGTER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
     </IconDefinitions>
 </Database>
