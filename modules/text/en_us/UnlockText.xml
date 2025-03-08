@@ -11,6 +11,11 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
 			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
 		</Row>
-				
+		<Row Tag="LOC_UNLOCK_ANTIQUITY_TO_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
+			<Text>{LOC_UNLOCK_TUNDRA_SETTLEMENTS_DESCRIPTION} and {LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_DESCRIPTION}</Text>
+		</Row>
+
+
+
 	</EnglishText>
 </Database>
