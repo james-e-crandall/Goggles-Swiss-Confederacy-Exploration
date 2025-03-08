@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Swiss Confederacy -->
+		<Row ListType="Swiss Confederacy Unit Biases"/>
+		<Row ListType="Swiss Confederacy Government Bias"/>
+		<Row ListType="Swiss Confederacy Constructibles Biases" />
+		<Row ListType="Swiss Confederacy Budget Biases" />
+		<Row ListType="Swiss Confederacy PseudoYield Biases" />
+	</AiListTypes>
+	<AiLists>
+		<!-- Swiss Confederacy -->
+		<Row ListType="Swiss Confederacy Unit Biases" LeaderType="TRAIT_Swiss Confederacy" System="UnitBiases"/>
+		<Row ListType="Swiss Confederacy Government Bias" LeaderType="TRAIT_Swiss Confederacy" System="GovernmentBiases"/>
+		<Row ListType="Swiss Confederacy Constructibles Biases" LeaderType="TRAIT_Swiss Confederacy" System="ConstructibleBiases" />	
+		<Row ListType="Swiss Confederacy Budget Biases" LeaderType="TRAIT_Swiss Confederacy" System="AiBudgetBiases"/>	
+		<Row ListType="Swiss Confederacy PseudoYield Biases" LeaderType="TRAIT_Swiss Confederacy" System="PseudoYieldBiases"/>	
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Swiss Confederacy -->
+		<Row ListType="Swiss Confederacy Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="50"/>
+		<Row ListType="Swiss Confederacy Constructibles Biases" Item="BUILDING_KLOSTER" Value="200" />
+		<Row ListType="Swiss Confederacy Constructibles Biases" Item="BUILDING_STIFTSARCHIV" Value="200" />
+		<Row ListType="Swiss Confederacy Constructibles Biases" Item="WONDER_ZYTGLOGGE" Value="50"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE" Value="200"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_2" Value="200"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_AMTSBURGERMEISTER" Value="200"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

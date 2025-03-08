@@ -147,6 +147,7 @@
 				<UpdateArt>
 				</UpdateArt>
 				<UpdateDatabase>
+					<Item>data/AI_Exploration.xml</Item>
 					<Item>data/constructibles-exploration.xml</Item>
 					<Item>data/greatpeople-gameeffects-exploration.xml</Item>
 
