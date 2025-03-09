@@ -19,7 +19,7 @@
 	<AiLists>
 		<!-- Swiss Confederacy -->
 		<Row ListType="Swiss Confederacy Unit Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="UnitBiases"/>
-		<Row ListType="Swiss Confederacy Government Bias" LeaderType="RAIT_SWISS_CONFEDERACY" System="GovernmentBiases"/>
+		<Row ListType="Swiss Confederacy Government Bias" LeaderType="TRAIT_SWISS_CONFEDERACY" System="GovernmentBiases"/>
 		<Row ListType="Swiss Confederacy Constructibles Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="ConstructibleBiases" />	
 		<Row ListType="Swiss Confederacy Budget Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="AiBudgetBiases"/>	
 		<Row ListType="Swiss Confederacy PseudoYield Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="PseudoYieldBiases"/>	
@@ -30,9 +30,10 @@
 		<Row ListType="Swiss Confederacy Constructibles Biases" Item="BUILDING_KLOSTER" Value="200" />
 		<Row ListType="Swiss Confederacy Constructibles Biases" Item="BUILDING_STIFTSARCHIV" Value="200" />
 		<Row ListType="Swiss Confederacy Constructibles Biases" Item="WONDER_ZYTGLOGGE" Value="50"/>
-		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE" Value="200"/>
-		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_2" Value="200"/>
-		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_AMTSBURGERMEISTER" Value="200"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE" Value="50"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_PIKE_SQUARE_2" Value="50"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_AMTSBURGERMEISTER" Value="50"/>
+		<Row ListType="Swiss Confederacy Unit Biases" Item="UNIT_LEHRBEAUFTRAGTER" Value="50"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->
 	<Strategies>

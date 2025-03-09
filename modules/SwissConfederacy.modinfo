@@ -26,7 +26,7 @@
 			<AgeInUse>AGE_MODERN</AgeInUse>
 		</Criteria>
 		<Criteria id="exploration-age-current">
-			<AgeInUse>AGE_EXPLORATION</AgeInUse>G
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 		</Criteria>
 		<Criteria id="modern-age-current">
 			<AgeInUse>AGE_MODERN</AgeInUse>
@@ -34,13 +34,13 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
-		<Criteria id="goggles_civ_germania-enable">
+		<Criteria all="true" id="goggles-civ-germania-enable">
 			<ModInUse>goggles_civ_germania</ModInUse>
 		</Criteria>
 	</ActionCriteria>
 
 	<ActionGroups>
-		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles_civ_germania-enable">
+		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles-civ-germania-enable">
             <Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>
@@ -129,7 +129,7 @@
 				<UpdateArt>
 				</UpdateArt>
 				<UpdateDatabase>
-					<Item>data/AI_Exploration.xml</Item>
+					<Item>data/ai_exploration.xml</Item>
 
 					<Item>data/civilizations.xml</Item>
 					<Item>data/civilizations-gameeffects.xml</Item>
@@ -167,10 +167,15 @@
 			</Actions>
 		</ActionGroup>
 		
-		<ActionGroup id="shell-swiss-confederacy-germania" scope="shell" criteria="goggles_civ_germania-enable">
+		<ActionGroup id="shell-swiss-confederacy-germania" scope="shell" criteria="goggles-civ-germania-enable">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
 				<UpdateDatabase>
 					<Item>config/config-germania.xml</Item>
 				</UpdateDatabase>
+			</Actions>
 		</ActionGroup>
 
 		<ActionGroup id="shell-swiss-confederacy" scope="shell" criteria="always">
