@@ -83,7 +83,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Fort Towns purchase Infantry at a Discount.</Text>
+			<Text>+4 [icon:YIELD_HAPPINESS]Happiness in Fort Towns.</Text>
 		</Row>
 
 
@@ -107,7 +107,7 @@
 			<Text>Eidgenossenschaft</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
-			<Text>+2 Science in your Settlemens following your Religion</Text>
+			<Text>+4[icon:YIELD_SCIENCE] Science in your Settlemens following your Religion</Text>
 		</Row>
 
 </EnglishText>

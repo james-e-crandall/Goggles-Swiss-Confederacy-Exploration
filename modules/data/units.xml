@@ -124,4 +124,9 @@
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 	</Unit_Advisories>
+
+	<ProjectModifiers>
+		<Row ProjectType="PROJECT_TOWN_FORT" ModifierId="PIKE_SQUARE_FORT_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
+	</ProjectModifiers>
+
 </Database>

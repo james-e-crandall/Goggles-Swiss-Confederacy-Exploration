@@ -23,13 +23,13 @@
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_INFANTRY_PURCHASE_EFFICIENCY</Argument>
+			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_PROJECT_TOWN_YIELDS</Argument>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_INFANTRY_PURCHASE_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_UNIT_PURCHASE_EFFICIENCY">
-			<Argument name="UnitTag">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_INFANTRY_PURCHASE_EFFICIENCY</Argument>
-			<Argument name="Apply">Rate</Argument>
-			<Argument name="Percent">20</Argument>
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_PROJECT_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+			<Argument name="Amount">4</Argument>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_NAME</Argument>
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_DESCRIPTION</String>
 		</Modifier>
 
