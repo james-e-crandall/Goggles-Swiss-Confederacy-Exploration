@@ -82,12 +82,10 @@
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME">
 			<Text>Zugewandte Orte</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_QUOTE">
-			<Text>Facing Places - Allies of the Confederacy</Text>
-		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>The Confederates</Text>
+			<Text>Fort Towns purchase Infantry at a Discount.</Text>
 		</Row>
+
 
 		<!-- PFAFFENBRIEF -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME">
@@ -109,7 +107,7 @@
 			<Text>Eidgenossenschaft</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
-			<Text>+2 War support joining an ally in war</Text>
+			<Text>+2 Science in your Settlemens following your Religion</Text>
 		</Row>
 
 </EnglishText>

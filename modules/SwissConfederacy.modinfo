@@ -34,12 +34,11 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
-		<Criteria all="true" id="goggles_civ_germania-enable">
+		<Criteria id="goggles_civ_germania-enable">
 			<ModInUse>goggles_civ_germania</ModInUse>
 		</Criteria>
-		
 	</ActionCriteria>
-	
+
 	<ActionGroups>
 		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles_civ_germania-enable">
             <Properties>
@@ -99,8 +98,6 @@
 
 					<Item>data/wonders.xml</Item>
 					<Item>data/wonders-gameeffects.xml</Item>
-					<!-- Test -->
-
 				</UpdateDatabase>
 				<ImportFiles>
 					
