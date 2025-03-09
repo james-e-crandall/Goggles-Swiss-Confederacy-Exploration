@@ -4,8 +4,8 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>Play as the [B]Swiss Confederacy[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_FRANCE_TOOLTIP">
-			<Text>The [B]Swiss Confederacy [/B] is from the same continent as [B]France[/b].</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_PRUSSIA_TOOLTIP">
+			<Text>The [B]Swiss Confederacy [/B] is from the same continent as [B]Prussia[/b].</Text>
 		</Row>
 
 		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
@@ -14,8 +14,5 @@
 		<Row Tag="LOC_UNLOCK_ANTIQUITY_TO_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>{LOC_UNLOCK_TUNDRA_SETTLEMENTS_DESCRIPTION} and {LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_DESCRIPTION}</Text>
 		</Row>
-
-
-
 	</EnglishText>
 </Database>

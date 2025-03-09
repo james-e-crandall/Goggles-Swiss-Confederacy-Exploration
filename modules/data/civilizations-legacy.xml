@@ -18,6 +18,6 @@
 		<Row TraitType="TRAIT_SWISS_CONFEDERACY_2" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_CHARLEMAGNE" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY"/>
+		<Row Leader="LEADER_FRIEDRICH" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY"/>
 	</LegacyLeaderCivPriorities>
 </Database>

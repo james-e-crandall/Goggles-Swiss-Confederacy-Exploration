@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+
+	</Civilizations>
+	<CivilizationItems>
+
+	</CivilizationItems>
+	<CivilizationTags>
+
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" Icon="ICON_CIVILIZATION_SWISS_CONFEDERACY"/>
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

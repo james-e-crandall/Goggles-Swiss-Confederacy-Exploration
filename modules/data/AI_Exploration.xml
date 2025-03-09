@@ -18,11 +18,11 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Swiss Confederacy -->
-		<Row ListType="Swiss Confederacy Unit Biases" LeaderType="TRAIT_Swiss Confederacy" System="UnitBiases"/>
-		<Row ListType="Swiss Confederacy Government Bias" LeaderType="TRAIT_Swiss Confederacy" System="GovernmentBiases"/>
-		<Row ListType="Swiss Confederacy Constructibles Biases" LeaderType="TRAIT_Swiss Confederacy" System="ConstructibleBiases" />	
-		<Row ListType="Swiss Confederacy Budget Biases" LeaderType="TRAIT_Swiss Confederacy" System="AiBudgetBiases"/>	
-		<Row ListType="Swiss Confederacy PseudoYield Biases" LeaderType="TRAIT_Swiss Confederacy" System="PseudoYieldBiases"/>	
+		<Row ListType="Swiss Confederacy Unit Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="UnitBiases"/>
+		<Row ListType="Swiss Confederacy Government Bias" LeaderType="RAIT_SWISS_CONFEDERACY" System="GovernmentBiases"/>
+		<Row ListType="Swiss Confederacy Constructibles Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="ConstructibleBiases" />	
+		<Row ListType="Swiss Confederacy Budget Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="AiBudgetBiases"/>	
+		<Row ListType="Swiss Confederacy PseudoYield Biases" LeaderType="TRAIT_SWISS_CONFEDERACY" System="PseudoYieldBiases"/>	
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Swiss Confederacy -->
