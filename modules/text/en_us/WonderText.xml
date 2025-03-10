@@ -5,10 +5,10 @@
 			<Text>Zytglogge (Clock Tower)</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_ZYTGLOGGE_DESCRIPTION">
-			<Text>+4[icon:YIELD_SCIENCE] Science. Ageless. Must be placed adjacent to the Palace.</Text>
+			<Text>+4[icon:YIELD_SCIENCE] Science. Ageless. Reduce Specialist Food Maintenance in the City.</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_ZYTGLOGGE_TOOLTIP">
-			<Text>+4[icon:YIELD_SCIENCE] Science. Ageless. Must be placed adjacent to the Palace.</Text>
+			<Text>{LOC_WONDER_ZYTGLOGGE_DESCRIPTION}</Text>
 		</Row>
 
 		<Row Tag="LOC_QUOTE_WONDER_ZYTGLOGGE">

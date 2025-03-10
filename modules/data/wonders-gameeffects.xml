@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<Modifier id="MOD_WONDER_ZYTGLOGGE_ATTACH_LEHRBEAUFTRAGTER" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_VALID_UNIT_BUILD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
-				<Argument name="ConstructibleType">WONDER_ZYTGLOGGE</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER</Argument>
+	<Modifier id="MOD_WONDER_ZYTGLOGGE_SPECIALIST_MAITENANCE_REDUCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_WORKER_MAINTENANCE_EFFICIENCY">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Percent">50</Argument>
+		<String context="Description">LOC_WONDER_ZYTGLOGGE_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

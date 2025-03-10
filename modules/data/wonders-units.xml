@@ -17,7 +17,10 @@
 		<!-- Note that the Individual entries are set to not allow the user to directly train/purchase, only the base is, then the code picks an individual. -->
 
 		<!-- LEHRBEAUFTRAGTER -->
-		<Row UnitType="UNIT_LEHRBEAUFTRAGTER" Name="LOC_UNIT_LEHRBEAUFTRAGTER_NAME" Description="LOC_UNIT_LEHRBEAUFTRAGTER_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" TraitType="WONDER_ZYTGLOGGE_TRAIT" />
+
+<!-- TraitType="WONDER_ZYTGLOGGE_TRAIT" -->
+
+		<Row UnitType="UNIT_LEHRBEAUFTRAGTER" Name="LOC_UNIT_LEHRBEAUFTRAGTER_NAME" Description="LOC_UNIT_LEHRBEAUFTRAGTER_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40"  />
 		<!-- Individuals -->
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME" Description="LOC_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" CanTrain="false" CanPurchase="false" TraitType="WONDER_ZYTGLOGGE_TRAIT" />
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME" Description="LOC_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" CanTrain="false" CanPurchase="false" TraitType="WONDER_ZYTGLOGGE_TRAIT" />
