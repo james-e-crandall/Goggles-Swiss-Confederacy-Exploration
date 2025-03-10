@@ -4,6 +4,7 @@
         <Argument name="CivilizationType">CIVILIZATION_SWISS_CONFEDERACY</Argument>
     </Requirement>
 
+    <!-- LEONHARD_EULER -->
     <RequirementSet id="REQSET_STORY_LEONHARD_EULER_START_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
@@ -19,7 +20,7 @@
     <RequirementSet id="REQSET_STORY_LEONHARD_EULER_END_NARRATIVE">
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
             <Argument name="GossipTypes">GOSSIP_ACTIVATE_GREAT_PERSON01</Argument>
-            <Argument name="GOSSIP_ACTIVATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER</Argument>
+            <Argument name="GOSSIP_ACTIVATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER</Argument>
         </Requirement>
     </RequirementSet>
 
@@ -28,5 +29,54 @@
         <Argument name="Amount">1</Argument>
     </Modifier>
 
+    <!-- DANIEL_BERNOULLI -->
+    <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_START_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
+            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_START_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_END_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_ACTIVATE_GREAT_PERSON01</Argument>
+            <Argument name="GOSSIP_ACTIVATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <Modifier id="STORY_DANIEL_BERNOULLI_END_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_SCIENTIFIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+
+    <!-- PARACELSUS -->
+    <RequirementSet id="REQSET_STORY_PARACELSUS_START_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
+            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_PARACELSUS</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_STORY_PARACELSUS_START_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+    </RequirementSet>
+
+    <RequirementSet id="REQSET_STORY_PARACELSUS_END_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_ACTIVATE_GREAT_PERSON01</Argument>
+            <Argument name="GOSSIP_ACTIVATE_GREAT_PERSON01">Hash,GreatPersonIndividualType,GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS</Argument>
+        </Requirement>
+    </RequirementSet>
+
+    <Modifier id="STORY_PARACELSUS_END_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_SCIENTIFIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
 
 </GameEffects>

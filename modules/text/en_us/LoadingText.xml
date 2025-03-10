@@ -2,7 +2,7 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_SWISS_CONFEDERACY">
-			<Text>The nucleus of the Old Swiss Confederacy was an alliance among the valley communities of the central Alps to facilitate management of common interests (such as trade) and ensure peace along trade routes through the mountains.</Text>
+			<Text>The nucleus of the Old Swiss Confederacy was an alliance among the valley communities of the central Alps to facilitate management of common interests (such as trade) and ensure peace along trade routes through the mountains. The Swiss Confederacy fell to a French invasion in 1798.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INTRO_SWISS_CONFEDERACY">
 			<Text>So it has reached this pass? Obedience and fear take flight together?</Text>

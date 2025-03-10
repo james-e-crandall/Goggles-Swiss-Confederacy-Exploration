@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!--Lehrbeauftragter-->
-		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_NAME">
-			<Text>Lehrbeauftragter</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_DESCRIPTION">
-			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once. Cost increases per Lehrbeauftragter trained.</Text>
-		</Row>
-
-		<!-- Daniel Bernoulli -->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME">
-			<Text>Daniel Bernoulli</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION">
-			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
-		</Row>
-
 		<!--Amtsbürgermeister-->
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_NAME">
 			<Text>Amtsbürgermeister</Text>
@@ -27,10 +11,6 @@
 
 		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION">
 			<Text>Mines in this city recieve +1[icon:YIELD_PRODUCTION] Production.</Text>
-		</Row>
-
-		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_HAPPINESS_DESCRIPTION">
-			<Text>Mines in this city recieve +1[icon:YIELD_HAPPINESS] Happiness.</Text>
 		</Row>
 
 		<Row Tag="LOC_AMTSBURGERMEISTER_FARM_FOOD_DESCRIPTION">
@@ -45,9 +25,6 @@
 			<Text>Activate on an Army Commander to grant 2 promotions.</Text>
 		</Row>
 
-		<Row Tag="LOC_AMTSBURGERMEISTER_LIBRARY">
-			<Text>This Library receives +3[icon:YIELD_SCIENCE] Science.</Text>
-		</Row>
 		 <!-- Amtsbürgermeister individuals -->
 
 		<!-- Johann Conrad Fischer -->
@@ -55,7 +32,7 @@
 			<Text>Joachim Vadian</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_DESCRIPTION">
-			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION} {LOC_AMTSBURGERMEISTER_MINE_HAPPINESS_DESCRIPTION}</Text>
+			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
 		</Row>
 		<!-- Commanders -->
 		
@@ -90,7 +67,6 @@
 			<Text>{LOC_AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION}</Text>
 		</Row>
 
-
 		<!-- Elisabeth of Wetzikon -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON_NAME">
 			<Text>Elisabeth of Wetzikon</Text>
@@ -105,26 +81,6 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_DESCRIPTION">
 			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
 		</Row>
-
-		<!-- Leonhard Euler -->
-		<!-- activate on a foreign university for +1 science
-		gain a trade route with that civ 
-		SELECT "_rowid_",* FROM "main"."GreatPersonIndividuals" WHERE "ActionRequiresForeignTile" LIKE '%1%' ESCAPE '\' LIMIT 49999 OFFSET 0;
-		-->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_NAME">
-			<Text>Leonhard Euler</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_LEONHARD_EULER_DESCRIPTION">
-			<Text>{LOC_AMTSBURGERMEISTER_LIBRARY}</Text>
-		</Row>
-		<!-- Paracelsus -->
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_PARACELSUS_NAME">
-			<Text>Paracelsus</Text>
-		</Row>
-		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AMTSBURGERMEISTER_PARACELSUS_DESCRIPTION">
-			<Text>{LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION}</Text>
-		</Row>
-		<!-- BUILDING_HOSPITAL -->
 
 	</EnglishText>
 </Database>

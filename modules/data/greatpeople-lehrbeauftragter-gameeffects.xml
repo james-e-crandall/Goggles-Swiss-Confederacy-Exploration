@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	
+	<!-- LEHRBEAUFTRAGTER -->
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_SCIENCE_SMALL" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" run-once="true" permanent="true">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">75</Argument>
+		<String context="Summary">LOC_GREATPERSON_SCIENCE</String>
+	</Modifier>
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_SCIENCE_LARGE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" run-once="true" permanent="true">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">150</Argument>
+		<String context="Summary">LOC_GREATPERSON_SCIENCE</String>
+	</Modifier>
+	<Modifier id="LEHRBEAUFTRAGTER_GRANT_FOOD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_YIELD" run-once="true" permanent="true">
+		<Argument name="YieldType">YIELD_FOOD</Argument>
+		<Argument name="Amount" type="ScaleByGameSpeed">100</Argument>
+		<String context="Summary">LOC_GREATPERSON_PRODUCTION</String>
+	</Modifier>
+
+</GameEffects>

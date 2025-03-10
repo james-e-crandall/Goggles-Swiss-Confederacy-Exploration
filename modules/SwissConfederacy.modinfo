@@ -95,7 +95,8 @@
 
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
-
+					
+					<Item>data/wonders-units.xml</Item>
 					<Item>data/wonders.xml</Item>
 					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
@@ -115,7 +116,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
-					<Item>text/en_us/narrative-stories.xml</Item>
+					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
@@ -138,8 +139,9 @@
 					<Item>data/loading-info.xml</Item>
 
 					<Item>data/constructibles-exploration.xml</Item>
-					<Item>data/greatpeople-gameeffects-exploration.xml</Item>
 
+					<Item>data/greatpeople-amtsbürgermeister-gameeffects.xml</Item>
+					<Item>data/greatpeople-lehrbeauftragter-gameeffects.xml</Item>
 					<Item>data/greatpeople-amtsbürgermeister.xml</Item>
 					<Item>data/greatpeople-lehrbeauftragter.xml</Item>
 
@@ -153,7 +155,6 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 
 					<Item>data/units.xml</Item>
-					<Item>data/wonder-units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
@@ -207,6 +208,7 @@
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/GreatPeopleText.xml</Item>
+					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<!-- Civ Chosing Screen Text -->
 					<Item>text/en_us/LoadingText.xml</Item>
