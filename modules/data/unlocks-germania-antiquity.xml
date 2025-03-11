@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_UNLOCK"/>
-	</Types>
-	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY"/>
-	</Unlocks>
-	<UnlockRewards>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_CIVILIZATION_SWISS" Name="LOC_CIVILIZATION_CIVILIZATION_SWISS_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_CIVILIZATION_SWISS" CivUnlock="true"/>
-	</UnlockRewards>
-	<RequirementSets>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-	</RequirementSets>
-	<Requirements>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
-	</Requirements>
-	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY" Name="CivilizationType" Value="CIVILIZATION_GERMANIA"/>
-	</RequirementArguments>
-	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY" RequirementId="REQ_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY"/>
-	</RequirementSetRequirements>
 	<UnlockRequirements>
-		<Row UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_CIV_IS_GERMANIA_TO_SWISS_CONFEDERACY" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_SWISS_CONFEDERACY_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_CIV_IS_GERMANIA" Description="LOC_UNLOCK_PLAY_AS_GERMANIA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GERMANIA_SWISS_CONFEDERACY_DESCRIPTION"/>
 	</UnlockRequirements>
-	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" ConfigurationValue="CIVILIZATION_SWISS_CONFEDERACY"/>
-	</UnlockConfigurationValues>
+
 </Database>

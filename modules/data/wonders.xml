@@ -3,10 +3,8 @@
 	<Types>
 		<!-- Wonders -->
 		<Row Type="WONDER_ZYTGLOGGE" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="WONDER_ZYTGLOGGE_TRAIT" Kind="KIND_TRAIT"/>
     </Types>
 	<Traits>
-		<Row TraitType="WONDER_ZYTGLOGGE_TRAIT" InternalOnly="true"/>
 	</Traits>
 	<TypeQuotes>
 		<!-- Wonders -->

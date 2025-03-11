@@ -30,7 +30,7 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" TagType="TAG_TRAIT_MILITARISTIC"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="ICON_CIVILIZATION_PRUSSIA"/>

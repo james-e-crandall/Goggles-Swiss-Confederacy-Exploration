@@ -33,6 +33,26 @@
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_DESCRIPTION</String>
 		</Modifier>
 
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_ATTACH_MODIFIERS_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING</Argument>
+		</Modifier>
+
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_TOWN_CAN_PURCHASE_TAGGED_CONSTRUCTIBLES">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
+				</Requirement>
+			</SubjectRequirements>
+			<Argument name="ConstructibleTag">MILITARY</Argument>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING_DESCRIPTION</Argument>
+		</Modifier>
+
 		<!-- PFAFFENBRIEF -->
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_ATTACH_MODIFIERS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 			<SubjectRequirements>

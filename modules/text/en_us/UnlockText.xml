@@ -4,15 +4,21 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>Play as the [B]Swiss Confederacy[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_PRUSSIA_TOOLTIP">
-			<Text>The [B]Swiss Confederacy [/B] is from the same continent as [B]Prussia[/b].</Text>
-		</Row>
-
 		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
 			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_ANTIQUITY_TO_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
-			<Text>{LOC_UNLOCK_TUNDRA_SETTLEMENTS_DESCRIPTION} and {LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_DESCRIPTION}</Text>
+
+
+		<Row Tag="LOC_UNLOCK_PLAYER_HAS_TUNDRA_AND_MOUNTAINS_SETTLEMENTS_DESCRIPTION">
+			<Text>Have three Settlements with at least three [B]Mountains[/B] each. Have three Settlements on [B]Tundra[/B].</Text>
 		</Row>
+		<Row Tag="LOC_UNLOCK_PLAYER_HAS_TUNDRA_AND_MOUNTAINS_SETTLEMENTS_TOOLTIP">
+			<Text>[B]Mountains[/B] and [B]Tundra Settlements[/B] were an important part of the [B]Swiss Confederacy's[/B] identity.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_SWISS_CONFEDERACY_NARRATIVE">
+			<Text>{1_Civilization_Adj} 1 Tundra City and 1 Mountain City</Text>
+		</Row>
+
+
 	</EnglishText>
 </Database>
