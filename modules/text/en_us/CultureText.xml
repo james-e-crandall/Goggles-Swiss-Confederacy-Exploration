@@ -35,8 +35,8 @@
 		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPEL_QUOTE_AUTHOR">
 			<Text>Ulrich Zwingli</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_OVERBUILD_GRANT_UNIT_DESCRIPTION">
-			<Text>Gain Two Ranged units when overbuilding the Alter Constructable</Text>
+		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE_DESCRIPTION">
+			<Text>Producing an Infantry Unit grants Science equal to a portion of the Unit's Production cost.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->
