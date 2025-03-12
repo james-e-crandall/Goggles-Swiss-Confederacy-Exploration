@@ -46,20 +46,25 @@
     <NarrativeRewards>
         <!-- LEONHARD_EULER -->
         <Row NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD" ModifierID="STORY_LEONHARD_EULER_END_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD_2" ModifierID="STORY_LEONHARD_EULER_END_NARRATIVE_MODIFIER_2"/>
         <!-- DANIEL_BERNOULLI -->
         <Row NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD" ModifierID="STORY_DANIEL_BERNOULLI_END_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD_2" ModifierID="STORY_DANIEL_BERNOULLI_END_NARRATIVE_MODIFIER_2"/>
         <!-- PARACELSUS -->
         <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD_2" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_2"/>
     </NarrativeRewards>
 
     <NarrativeStory_Rewards>
         <!-- LEONHARD_EULER -->
         <Row NarrativeStoryType="STORY_LEONHARD_EULER_END" NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="STORY_LEONHARD_EULER_END" NarrativeRewardType="STORY_LEONHARD_EULER_END_REWARD_2" Activation="COMPLETE"/>
         <!-- DANIEL_BERNOULLI -->
         <Row NarrativeStoryType="STORY_DANIEL_BERNOULLI_END" NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="STORY_DANIEL_BERNOULLI_END" NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD_2" Activation="COMPLETE"/>
         <!-- PARACELSUS -->
         <Row NarrativeStoryType="STORY_PARACELSUS_END" NarrativeRewardType="STORY_PARACELSUS_END_REWARD" Activation="COMPLETE"/>
-
+        <Row NarrativeStoryType="STORY_PARACELSUS_END" NarrativeRewardType="STORY_PARACELSUS_END_REWARD_2" Activation="COMPLETE"/>
     </NarrativeStory_Rewards>
 
     <NarrativeRewardIcons>
