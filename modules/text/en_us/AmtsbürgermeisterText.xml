@@ -8,7 +8,7 @@
 		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in a Capitol, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
 		</Row>
-
+		<!-- Great Person -->
 		<Row Tag="LOC_AMTSBURGERMEISTER_MINE_PRODUCTION_DESCRIPTION">
 			<Text>Mines in this city recieve +1[icon:YIELD_PRODUCTION] Production.</Text>
 		</Row>

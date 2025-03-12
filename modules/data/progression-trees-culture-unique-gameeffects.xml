@@ -11,7 +11,7 @@
 	</Modifier>
 
 	<!-- WARS_OF_KAPPLE -->
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_OVERBUILD_GRANT_UNIT" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY" run-once="true" permanent="true">
+	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_OVERBUILD_GRANT_UNIT" collection="COLLECTION_UNIT_NEAREST_OWNER_CITY" effect="EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY">
 		<SubjectRequirements>
         <Requirement type="REQUIREMENT_PLAYER_OVERBUILDS">
             <Argument name="OldConstructibleType">BUILDING_ALTAR</Argument>
@@ -30,7 +30,9 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_GOTTHARD_PASS_MOUNTAIN_ADJACENCY_ADJUST_HEAL_PER_TURN</Argument>
+		<String context="Description">NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION</String>
 	</Modifier>
+
 	<Modifier id="NODE_CIVIC_EX_ABILITY_GOTTHARD_PASS_MOUNTAIN_ADJACENCY_ADJUST_HEAL_PER_TURN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
 		<Argument name="Amount">10</Argument>
 	</Modifier>

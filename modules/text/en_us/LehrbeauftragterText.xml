@@ -8,7 +8,7 @@
 		<Row Tag="LOC_UNIT_LEHRBEAUFTRAGTER_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in the Capitol, and the specific Lehrbeauftragter received is random. Each Lehrbeauftragter can only be received once. Cost increases per Lehrbeauftragter trained.</Text>
 		</Row>
-	
+		<!-- Great Person -->
 		<!-- Leonhard Euler -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME">
 			<Text>Leonhard Euler</Text>
@@ -27,14 +27,14 @@
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEONHARD_EULER_START_IMPERATIVE">
-			<Text>{LOC_STORY_LEONHARD_EULER_START_COMPLETION}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEONHARD_EULER_END_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 
 		<Row Tag="LOC_STORY_LEONHARD_EULER_END_IMPERATIVE">
-			<Text>{LOC_STORY_LEONHARD_EULER_START_IMPERATIVE}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEONHARD_EULER_END_COMPLETION">
 			<Text>"Mathematicians have tried in vain to this day to discover some order in the sequence of prime numbers, and we have reason to believe that it is a mystery into which the human mind will never penetrate." ~ Leonhard Euler.</Text>
@@ -59,14 +59,14 @@
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_START_IMPERATIVE">
-			<Text>{LOC_STORY_DANIEL_BERNOULLI_START_COMPLETION}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_END_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME}</Text>
 		</Row>
 
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_END_IMPERATIVE">
-			<Text>{LOC_STORY_DANIEL_BERNOULLI_START_IMPERATIVE}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_END_COMPLETION">
 			<Text>"All birds need to fly are the right-shaped wings, the right pressure and the right angle." ~ Daniel Bernoulli.</Text>
@@ -90,14 +90,14 @@
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEHRBEAUFTRAGTER_START_IMPERATIVE">
-			<Text>{LOC_STORY_PARACELSUS_START_COMPLETION}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEHRBEAUFTRAGTER_END_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>
 		</Row>
 
 		<Row Tag="LOC_STORY_PARACELSUS_END_IMPERATIVE">
-			<Text>{LOC_STORY_LEHRBEAUFTRAGTER_START_IMPERATIVE}</Text>
+			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_STORY_PARACELSUS_END_COMPLETION">
 			<Text>"Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided." ~ Paracelsus.</Text>

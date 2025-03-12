@@ -62,7 +62,6 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
         <Row>
             <ID>UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
@@ -73,21 +72,6 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-                <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_BANIEL_BERNOULLI</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-        <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_LEONHARD_EULER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-        <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_PARACELSUS</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
 
 
         <Row>
@@ -95,6 +79,20 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+                <Row>
+            <ID>UNIT_LEHRBEAUFTRAGTER_BANIEL_BERNOULLI</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_LEHRBEAUFTRAGTER_PARACELSUS</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
     </IconDefinitions>
 </Database>

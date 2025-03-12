@@ -23,26 +23,31 @@
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_PROJECT_TOWN_YIELDS</Argument>
+			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_PROJECT_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-			<Argument name="Amount">4</Argument>
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			</SubjectRequirements>
+			<Argument name="ConstructibleClass">BUILDING</Argument>
+			<Argument name="Percent">50</Argument>
 			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_ATTACH_MODIFIERS_2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<!-- PFAFFENBRIEF -->
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_ATTACH_MODIFIERS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING</Argument>
+			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_FORT_TOWN_MILITARY_BUILDING</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_TOWN_CAN_PURCHASE_TAGGED_CONSTRUCTIBLES">
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_FORT_TOWN_MILITARY_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_TOWN_CAN_PURCHASE_TAGGED_CONSTRUCTIBLES">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
 				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
@@ -50,22 +55,7 @@
 				</Requirement>
 			</SubjectRequirements>
 			<Argument name="ConstructibleTag">MILITARY</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_MILITARY_BUILDING_DESCRIPTION</Argument>
-		</Modifier>
-
-		<!-- PFAFFENBRIEF -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_ATTACH_MODIFIERS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_PLAYER_IS_RELIGION_FOUNDER"/>
-			</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_PROJECT_TOWN_YIELDS</Argument>
-		</Modifier>
-
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_PROJECT_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-			<Argument name="YieldType">YIELD_SCIENCE</Argument>
-			<Argument name="Amount">4</Argument>
 			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_DESCRIPTION</String>
 		</Modifier>
 
 </GameEffects>

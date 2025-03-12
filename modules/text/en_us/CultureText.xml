@@ -49,8 +49,7 @@
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE_AUTHOR">
 			<Text>The Swiss</Text>
 		</Row>
-
-		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
+		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
 			<Text>+10 healing in Combat Units adjacent to mountains</Text>
 		</Row>
 
@@ -83,7 +82,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>+4 [icon:YIELD_HAPPINESS]Happiness in Fort Towns.</Text>
+			<Text>Increased Gold towards purchasing Buildings in Fort Towns.</Text>
 		</Row>
 
 
@@ -107,7 +106,7 @@
 			<Text>Eidgenossenschaft</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
-			<Text>+4[icon:YIELD_SCIENCE] Science in your Settlemens following your Religion</Text>
+			<Text>Can purchase Military Buildings in Fort Towns.</Text>
 		</Row>
 
 </EnglishText>
