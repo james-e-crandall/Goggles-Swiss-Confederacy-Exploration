@@ -19,7 +19,7 @@
 			<Text>Leonhard Euler</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_DESCRIPTION">
-			<Text>Activate on a Observatory in a foreign capitals.  Grants foreign Civ Science and you receive Scientific Attributes points.</Text>
+			<Text>Activate in foreign capital.  Grants a Observatory and you receive Scientific Attributes point and +1[icon:YIELD_SCIENCE] Science to all Specialists in Cities.</Text>
 		</Row>
 		<Row Tag="LOC_STORY_LEONHARD_EULER_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME}</Text>
@@ -56,7 +56,7 @@
 			<Text>Daniel Bernoulli</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_DESCRIPTION">
-			<Text>Activate on a University in a foreign capitals.  Grants foreign Civ Science and you receive Scientific Attributes points.</Text>
+			<Text>Activate in foreign capital.  Grants a University and you receive Scientific Attributes point and +1[icon:YIELD_SCIENCE] Science to all Specialists in Cities.</Text>
 		</Row>
 
 		<Row Tag="LOC_STORY_DANIEL_BERNOULLI_START_STORYTITLE">
@@ -94,7 +94,7 @@
 			<Text>Paracelsus</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION">
-			<Text>Activate on a Hospital in a foreign capitals.  Grants foreign Civ Food and you receive Scientific Attributes points.</Text>
+			<Text>Activate in foreign capital.  Grants a Hospital and you receive Scientific Attributes point and +1[icon:YIELD_SCIENCE] Science to all Specialists in Cities.</Text>
 		</Row>
 		<Row Tag="LOC_STORY_PARACELSUS_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>
