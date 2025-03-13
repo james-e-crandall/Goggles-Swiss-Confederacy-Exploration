@@ -10,13 +10,13 @@
 
 
 		<Row Tag="LOC_UNLOCK_PLAYER_HAS_TUNDRA_AND_MOUNTAINS_SETTLEMENTS_DESCRIPTION">
-			<Text>Have three Settlements with at least three [B]Mountains[/B] each. Have three Settlements on [B]Tundra[/B].</Text>
+			<Text>Have two Settlements with at least two [B]Mountains[/B] each. Have two Settlements on [B]Tundra[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAYER_HAS_TUNDRA_AND_MOUNTAINS_SETTLEMENTS_TOOLTIP">
 			<Text>[B]Mountains[/B] and [B]Tundra Settlements[/B] were an important part of the [B]Swiss Confederacy's[/B] identity.</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_SWISS_CONFEDERACY_NARRATIVE">
-			<Text>{1_Civilization_Adj} 1 Tundra City and 1 Mountain City</Text>
+			<Text>{1_Civilization_Adj} 2 Tundra Cities and 1 Mountain Cities</Text>
 		</Row>
 
 

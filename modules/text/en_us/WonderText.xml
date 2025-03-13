@@ -8,7 +8,7 @@
 			<Text>+4[icon:YIELD_SCIENCE] Science. {LOC_WONDER_ZYTGLOGGE_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_ZYTGLOGGE_TOOLTIP">
-			<Text>Reduce Specialist Food Maintenance in the City. Ageless. Must be placed adjacent to the Palace.</Text>
+			<Text>Reduce Specialist Happiness Maintenance in the City. Ageless. Must be placed adjacent to the Palace.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_ZYTGLOGGE">
 			<Text>Right before the clock strikes the hour a crowing rooster announces the start of an entertaining spectacle. Bears dance their hourly routine, a jester jokingly signals the hour too early, the quarter-hour chimes are heard from the tower, and Chronos, the god of time, turns his hourglass over. The golden figure of Hans von Thann finally strikes the hour in time with Chronos’ swinging scepter.</Text>
