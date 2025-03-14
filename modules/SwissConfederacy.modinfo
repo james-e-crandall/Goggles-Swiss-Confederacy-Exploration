@@ -36,9 +36,25 @@
 		<Criteria all="true" id="goggles-civ-germania-enable">
 			<ModInUse>goggles_civ_germania</ModInUse>
 		</Criteria>
+        <Criteria all="true" id="ged-ynamp-enable">
+            <!-- let other mods override the yield banner -->
+            <ModInUse>ged-ynamp</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 
 	<ActionGroups>
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+			<!-- ynamp compatability -->
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+
 		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles-civ-germania-enable">
             <Properties>
 				<LoadOrder>100</LoadOrder>

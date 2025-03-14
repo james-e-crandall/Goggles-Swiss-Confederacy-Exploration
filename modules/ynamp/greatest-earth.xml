@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+Compatablity with 
+"Greatest Earth Map" start position
+
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+	<!-- Compatablity with ynamp "Greatest Earth Map" start position -->
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+
+	<StartPosition>
+		<!-- Civ7 -->
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_SWISS_CONFEDERACY"			X="49"	Y="47" />
+    </StartPosition>
+
+
+</Database>
