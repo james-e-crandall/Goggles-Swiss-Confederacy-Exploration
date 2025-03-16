@@ -164,7 +164,4 @@
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Unit_Advisories>
 
-	<ProjectModifiers>
-		<Row ProjectType="PROJECT_TOWN_FORT" ModifierId="PIKE_SQUARE_FORT_TOWN_INFANTRY_PURCHASE_EFFICIENCY"/>
-	</ProjectModifiers>
 </Database>
