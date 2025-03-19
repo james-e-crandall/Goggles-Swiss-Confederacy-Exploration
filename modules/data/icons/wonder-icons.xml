@@ -3,7 +3,7 @@
 	<IconDefinitions>
 		<Row>
 			<ID>WONDER_ZYTGLOGGE</ID>
-			<Path>blp:wondericon_zytglogge</Path>
+			<Path>fs://game/goggles_civ_swiss_confederacy/icons/wondericon_zytglogge.png</Path>
 		</Row>
     </IconDefinitions>
 </Database>

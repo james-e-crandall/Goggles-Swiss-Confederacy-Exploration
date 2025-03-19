@@ -39,6 +39,14 @@
 			<Text>Producing an Infantry Unit grants Science equal to a portion of the Unit's Production cost.</Text>
 		</Row>
 
+		<!-- Tradition -->
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_NAME">
+			<Text>Grosse Glocke</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
+			<Text>Increased Happiness Religous Buildings in Mountain Settlements.</Text>
+		</Row>
+
 		<!-- GOTTHARD_PASS -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME">
 			<Text>Gotthard Pass</Text>
@@ -50,11 +58,11 @@
 			<Text>The Swiss</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
-			<Text>+10 healing in Combat Units adjacent to mountains</Text>
+			<Text>+10 healing in Combat Units in Tundra</Text>
 		</Row>
 
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
-			<Text>Cities settled in Tundra have extended trade route range.</Text>
+			<Text>Cities with Mountains have extended trade route range.</Text>
 		</Row>
 		<!-- Tradition -->
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_NAME">
@@ -99,6 +107,10 @@
 
 		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
 			<Text>Increased Worker Cap in Cities</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT_DESCRIPTION">
+			<Text>Pike Square +1 Movement</Text>
 		</Row>
 
 		<!-- Tradition -->

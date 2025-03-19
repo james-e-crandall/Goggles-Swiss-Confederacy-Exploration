@@ -160,7 +160,6 @@
 	<ConstructibleModifiers>
 		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
 		<!-- Civ Uniques -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" ModifierId="MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_SPECIALIST_CAP_INCREASE"/> -->
 		<!-- Wonders -->
 
 	</ConstructibleModifiers>
