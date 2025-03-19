@@ -32,7 +32,7 @@
 				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
 			</SubjectRequirements>
 			<Argument name="ConstructibleClass">BUILDING</Argument>
-			<Argument name="Percent">50</Argument>
+			<Argument name="Percent">100</Argument>
 			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_NAME</Argument>
 		</Modifier>
 
