@@ -131,8 +131,8 @@
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-		<Row ID="MountainStiftsarchivWarehouseScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
-		<Row ID="TundraMountainStiftsarchivWarehouseScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
+		<Row ID="MountainStiftsarchivWarehouseScience"  YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
+		<Row ID="TundraMountainStiftsarchivWarehouseScience" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
 		<!-- Civ Uniques -->
 		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
  	</Warehouse_YieldChanges>

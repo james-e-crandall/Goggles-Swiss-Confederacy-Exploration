@@ -33,7 +33,7 @@
         </Row>
         <Row>
             <ID>UNIT_PIKE_SQUARE_2</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/nitflag_pike_square.png</Path>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
             <Context>DEFAULT</Context>
         </Row>        
         
