@@ -60,6 +60,11 @@
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
 			<Text>Cities with Mountains have extended trade route range.</Text>
 		</Row>
+
+		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION">
+			<Text>Army Commanders gains the Regiments promotion for free.</Text>
+		</Row>
+		
 		<!-- Tradition -->
 
 

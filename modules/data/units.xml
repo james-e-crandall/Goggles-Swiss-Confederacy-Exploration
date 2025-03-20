@@ -6,7 +6,6 @@
 		<Row Type="UNIT_PIKE_SQUARE_2" Kind="KIND_UNIT"/>
 
 		<Row Type="ABILITY_PIKE_SQUARE" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_PIKE_SQUARE_NITER_CS" Kind="KIND_ABILITY"/>
 		<!-- Civ Unique Civilian -->
 		<!-- AMTSBURGERMEISTER -->
 		<Row Type="UNIT_AMTSBURGERMEISTER" Kind="KIND_UNIT"/>
@@ -147,11 +146,9 @@
 	</UnitClass_Abilities>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" Name="LOC_ABILITY_PIKE_SQUARE_NAME" Description="LOC_ABILITY_PIKE_SQUARE_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_NITER_CS" Inactive="true" Name="LOC_ABILITY_PIKE_SQUARE_NITER_CS_NAME" Description="LOC_ABILITY_PIKE_SQUARE_NITER_CS_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" ModifierId="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY"/>
-		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_NITER_CS" ModifierId="PIKE_SQUARE_NITER_COMBAT_STRENGTH"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>

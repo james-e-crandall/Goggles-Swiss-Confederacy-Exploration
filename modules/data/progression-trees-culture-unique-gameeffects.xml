@@ -35,22 +35,24 @@
 		<Argument name="DomainType">DOMAIN_LAND</Argument>
 		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
 	</Modifier>
+
+	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_REDEPLOY</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_MANEUVER</Argument>
+		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION</String>
+	</Modifier>
+
 	<!-- TAGSATZUNG -->
 
 	<!-- PFAFFENBRIEF -->
 	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
 		<Argument name="Amount">1</Argument>
 		<String context="Description">NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_PIKE_SQUARE</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_PIKE_SQUARE_NITER_CS</Argument>
-		<String context="Description">LOC_ABILITY_PIKE_SQUARE_NITER_CS_DESCRIPTION</String>
 	</Modifier>
 
 	<!--Unit Abilities-->
