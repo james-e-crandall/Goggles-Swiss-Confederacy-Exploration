@@ -11,4 +11,15 @@
 		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
 	</Modifier>
 
+
+	<Modifier id="PIKE_SQUARE_NITER_COMBAT_STRENGTH" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_COMBAT_STRENGTH_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_PIKE_SQUARE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ResourceType">RESOURCE_NITER</Argument>
+	</Modifier>
+
 </GameEffects>

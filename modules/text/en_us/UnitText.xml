@@ -8,19 +8,21 @@
 			<Text>Pike Square</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_PIKE_SQUARE_BASE_DESCRIPTION">
-			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry. 10% Discount in Fort Towns.</Text>
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_PIKE_SQUARE_DESCRIPTION">
-			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry. 10% Discount in Fort Towns.</Text>
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION">
-			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry. 10% Discount in Fort Towns.</Text>
+			<Text>Swiss Confederacy Unique Infantry Unit. +10 Combat Strength against Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_PIKE_SQUARE_PREVIEW">
 			<Text>+{1_Amount} Combat Strength against Cavalry.</Text>
 		</Row>
 
-
+		<Row Tag="LOC_ABILITY_PIKE_SQUARE_NITER_CS_DESCRIPTION">
+			<Text>+1 Combat Strength from each Niter Resouce.</Text>
+		</Row>
 
 	</EnglishText>
 </Database>

@@ -44,7 +44,7 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>Increased Happiness Religous Buildings in Mountain Settlements.</Text>
+			<Text>Increased Happiness for Religious Buildings in Mountain Settlements.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->
@@ -57,23 +57,11 @@
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_QUOTE_AUTHOR">
 			<Text>The Swiss</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION">
-			<Text>+10 healing in Combat Units in Tundra</Text>
-		</Row>
-
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
 			<Text>Cities with Mountains have extended trade route range.</Text>
 		</Row>
 		<!-- Tradition -->
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_NAME">
-			<Text>Mountain Passes</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION">
-			<Text>Land Trade Routes ignore Mountain Terrain</Text>
-		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION">
-			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_DESCRIPTION}</Text>
-		</Row>
+
 
 		<!-- TAGSATZUNG -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_TAGSATZUNG_NAME">
@@ -109,8 +97,8 @@
 			<Text>Increased Worker Cap in Cities</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT_DESCRIPTION">
-			<Text>Pike Square +1 Movement</Text>
+		<Row Tag="LOC_ABILITY_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_CS_DESCRIPTION">
+			<Text>Pike Square Units gain +3 Combat Strength From Niter</Text>
 		</Row>
 
 		<!-- Tradition -->

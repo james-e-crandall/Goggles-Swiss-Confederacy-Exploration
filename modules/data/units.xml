@@ -5,6 +5,8 @@
 		<Row Type="UNIT_PIKE_SQUARE" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Kind="KIND_UNIT"/>
 
+		<Row Type="ABILITY_PIKE_SQUARE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PIKE_SQUARE_NITER_CS" Kind="KIND_ABILITY"/>
 		<!-- Civ Unique Civilian -->
 		<!-- AMTSBURGERMEISTER -->
 		<Row Type="UNIT_AMTSBURGERMEISTER" Kind="KIND_UNIT"/>
@@ -54,8 +56,8 @@
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_PARACELSUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME" Description="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" CanTrain="false" TraitType="TRAIT_SWISS_CONFEDERACY" CanPurchase="false" />
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_PIKE_SQUARE" Combat="40"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" Combat="45"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" Combat="45"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" Combat="50"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
@@ -81,9 +83,7 @@
 		<Row Unit="UNIT_PIKE_SQUARE" UpgradeUnit="UNIT_PIKE_SQUARE_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-		<!-- Civ Unique Military -->
 
-		<!-- Civ Unique Civilian -->
 	</UnitReplaces>
 	<Unit_TransitionRetains>
 	</Unit_TransitionRetains>
@@ -147,10 +147,11 @@
 	</UnitClass_Abilities>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" Name="LOC_ABILITY_PIKE_SQUARE_NAME" Description="LOC_ABILITY_PIKE_SQUARE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_NITER_CS" Inactive="true" Name="LOC_ABILITY_PIKE_SQUARE_NITER_CS_NAME" Description="LOC_ABILITY_PIKE_SQUARE_NITER_CS_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" ModifierId="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY"/>
-
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_NITER_CS" ModifierId="PIKE_SQUARE_NITER_COMBAT_STRENGTH"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>

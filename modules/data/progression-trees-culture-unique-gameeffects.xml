@@ -21,45 +21,21 @@
 	</Modifier>
 
 	<!-- GOTTHARD_PASS -->
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_TUNDRA" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
-				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_GOTTHARD_PASS_TUNDRA_ADJUST_HEAL_PER_TURN</Argument>
-		<String context="Description">NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_CHECK_MOUNTAIN_ADJACENY_DESCRIPTION</String>
-	</Modifier>
-
 	<Modifier id="NODE_CIVIC_EX_ABILITY_GOTTHARD_PASS_TUNDRA_ADJUST_HEAL_PER_TURN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
 		<Argument name="Amount">10</Argument>
 	</Modifier>
 
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
 				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Amount">5</Argument>
+		<Argument name="Amount">10</Argument>
 		<Argument name="DomainType">DOMAIN_LAND</Argument>
 		<String context="Description">LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION</String>
 	</Modifier>
-
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_MOUNTAIN_PASS_EX_TRADE_ROUTES" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_IGNORE_MOVEMENT_OBSTACLE">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_LAND_TRADE_ROUTE</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="Obstacle">TERRAIN_MOUNTAIN</Argument>
-		<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_MOUNTAIN_PASS_MOD_TRADE_ROUTES_DESCRIPTION</String>
-	</Modifier>
-
-
 	<!-- TAGSATZUNG -->
-
-
 
 	<!-- PFAFFENBRIEF -->
 	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
@@ -67,15 +43,17 @@
 		<String context="Description">NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION</String>
 	</Modifier>
 
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT</Argument>
-		<String context="Description">LOC_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT_DESCRIPTION</String>
+	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_COMBAT_STRENGTH" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_PIKE_SQUARE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_PIKE_SQUARE_NITER_CS</Argument>
+		<String context="Description">LOC_ABILITY_PIKE_SQUARE_NITER_CS_DESCRIPTION</String>
 	</Modifier>
 
 	<!--Unit Abilities-->
-	<Modifier id="PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_MOVEMENT">
-		<Argument name="Amount">1</Argument>
-		<String context="Preview">LOC_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_MOVEMENT_DESCRIPTION</String>
-	</Modifier>
+
 
 </GameEffects>
