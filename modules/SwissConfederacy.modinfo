@@ -80,9 +80,9 @@
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/ai_exploration.xml</Item>
-
                 </UpdateDatabase>
                 <UpdateText>
+					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ModuleText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
@@ -94,6 +94,8 @@
 					<Item>icons/unitflag_pike_square.png</Item>
 					<Item>icons/unitflag_amtsburgermeister.png</Item>
 					<Item>icons/unitflag_lehbeauftragter.png</Item>
+					<Item>icons/lsbg_swiss_confederacy_720</Item>
+					<Item>icons/lsbg_swiss_confederacy_1080</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
@@ -126,8 +128,7 @@
 				<UpdateText>
 					<!-- Standard Text -->
 					<Item>text/en_us/CityNamesText.xml</Item>
-					<Item>text/en_us/GreatPeopleText.xml</Item>
-					<Item>text/en_us/CivilizationText.xml</Item>
+
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/AmtsbürgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
@@ -210,6 +211,8 @@
 					<Item>icons/unitflag_pike_square.png</Item>
 					<Item>icons/unitflag_lehbeauftragter.png</Item>
 					<Item>icons/unitflag_amtsburgermeister.png</Item>
+					<Item>icons/lsbg_swiss_confederacy_720</Item>
+					<Item>icons/lsbg_swiss_confederacy_1080</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>

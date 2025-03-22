@@ -14,7 +14,18 @@
             <ID>cult_swiss_confederacy</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/cult_swiss_confederacy.png</Path>
         </Row>
-
+		<Row>
+			<ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
         <Row>
             <ID>BUILDING_KLOSTER</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster.png</Path>
