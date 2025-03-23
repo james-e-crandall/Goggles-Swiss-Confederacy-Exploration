@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_LEADER_IS_FRIEDRICH_ALT" Description="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_SWISS_CONFEDERACY_TOOLTIP"/>
+    </UnlockRequirements>
+
+</Database>

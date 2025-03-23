@@ -36,39 +36,53 @@
 		<Criteria all="true" id="goggles-civ-germania-enable">
 			<ModInUse>goggles_civ_germania</ModInUse>
 		</Criteria>
+        <Criteria all="true" id="friedrich-xerxes-alt-enable">
+            <ModInUse>friedrich-xerxes-alt</ModInUse>
+        </Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
-            <!-- let other mods override the yield banner -->
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
 	</ActionCriteria>
 
 	<ActionGroups>
-		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
-			<!-- ynamp compatability -->
+		<!-- Optional compatability -->
+		<ActionGroup id="base-game-friedrich-xerxes-alt" scope="game" criteria="friedrich-xerxes-alt-enable">
             <Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>
 			<Actions>
                 <UpdateDatabase>
-					<Item>ynamp/greatest-earth.xml</Item>
+					<Item>friedrich-alt/data/unlocks-friedrich-alt.xml</Item>
                 </UpdateDatabase>
+                <UpdateText>
+					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>
+                </UpdateText>
             </Actions>
 		</ActionGroup>
-
 		<ActionGroup id="base-game-main-swiss-confederacy-germania" scope="game" criteria="goggles-civ-germania-enable">
             <Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>
 			<Actions>
                 <UpdateDatabase>
-					<Item>data/unlocks-germania-antiquity.xml</Item>
+					<Item>germania/data/unlocks-germania-antiquity.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>
-					<Item>text/en_us/UnlockGermaniaText.xml</Item>
+					<Item>germania/text/en_us/UnlockGermaniaText.xml</Item>
                 </UpdateText>
             </Actions>
 		</ActionGroup>
-
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<!-- goggles_civ_swiss_confederacy -->
         <ActionGroup id="base-game-main-swiss-confederacy" scope="game" criteria="always">
             <Properties>
 				<LoadOrder>100</LoadOrder>
@@ -77,6 +91,7 @@
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
+					<Item>data/unlocks-friedrich.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/ai_exploration.xml</Item>
@@ -87,6 +102,7 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/UnlockFriedrichText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>
@@ -105,7 +121,6 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
-
 		<ActionGroup id="age-exploration-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
@@ -120,15 +135,11 @@
 					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
-					
 				</ImportFiles>
 				<UpdateIcons>
-
 				</UpdateIcons>
 				<UpdateText>
-					<!-- Standard Text -->
 					<Item>text/en_us/CityNamesText.xml</Item>
-
 					<Item>text/en_us/UnitText.xml</Item>
 					<Item>text/en_us/AmtsbürgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
@@ -137,7 +148,6 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		
 		<ActionGroup id="age-exploration-current-swiss-confederacy" scope="game" criteria="exploration-age-current">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
@@ -151,48 +161,43 @@
 					<Item>data/diplomacy-actions.xml</Item>
 					<Item>data/diplomacy-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
-
 					<Item>data/constructibles-exploration.xml</Item>
-
 					<Item>data/greatpeople-amtsbürgermeister-gameeffects.xml</Item>
 					<Item>data/greatpeople-lehrbeauftragter-gameeffects.xml</Item>
 					<Item>data/greatpeople-amtsbürgermeister.xml</Item>
 					<Item>data/greatpeople-lehrbeauftragter.xml</Item>
-
 					<Item>data/progression-trees-tech-common-exploration.xml</Item>
-
 					<Item>data/narrative-display.xml</Item>
 					<Item>data/narrative-stories-lehrbeauftragter-gameeffects.xml</Item>
 					<Item>data/narrative-stories-lehrbeauftragter.xml</Item>
-
 					<Item>data/progression-trees-culture-unique.xml</Item>
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
-
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
-					
 				</ImportFiles>
 				<UpdateIcons>
-
 				</UpdateIcons>
 				<UpdateText>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		
+		<!-- Optional compatability -->
 		<ActionGroup id="shell-swiss-confederacy-germania" scope="shell" criteria="goggles-civ-germania-enable">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>
 			<Actions>
 				<UpdateDatabase>
-					<Item>config/config-germania.xml</Item>
+					<Item>germania/config/config-germania.xml</Item>
 				</UpdateDatabase>
+				<UpdateText>
+					<Item>germania/text/en_us/UnlockGermaniaText.xml</Item>
+				</UpdateText>				
 			</Actions>
 		</ActionGroup>
-
+		<!-- goggles_civ_swiss_confederacy -->
 		<ActionGroup id="shell-swiss-confederacy" scope="shell" criteria="always">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
@@ -204,6 +209,7 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>friedrich-alt/config/config-friedrich-alt.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>
@@ -229,6 +235,8 @@
 					<!-- Civ Chosing Screen Text -->
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
+					<Item>text/en_us/UnlockFriedrichText.xml</Item>
+					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>		
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

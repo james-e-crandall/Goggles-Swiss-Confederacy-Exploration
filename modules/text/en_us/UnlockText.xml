@@ -4,11 +4,6 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>Play as the [B]Swiss Confederacy[/B].</Text>
 		</Row>
-		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
-			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
-		</Row>
-
-
 		<Row Tag="LOC_UNLOCK_PLAYER_HAS_TUNDRA_AND_MOUNTAINS_SETTLEMENTS_DESCRIPTION">
 			<Text>Have two Settlements with at least two [B]Mountains[/B] each. Have two Settlements on [B]Tundra[/B].</Text>
 		</Row>
@@ -18,7 +13,5 @@
 		<Row Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_SWISS_CONFEDERACY_NARRATIVE">
 			<Text>{1_Civilization_Adj} 2 Tundra Cities and 1 Mountain Cities</Text>
 		</Row>
-
-
 	</EnglishText>
 </Database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_FRIEDRICH_SWISS_CONFEDERACY_TOOLTIP">
+			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
+		</Row>
+
+	</EnglishText>
+</Database>
