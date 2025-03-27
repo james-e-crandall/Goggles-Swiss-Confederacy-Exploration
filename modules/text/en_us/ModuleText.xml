@@ -7,8 +7,8 @@
 		<Row Tag="LOC_MODULE_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>Swiss Confederacy Exploration Age</Text>
 		</Row>
-		<Row Tag="LOC_AUTHORS_JEC">
+		<InsertOrIgnore Tag="LOC_AUTHORS_JEC">
 			<Text>The_Goggles_Do_Nothing</Text>
-		</Row>
+		</InsertOrIgnore>
 	</EnglishText>
 </Database>

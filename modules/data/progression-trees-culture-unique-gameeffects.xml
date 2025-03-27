@@ -14,7 +14,7 @@
 	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_UNIT_CREATED">
 		<Argument name="UnitTags">UNIT_CLASS_INFANTRY</Argument>
 		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="PercentCost">25</Argument>
+		<Argument name="PercentCost">10</Argument>
 		<Argument name="Combat">true</Argument>
 		<String context="Description">NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE_DESCRIPTION</String>
 		<String context="WorldText">LOC_WORLD_SCIENCE_INCREASE_FLOATER</String>

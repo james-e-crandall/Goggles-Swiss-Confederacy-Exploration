@@ -164,7 +164,7 @@
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" BuildingType1="BUILDING_KLOSTER" BuildingType2="BUILDING_STIFTSARCHIV" Name="LOC_QUARTER_FURSTABTEI_NAME" Description="LOC_QUARTER_FURSTABTEI_DESCRIPTION" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" BuildingType1="BUILDING_KLOSTER" BuildingType2="BUILDING_STIFTSARCHIV" Name="LOC_QUARTER_FURSTABTEI_NAME" Description="LOC_QUARTER_FURSTABTEI_DESCRIPTION" Tooltip="LOC_QUARTER_FURSTABTEI_TOOLTIP" TraitType="TRAIT_SWISS_CONFEDERACY"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->

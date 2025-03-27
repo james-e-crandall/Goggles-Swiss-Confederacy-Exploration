@@ -16,7 +16,7 @@
     </Constructibles>
     <Wonders>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_ZYTGLOGGE" MaxWorldInstances="1" AdjacentConstructible="BUILDING_PALACE" />    
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" MaxWorldInstances="1" AdjacentConstructible="BUILDING_CITY_HALL"/>    
 	</Wonders>
 	<Constructible_ValidDistricts>
 		<!-- Wonders -->

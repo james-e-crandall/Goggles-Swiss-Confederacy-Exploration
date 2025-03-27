@@ -36,7 +36,7 @@
 			<Text>Ulrich Zwingli</Text>
 		</Row>
 		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE_DESCRIPTION">
-			<Text>Producing an Infantry Unit grants Science equal to a portion of the Unit's Production cost.</Text>
+			<Text>Producing an Infantry Unit grants [icon:YIELD_SCIENCE]Science equal to a 10% of the Unit's Production cost.</Text>
 		</Row>
 
 		<!-- Tradition -->
@@ -44,7 +44,7 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
-			<Text>Increased Happiness for Religious Buildings in Mountain Settlements.</Text>
+			<Text>Any city with at least 1 mountain tile has +2[icon:YIELD_HAPPINESS] Happiness for Religious Building.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->
@@ -58,7 +58,7 @@
 			<Text>The Swiss</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_TRADE_ROUTE_RANGE_DESCRIPTION">
-			<Text>Cities with Mountains have extended trade route range.</Text>
+			<Text>Any city with at least 1 mountain tile have +5 trade route range.</Text>
 		</Row>
 
 		<Row Tag="LOC_NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_COMMAND_PROMOTION_DESCRIPTION">
@@ -83,7 +83,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Increased Gold towards purchasing Buildings in Fort Towns.</Text>
+			<Text>Increased [icon:YIELD_GOLD]Gold towards purchasing Buildings in Fort Towns.</Text>
 		</Row>
 
 
@@ -99,7 +99,7 @@
 		</Row>
 
 		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
-			<Text>Increased Worker Cap in Cities</Text>
+			<Text>+1 Specialist Limit in all Cities</Text>
 		</Row>
 
 		<Row Tag="LOC_ABILITY_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_CS_DESCRIPTION">

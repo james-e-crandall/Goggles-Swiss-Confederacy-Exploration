@@ -56,7 +56,9 @@
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
 			<Text>+1[icon:YIELD_SCIENCE] Science to all Specialists in this City.</Text>
 		</Row>
-
+		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
+			<Text>+1[icon:YIELD_SCIENCE] Science to all Specialists in this City.</Text>
+		</Row>
 
 
 

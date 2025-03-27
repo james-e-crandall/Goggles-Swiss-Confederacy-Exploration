@@ -15,9 +15,9 @@
 		</Modifier>
 
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-				<Argument name="ConstructibleClass">RELIGIOUS</Argument>
+			<Argument name="ConstructibleClass">RELIGIOUS</Argument>
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-			<Argument name="Amount">3</Argument>
+			<Argument name="Amount">2</Argument>
 			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION</String>
 		</Modifier>
 
