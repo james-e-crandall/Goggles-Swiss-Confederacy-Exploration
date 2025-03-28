@@ -39,6 +39,12 @@
         <Criteria all="true" id="friedrich-xerxes-alt-enable">
             <ModInUse>friedrich-xerxes-alt</ModInUse>
         </Criteria>
+        <Criteria all="true" id="napoleon-enable">
+            <ModInUse>napoleon</ModInUse>
+        </Criteria>
+        <Criteria all="true" id="napoleon-alt-enable">
+            <ModInUse>napoleon-alt</ModInUse>
+        </Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
@@ -56,6 +62,32 @@
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>
+                </UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-napoleon-enable" scope="game" criteria="napoleon-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>napoleon/data/unlocks-napoleon.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>napoleon/text/en_us/UnlockNapoleonText.xml</Item>
+                </UpdateText>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-napoleon-alt-enable" scope="game" criteria="napoleon-alt-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>napoleon-alt/data/unlocks-napoleon-alt.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>napoleon-alt/text/en_us/UnlockNapoleonAltText.xml</Item>
                 </UpdateText>
             </Actions>
 		</ActionGroup>
@@ -91,7 +123,7 @@
                 <UpdateDatabase>
 					<Item>data/civilizations-legacy.xml</Item>
 					<Item>data/unlocks-base-standard.xml</Item>
-					<Item>data/unlocks-friedrich.xml</Item>
+					<Item>data/unlocks-antiquity.xml</Item>
 					<Item>data/traditions.xml</Item>
 					<Item>data/traditions-gameeffects.xml</Item>
 					<Item>data/ai_exploration.xml</Item>
@@ -121,6 +153,16 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
+		<ActionGroup id="age-antiquity-main-swiss-confederacy" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateArt>
+
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
 		<ActionGroup id="age-exploration-persist-swiss-confederacy" scope="game" criteria="exploration-age-persist">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
@@ -183,20 +225,6 @@
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<!-- Optional compatability -->
-		<ActionGroup id="shell-swiss-confederacy-germania" scope="shell" criteria="goggles-civ-germania-enable">
-			<Properties>
-				<LoadOrder>100</LoadOrder>
-			</Properties>
-			<Actions>
-				<UpdateDatabase>
-					<Item>germania/config/config-germania.xml</Item>
-				</UpdateDatabase>
-				<UpdateText>
-					<Item>germania/text/en_us/UnlockGermaniaText.xml</Item>
-				</UpdateText>				
-			</Actions>
-		</ActionGroup>
 		<!-- goggles_civ_swiss_confederacy -->
 		<ActionGroup id="shell-swiss-confederacy" scope="shell" criteria="always">
 			<Properties>
@@ -209,7 +237,6 @@
 				</UpdateColors>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
-					<Item>friedrich-alt/config/config-friedrich-alt.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>
@@ -235,8 +262,12 @@
 					<!-- Civ Chosing Screen Text -->
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/UnlockFriedrichText.xml</Item>
-					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>		
+					<Item>text/en_us/UnlockAntiquityText.xml</Item>
+					<!-- DLC -->
+					<Item>germania/text/en_us/UnlockGermaniaText.xml</Item>
+					<Item>friedrich-alt/text/en_us/UnlockFriedrichAltText.xml</Item>	
+					<Item>napoleon/text/en_us/UnlockNapoleonText.xml</Item>
+					<Item>napoleon-alt/text/en_us/UnlockNapoleonAltText.xml</Item>	
 				</UpdateText>
 				<UpdateColors>
 				</UpdateColors>

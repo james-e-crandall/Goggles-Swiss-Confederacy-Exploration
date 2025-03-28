@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_NAPOLEON_ALT_SWISS_CONFEDERACY_TOOLTIP">
+			<Text>[B]Napoleon[/B] ruled the successor to the [B]Swiss Confederacy[/B].</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

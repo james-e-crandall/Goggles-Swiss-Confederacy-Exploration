@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" RequirementSetId="REQSET_LEADER_IS_NAPOLEON" Description="LOC_UNLOCK_PLAY_AS_NAPOLEON_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_NAPOLEON_SWISS_CONFEDERACY_TOOLTIP"/>
+    </UnlockRequirements>
+
+</Database>

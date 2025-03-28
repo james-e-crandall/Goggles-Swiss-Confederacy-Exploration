@@ -6,5 +6,9 @@
 			<Text>[B]Friedrich[/B] was born near [B]Swiss Confederacy[/B].</Text>
 		</Row>
 
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CHARLEMAGNE_SWISS_CONFEDERACY_TOOLTIP">
+			<Text>[B]Karl der Grosse (Charlemagne)[/B] was born near [B]Swiss Confederacy[/B].</Text>
+		</Row>
+
 	</EnglishText>
 </Database>

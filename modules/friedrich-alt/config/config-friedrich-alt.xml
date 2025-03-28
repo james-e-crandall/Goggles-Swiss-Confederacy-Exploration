@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Database>
-	<LeaderCivilizationBias>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" LeaderDomain="StandardLeaders" LeaderType="LEADER_FRIEDRICH_ALT" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_FRIEDRICH_ALT_SWISS_CONFEDERACY_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-	</LeaderCivilizationBias>
-</Database>
