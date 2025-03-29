@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+    <!-- subei -->
+        <Row>
+            <ID>REMAP_UNIT_PIKE_SQUARE</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_PIKE_SQUARE</From>
+            <To>UNIT_MAN_AT_ARMS</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_PIKE_SQUARE_2</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_PIKE_SQUARE_2</From>
+            <To>UNIT_PIKEMAN</To>
+        </Row>
+        <!-- AMTSBURGERMEISTER -->
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</From>
+            <To>UNIT_CONQUISTADOR_FERDINAND_MAGELLAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</From>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_PIZARRO</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</From>
+            <To>UNIT_CONQUISTADOR_JUAN_PONCE_DE_LEON</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_MARX_ROIST</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_MARX_ROIST</From>
+            <To>UNIT_CONQUISTADOR_CHRISTOPHER_COLUMBUS</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</From>
+            <To>UNIT_ALIM_RABIA</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</From>
+            <To>UNIT_CONQUISTADOR_HERNAN_CORTES</To>
+        </Row>
+  
+          <Row>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</From>
+            <To>UNIT_CONQUISTADOR_HERNANDO_DE_SOTO</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</From>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_PARACELSUS</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_PARACELSUS_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_LEHRBEAUFTRAGTER_PARACELSUS</From>
+            <To>UNIT_CONQUISTADOR_ALVAR_NUNEZ_CABEZA_DE_VACA</To>
+        </Row>
+        
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->

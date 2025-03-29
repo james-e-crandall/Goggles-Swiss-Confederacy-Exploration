@@ -183,7 +183,7 @@
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/AmtsbürgermeisterText.xml</Item>
+					<Item>text/en_us/amtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
@@ -204,9 +204,9 @@
 					<Item>data/diplomacy-gameeffects.xml</Item>
 					<Item>data/loading-info.xml</Item>
 					<Item>data/constructibles-exploration.xml</Item>
-					<Item>data/greatpeople-amtsbürgermeister-gameeffects.xml</Item>
+					<Item>data/greatpeople-amtsburgermeister-gameeffects.xml</Item>
 					<Item>data/greatpeople-lehrbeauftragter-gameeffects.xml</Item>
-					<Item>data/greatpeople-amtsbürgermeister.xml</Item>
+					<Item>data/greatpeople-amtsburgermeister.xml</Item>
 					<Item>data/greatpeople-lehrbeauftragter.xml</Item>
 					<Item>data/progression-trees-tech-common-exploration.xml</Item>
 					<Item>data/narrative-display.xml</Item>
@@ -223,6 +223,9 @@
 				</UpdateIcons>
 				<UpdateText>
 				</UpdateText>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		<!-- goggles_civ_swiss_confederacy -->
@@ -256,7 +259,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/AmtsbürgermeisterText.xml</Item>
+					<Item>text/en_us/amtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<!-- Civ Chosing Screen Text -->
