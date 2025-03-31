@@ -134,7 +134,6 @@
 					<Item>text/en_us/CultureText.xml</Item>
 					<Item>text/en_us/LoadingText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
-					<Item>text/en_us/UnlockFriedrichText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy</Item>
