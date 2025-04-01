@@ -82,7 +82,8 @@
 		<Row Unit="UNIT_PIKE_SQUARE" UpgradeUnit="UNIT_PIKE_SQUARE_2"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_2" ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
 	</Unit_TransitionRetains>
