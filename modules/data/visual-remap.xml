@@ -7,13 +7,20 @@
             <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_PIKE_SQUARE</From>
-            <To>UNIT_MAN_AT_ARMS</To>
+            <To>UNIT_PIKEMAN</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_PIKE_SQUARE_2</ID>
             <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_PIKE_SQUARE_2</From>
+            <To>UNIT_PIKEMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_PIKE_SQUARE_3</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_PIKE_SQUARE_3</From>
             <To>UNIT_PIKEMAN</To>
         </Row>
         <!-- AMTSBURGERMEISTER -->

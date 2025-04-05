@@ -7,6 +7,16 @@
 				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
 			</Requirement>
 		</SubjectRequirements>
+		<Argument name="Amount">5</Argument>
+		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY_ELITE" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_CAVALRY</Argument>
+			</Requirement>
+		</SubjectRequirements>
 		<Argument name="Amount">10</Argument>
 		<String context="Preview">LOC_ABILITY_PIKE_SQUARE_PREVIEW</String>
 	</Modifier>

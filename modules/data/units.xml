@@ -4,6 +4,7 @@
 		<!-- Civ Unique Military -->
 		<Row Type="UNIT_PIKE_SQUARE" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PIKE_SQUARE_3" Kind="KIND_UNIT"/>
 
 		<Row Type="ABILITY_PIKE_SQUARE" Kind="KIND_ABILITY"/>
 		<!-- Civ Unique Civilian -->
@@ -27,9 +28,9 @@
 
 	</Types>
 	<Units>
-		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_PIKE_SQUARE" Name="LOC_UNIT_PIKE_SQUARE_NAME" Description="LOC_UNIT_PIKE_SQUARE_DESCRIPTION" Tier="2" Maintenance="3" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SWISS_CONFEDERACY"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" Name="LOC_UNIT_PIKE_SQUARE_NAME" Description="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION" Tier="3" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" Name="LOC_UNIT_PIKE_SQUARE_NAME" Description="LOC_UNIT_PIKE_SQUARE_DESCRIPTION" Tier="1" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" Name="LOC_UNIT_PIKE_SQUARE_NAME" Description="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION" Tier="2" Maintenance="3" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_3" Name="LOC_UNIT_PIKE_SQUARE_NAME" Description="LOC_UNIT_PIKE_SQUARE_3_DESCRIPTION" Tier="3" Maintenance="4" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_SWISS_CONFEDERACY"/>
 		<!-- Civ Unique Civilian -->
 		<!-- Great People.  There is a 'base' definition, and definitions for indivduals. The individual's unit definition must also be specified in the GreatPersonIndivdual definition. -->
 		<!-- This does allow for Individuals to have custom Unit properties, but they usually mirro the base version. -->
@@ -55,13 +56,15 @@
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_PARACELSUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME" Description="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION" BaseSightRange="1" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_CIVILIAN" FormationClass="FORMATION_CLASS_CIVILIAN" ZoneOfControl="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" CanTrain="false" TraitType="TRAIT_SWISS_CONFEDERACY" CanPurchase="false" />
 	</Units>
 	<Unit_Stats>
-		<Row UnitType="UNIT_PIKE_SQUARE" Combat="45"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" Combat="50"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" Combat="35"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" Combat="45"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_3" Combat="50"/>
 	</Unit_Stats>
 	<Unit_Costs>
 		<!-- Civ Unique Military -->
-		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="190"/>
-		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="240"/>
+		<Row UnitType="UNIT_PIKE_SQUARE" YieldType="YIELD_PRODUCTION" Cost="130"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_2" YieldType="YIELD_PRODUCTION" Cost="190"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_3" YieldType="YIELD_PRODUCTION" Cost="240"/>
 		<!-- Civ Unique Civilian -->
 		<!-- AMTSBURGERMEISTER -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER" YieldType="YIELD_PRODUCTION" Cost="130"/>
@@ -80,10 +83,12 @@
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->
 		<Row Unit="UNIT_PIKE_SQUARE" UpgradeUnit="UNIT_PIKE_SQUARE_2"/>
+		<Row Unit="UNIT_PIKE_SQUARE_2" UpgradeUnit="UNIT_PIKE_SQUARE_3"/>
 	</UnitUpgrades>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
-		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_2" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_2" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
+		<Row CivUniqueUnitType="UNIT_PIKE_SQUARE_3" ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
 	</Unit_TransitionRetains>
@@ -92,6 +97,9 @@
 	<Tags>
 		<!-- Civ Unique Military -->
 		<Row Tag="UNIT_CLASS_PIKE_SQUARE" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_PIKE_SQUARE_ELITE" Category="UNIT_CLASS"/>
+
+		
 		<!-- Civ Unique Civilian -->
 		<Row Tag="UNIT_CLASS_AMTSBURGERMEISTER" Category="UNIT_CLASS"/>
 
@@ -103,11 +111,17 @@
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_INFANTRY"/>
 		<Row Type="UNIT_PIKE_SQUARE" Tag="UNIT_CLASS_PIKE_SQUARE"/>
+
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_COMBAT"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_MELEE"/>
 		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_INFANTRY"/>
-		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_PIKE_SQUARE"/>
-		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+		<Row Type="UNIT_PIKE_SQUARE_2" Tag="UNIT_CLASS_PIKE_SQUARE_ELITE"/>
+
+		<Row Type="UNIT_PIKE_SQUARE_3" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_PIKE_SQUARE_3" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_PIKE_SQUARE_3" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_PIKE_SQUARE_3" Tag="UNIT_CLASS_PIKE_SQUARE_ELITE"/>
+		<Row Type="UNIT_PIKE_SQUARE_3" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
 
 		<!-- Civ Unique Civilian -->
 		<!-- AMTSBURGERMEISTER -->
@@ -144,19 +158,22 @@
 	</TypeTags>
 	<UnitClass_Abilities>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" UnitClassType="UNIT_CLASS_PIKE_SQUARE"/>
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_ELITE" UnitClassType="UNIT_CLASS_PIKE_SQUARE_ELITE"/>
 	</UnitClass_Abilities>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" Name="LOC_ABILITY_PIKE_SQUARE_NAME" Description="LOC_ABILITY_PIKE_SQUARE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_ELITE" Name="LOC_ABILITY_PIKE_SQUARE_NAME" Description="LOC_ABILITY_PIKE_SQUARE_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row UnitAbilityType="ABILITY_PIKE_SQUARE" ModifierId="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY"/>
+		<Row UnitAbilityType="ABILITY_PIKE_SQUARE_ELITE" ModifierId="PIKE_SQUARE_MOD_COMBAT_VS_CAVALRY_ELITE"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>
 	<Unit_Advisories>
-		<!-- Civ Unique Military -->
 		<Row UnitType="UNIT_PIKE_SQUARE" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_PIKE_SQUARE_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_PIKE_SQUARE_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 

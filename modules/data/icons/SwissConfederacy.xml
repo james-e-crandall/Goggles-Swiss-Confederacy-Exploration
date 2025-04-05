@@ -52,7 +52,11 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
             <Context>DEFAULT</Context>
         </Row>        
-        
+        <Row>
+            <ID>UNIT_PIKE_SQUARE_3</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>  
         <Row>
             <ID>UNIT_AMTSBURGERMEISTER</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
