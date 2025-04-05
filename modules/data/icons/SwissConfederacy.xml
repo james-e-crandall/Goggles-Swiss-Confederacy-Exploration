@@ -49,12 +49,12 @@
         </Row>
         <Row>
             <ID>UNIT_PIKE_SQUARE_2</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>        
         <Row>
             <ID>UNIT_PIKE_SQUARE_3</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>  
         <Row>
