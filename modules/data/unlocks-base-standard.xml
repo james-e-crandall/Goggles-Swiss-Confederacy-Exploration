@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
 	<Types>
 		<!-- Unlock SWISS_CONFEDERACY -->
 		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_UNLOCK"/>

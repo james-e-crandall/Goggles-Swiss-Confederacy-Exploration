@@ -3,7 +3,7 @@
 	<EnglishText>
 		<!--Swiss Confederacy Names-->
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME">
-			<Text>Stadel</Text>
+			<Text>Stadel im Sommer</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION">
@@ -15,7 +15,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME">
-			<Text>Stadel</Text>
+			<Text>Stadel im Winter</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION">

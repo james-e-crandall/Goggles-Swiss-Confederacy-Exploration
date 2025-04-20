@@ -44,7 +44,13 @@
 			<Text>Grosse Glocke</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION">
+			<Text>{LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION} {LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION">
 			<Text>Any city with at least 1 mountain tile has +2[icon:YIELD_HAPPINESS] Happiness for Religious Building.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION">
+			<Text>Lakes have a adjacency for [icon:YIELD_FOOD]Food and [icon:YIELD_HAPPINESS]Happiness.</Text>
 		</Row>
 
 		<!-- GOTTHARD_PASS -->
@@ -83,7 +89,7 @@
 			<Text>Zugewandte Orte</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
-			<Text>Increased [icon:YIELD_GOLD]Gold towards purchasing Buildings in Fort Towns.</Text>
+			<Text>+100% [icon:YIELD_GOLD]Gold towards purchasing Buildings in Fort Towns.</Text>
 		</Row>
 
 
@@ -102,16 +108,12 @@
 			<Text>+1 Specialist Limit in all Cities</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_ABILITY_SWISS_CONFEDERACY_PFAFFENBRIEF_PIKE_SQUARE_CS_DESCRIPTION">
-			<Text>Pike Square Units gain +3 Combat Strength From Niter</Text>
-		</Row>
-
 		<!-- Tradition -->
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">
 			<Text>Eidgenossenschaft</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
-			<Text>Can purchase Military Buildings in Fort Towns.</Text>
+			<Text>+50% [icon:YIELD_PRODUCTION]Production in Fort Towns.</Text>
 		</Row>
 
 </EnglishText>

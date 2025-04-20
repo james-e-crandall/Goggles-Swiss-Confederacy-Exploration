@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<!-- SWISS_CONFEDERACY -->
-
-	<Modifier id="FURSTABTEI_MOD_WORKER_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+	<!-- FURSTABTEI -->
+	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
 				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="Tooltip">LOC_QUARTER_FURSTABTEI_NAME</Argument>
+		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN</Argument>
 		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS" permanent="true">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
+				<Argument name="UniqueQuarterType">QUARTER_FURSTABTEI</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="ConstructibleType">IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN</Argument>
+		<String context="Description">LOC_QUARTER_FURSTABTEI_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN -->
+	<Modifier id="MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
+		<Argument name="Adjacency_YieldChange">SwissConfederacyStiftsarchivScience</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_NAME</Argument>
+		<String context="Description">LOC_MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_DESCRIPTION</String>
 	</Modifier>
 
 </GameEffects>

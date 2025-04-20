@@ -5,10 +5,6 @@
 	<!-- ==================================================	-->
 
 	<!-- RUTLISCHWUR -->
-	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR_MOUNTAIN_WAREHOUSE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">SwissConfederacyMountainWarehouseFood</Argument>
-		<String context="Description">LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION</String>
-	</Modifier>
 
 	<!-- WARS_OF_KAPPLE -->
 	<Modifier id="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_UNIT_CREATED">

@@ -14,11 +14,16 @@
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 			<Argument name="ConstructibleClass">RELIGIOUS</Argument>
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 			<Argument name="Amount">2</Argument>
-			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION</String>
+			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION</String>
+		</Modifier>
+
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
+			<Argument name="ConstructibleAdjacency">SwissConfederacyLakeHappiness, SwissConfederacyLakeFood</Argument>
+			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- GOTTHARD_PASS -->
@@ -40,30 +45,21 @@
 				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
 			</SubjectRequirements>
 			<Argument name="ConstructibleClass">BUILDING</Argument>
-			<Argument name="Percent">50</Argument>
+			<Argument name="Percent">100</Argument>
 			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_NAME</Argument>
 		</Modifier>
 
 		<!-- PFAFFENBRIEF -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_ATTACH_MODIFIERS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_TOWN_FORT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_FORT_TOWN_MILITARY_BUILDING</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION</String>
-		</Modifier>
-
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_FORT_TOWN_MILITARY_BUILDING" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_TOWN_CAN_PURCHASE_TAGGED_CONSTRUCTIBLES">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
-				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
-					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
-				</Requirement>
-			</SubjectRequirements>
-			<Argument name="ConstructibleTag">MILITARY</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_EX_NAME</Argument>
+			<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+			<Argument name="Percent">50</Argument>
+			<Argument name="Tooltip">LOC_TRADITION_EIDGENOSSENSCHAFT_NAME</Argument>
+			<String context="Description">LOC_TRADITION_SEIDGENOSSENSCHAFT_DESCRIPTION</String>
 		</Modifier>
 
 </GameEffects>

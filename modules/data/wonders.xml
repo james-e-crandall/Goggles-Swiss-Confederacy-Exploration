@@ -28,7 +28,7 @@
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
 		<!-- Wonders -->
-		<Row ConstructibleType="WONDER_ZYTGLOGGE" ModifierId="MOD_WONDER_ZYTGLOGGE_SPECIALIST_MAITENANCE_REDUCE"/>
+		<Row ConstructibleType="WONDER_ZYTGLOGGE" ModifierId="MOD_WONDER_ZYTGLOGGE_URBAN_SCIENCE"/>
     </ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_ZYTGLOGGE" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>

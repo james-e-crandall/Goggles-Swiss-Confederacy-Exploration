@@ -61,17 +61,16 @@
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
-		<Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="5"/>
-		<Row DistrictType="DISTRICT_RURAL" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="5"/>
+		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_TROPICAL" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="5"/>
+		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_PLAINS" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="4"/>
+		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_GRASSLAND" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="3"/>
+		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_DESERT" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="2"/>
+		<Row DistrictType="DISTRICT_RURAL" BiomeType="BIOME_TUNDRA" ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" TerrainType="TERRAIN_MOUNTAIN" Priority="1"/>
 	</District_FreeConstructibles>
 	<Constructible_ValidBiomes>
-		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" BiomeType="BIOME_TUNDRA"/>
 	</Constructible_ValidBiomes>
 	<Constructible_InvalidAdjacentBiomes>
-		<!-- Wonders -->
-		<!-- Civ Unique Improvements -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" BiomeType="BIOME_TUNDRA"/>
+
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
 
@@ -92,7 +91,8 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		
 		<!-- Civ Unique Improvements -->
-
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 
@@ -109,32 +109,30 @@
 		
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="ResourceScience"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="WonderScience"/>
-		<!-- Antique Revived Buildings -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="SwissConfederacyTundraMountainFood"/>
+
+		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="SwissConfederacyStiftsarchivScience"/>
 
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyTundraMountainFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
-		
 		<!-- Wildcard Adjacency Yields Changes -->
 		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+
+		<Row ID="SwissConfederacyStiftsarchivScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="7" TilesRequired="1" ProjectMaxYield="true" Self="true" />
+
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
 		<!-- Warehouse Buildings -->
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldChangeId="MountainStiftsarchivWarehouseScience"/>
-		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/>
+		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldChangeId="MountainStiftsarchivWarehouseScience"/> -->
+		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/> -->
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
 		<!-- Warehouse Buildings -->
-		<Row ID="MountainStiftsarchivWarehouseScience"  YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
-		<Row ID="TundraMountainStiftsarchivWarehouseScience" YieldType="YIELD_SCIENCE" YieldChange="2" ConstructibleInCity="BUILDING_STIFTSARCHIV"/>
-		<!-- Civ Uniques -->
-		<Row ID="SwissConfederacyMountainWarehouseFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TerrainInCity="TERRAIN_MOUNTAIN"/>
+		<!-- <Row ID="MountainStiftsarchivWarehouseScience"  YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/> -->
+		<!-- <Row ID="TundraMountainStiftsarchivWarehouseScience" YieldType="YIELD_SCIENCE" YieldChange="7" ConstructibleInCity="BUILDING_STIFTSARCHIV"/> -->
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
@@ -158,21 +156,20 @@
 
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
-		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xml -->
-		<!-- Civ Uniques -->
-		<!-- Wonders -->
-
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" ModifierId="MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_FURSTABTEI" BuildingType1="BUILDING_KLOSTER" BuildingType2="BUILDING_STIFTSARCHIV" Name="LOC_QUARTER_FURSTABTEI_NAME" Description="LOC_QUARTER_FURSTABTEI_DESCRIPTION" Tooltip="LOC_QUARTER_FURSTABTEI_TOOLTIP" TraitType="TRAIT_SWISS_CONFEDERACY"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<Row ModifierId="FURSTABTEI_MOD_WORKER_SCIENCE"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		<Row ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_WORKER_SCIENCE"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
+		<Row UniqueQuarterType="QUARTER_FURSTABTEI" ModifierId="FURSTABTEI_MOD_SWISS_CONFEDERACY_MOUNTAIN"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->

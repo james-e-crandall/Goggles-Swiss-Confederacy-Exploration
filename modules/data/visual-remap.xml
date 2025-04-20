@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
     <VisualRemaps>
-    <!-- subei -->
+        <Row>
+            <ID>REMAP_KLOSTER</ID>
+            <DisplayName>LOC__BUILDING_KLOSTER_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_KLOSTER</From>
+            <To>BUILDING_TEMPLE</To>
+        </Row>
+        <Row>
+            <ID>REMAP_STIFTSARCHIV</ID>
+            <DisplayName>LOC_BUILDING_STIFTSARCHIV_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_STIFTSARCHIV</From>
+            <To>BUILDING_UNIVERSITY</To>
+        </Row>
+
+        <!-- subei -->
         <Row>
             <ID>REMAP_UNIT_PIKE_SQUARE</ID>
             <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
@@ -91,4 +106,3 @@
         
     </VisualRemaps>
 </Database>
-<!-- generated with https://github.com/izica/civ7-modding-tools -->

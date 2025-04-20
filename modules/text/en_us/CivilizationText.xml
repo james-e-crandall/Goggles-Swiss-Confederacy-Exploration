@@ -18,10 +18,10 @@
 			<Text>Tagsatzung</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
-			<Text>Lakes have a adjacency for [icon:YIELD_FOOD]Food and [icon:YIELD_HAPPINESS]Happiness.</Text>
+			<Text>Mountain tiles can be worked for [icon:YIELD_FOOD]Food and [icon:YIELD_CULTURE]Culture with a Fürstabtei (Abby).</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI]Lakes have a adjacency for [icon:YIELD_FOOD]Food and [icon:YIELD_HAPPINESS]Happiness.[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Zytglogge (Clock Tower)[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Mountain tiles can be worked for [icon:YIELD_FOOD]Food and [icon:YIELD_CULTURE]Culture with a Fürstabtei (Abby).[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Zytglogge (Clock Tower)[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Swiss Confederacy's associated Wonder.</Text>

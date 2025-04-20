@@ -5,9 +5,7 @@
 	<!--	Civ-Specific Traits							-->
 	<!-- ==================================================	-->
 	
-	<Modifier id="TRAIT_MOD_SWISS_CONFEDERACY_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
-		<Argument name="ConstructibleAdjacency">SwissConfederacyLakeHappiness, SwissConfederacyLakeFood</Argument>
-	</Modifier>
+
 
 	<!-- ==================================================	-->
 	<!--	Civ Trees							-->
