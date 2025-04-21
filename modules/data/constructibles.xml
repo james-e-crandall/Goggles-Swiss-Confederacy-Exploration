@@ -88,7 +88,7 @@
 
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<!-- <Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
 		
 		<!-- Civ Unique Improvements -->
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="3"/>
@@ -118,7 +118,7 @@
 		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 
-		<Row ID="SwissConfederacyStiftsarchivScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="7" TilesRequired="1" ProjectMaxYield="true" Self="true" />
+		<Row ID="SwissConfederacyStiftsarchivScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" Self="true" />
 
 	</Adjacency_YieldChanges>
 
@@ -144,16 +144,8 @@
 
 	</Constructible_Logistics>
 	<Constructible_Plunders>
-		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" PlunderType="PLUNDER_CULTURE" Amount="80"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" PlunderType="PLUNDER_GOLD" Amount="80"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" PlunderType="PLUNDER_SCIENCE" Amount="80"/>
-		
-		<!-- Civ Unique Improvements -->
-
-		<!-- City-State Improvements -->
-
-		<!-- Antique Revived Buildings -->
-
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" ModifierId="MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
@@ -173,7 +165,7 @@
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->
-		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="BUILDING_KLOSTER" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Constructible_Advisories>
 

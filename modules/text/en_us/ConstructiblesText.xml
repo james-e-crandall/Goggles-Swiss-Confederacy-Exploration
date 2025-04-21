@@ -23,7 +23,7 @@
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN_TOOLTIP">
-			<Text>+2[icon:YIELD_SCIENCE] Science per Tundra Mountain in a city.</Text>
+			<Text>+1[icon:YIELD_SCIENCE] Science per Tundra Mountain in a city.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_MOD_SWISS_CONFEDERACY_MOUNTAIN_WAREHOUSE_DESCRIPTION">
@@ -47,17 +47,17 @@
 			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_STIFTSARCHIV_TOOLTIP">
-			<Text>+1[icon:YIELD_SCIENCE] Science per Non-Tundra Mountain Tile in a city. +2[icon:YIELD_SCIENCE]Science per Tundra Mountain in a city.</Text>
+			<Text>+1[icon:YIELD_SCIENCE]Science adjacency per Tundra Mountain in a city.</Text>
 		</Row>
 
 		<Row Tag="LOC_QUARTER_FURSTABTEI_NAME">
 			<Text>Fürstabtei (Abby)</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_DESCRIPTION">
-			<Text>+1[icon:YIELD_SCIENCE] Science to all Specialists in this City.</Text>
+			<Text>+3[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_CULTURE] Culture to Mountains</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_FURSTABTEI_TOOLTIP">
-			<Text>+1[icon:YIELD_SCIENCE] Science to all Specialists in this City.</Text>
+			<Text>+3[icon:YIELD_CULTURE] Culture to Tundra Mountains, +1[icon:YIELD_CULTURE] Culture to Mountains</Text>
 		</Row>
 
 

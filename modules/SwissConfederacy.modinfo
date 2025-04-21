@@ -217,6 +217,7 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/victories.xml</Item>
 				</UpdateDatabase>
 				<ImportFiles>
 				</ImportFiles>
