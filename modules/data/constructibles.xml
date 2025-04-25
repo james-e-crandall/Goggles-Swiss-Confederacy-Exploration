@@ -47,7 +47,6 @@
 		<Row Type="BUILDING_STIFTSARCHIV" Tag="SCIENCE"/>
 		<Row Type="BUILDING_STIFTSARCHIV" Tag="UNIQUE"/>
 		<Row Type="BUILDING_STIFTSARCHIV" Tag="AGELESS"/>
-
 		<!-- Civ Unique Improvements -->
 	</TypeTags>
 	<Constructible_ValidDistricts>
@@ -70,69 +69,43 @@
 	<Constructible_ValidBiomes>
 	</Constructible_ValidBiomes>
 	<Constructible_InvalidAdjacentBiomes>
-
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
-
-		<!-- Civ Unique Improvements -->
-
-		<!-- Wonders -->
 	</Constructible_ValidTerrains>
 	<AgeConstructibleDefaultYields>
-
 	</AgeConstructibleDefaultYields>
 	<AgeConstructibleDefaultMaintenances>
-
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
-
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<!-- <Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
-		
 		<!-- Civ Unique Improvements -->
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="3"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldType="YIELD_GOLD" Amount="3"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldType="YIELD_GOLD" Amount="3"/>
-		
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_KLOSTER" YieldChangeId="WonderHappiness"/>
-		
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="ResourceScience"/>
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="WonderScience"/>
-
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="SwissConfederacyStiftsarchivScience"/>
-
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<!-- Wildcard Adjacency Yields Changes -->
 		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
 		<Row ID="SwissConfederacyLakeFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-
 		<Row ID="SwissConfederacyStiftsarchivScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" Self="true" />
-
 	</Adjacency_YieldChanges>
-
 	<Constructible_WarehouseYields>
-		<!-- Warehouse Buildings -->
-		<!-- Civ Uniques -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" YieldChangeId="MountainStiftsarchivWarehouseScience"/> -->
-		<!-- <Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" YieldChangeId="TundraMountainStiftsarchivWarehouseScience"/> -->
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
-		<!-- Warehouse Buildings -->
-		<!-- <Row ID="MountainStiftsarchivWarehouseScience"  YieldType="YIELD_SCIENCE" YieldChange="1" ConstructibleInCity="BUILDING_STIFTSARCHIV"/> -->
-		<!-- <Row ID="TundraMountainStiftsarchivWarehouseScience" YieldType="YIELD_SCIENCE" YieldChange="7" ConstructibleInCity="BUILDING_STIFTSARCHIV"/> -->
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
@@ -148,6 +121,7 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" PlunderType="PLUNDER_SCIENCE" Amount="80"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
+		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" ModifierId="MOD_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN"/>
 		<Row ConstructibleType="IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN" ModifierId="MOD_IMPROVEMENT_SWISS_CONFEDERACY_TUNDRA_MOUNTAIN"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>

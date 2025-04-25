@@ -3,13 +3,13 @@
 	<EnglishText>
 		<!--SWISS_CONFEDERACY-->
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY1">
-			<Text>Uri</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY2">
 			<Text>Schwyz</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY2">
+			<Text>Altdorf</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY3">
-			<Text>Unterwalden</Text>
+			<Text>Stans</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY4">
 			<Text>Lucerne</Text>
@@ -45,10 +45,10 @@
 			<Text>St. Gallen</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY15">
-			<Text>Neuchâtel </Text>
+			<Text>Neuchâtel</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY16">
-			<Text>Urseren </Text>
+			<Text>Urseren</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY17">
 			<Text>Weggis</Text>
