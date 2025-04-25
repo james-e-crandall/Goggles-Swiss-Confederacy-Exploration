@@ -157,6 +157,9 @@
             </Actions>
         </ActionGroup>
 		<ActionGroup id="age-antiquity-main-swiss-confederacy" scope="game" criteria="antiquity-age-current">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
 			<Actions>
 				<UpdateArt>
 
@@ -221,11 +224,15 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/victories.xml</Item>
 				</UpdateDatabase>
+				<UIScripts>
+					<Item>ui/tutorial/tutorial-quest-items-exploration.js</Item>
+				</UIScripts>
 				<ImportFiles>
 				</ImportFiles>
 				<UpdateIcons>
 				</UpdateIcons>
 				<UpdateText>
+					<Item>text/en_us/TutorialText.xml</Item>
 				</UpdateText>
                 <UpdateVisualRemaps>
                     <Item>data/visual-remap.xml</Item>
