@@ -114,7 +114,7 @@ TutorialManager.add({
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_1_tracking");
     },
     hiders: [".tut-action-button", ".tut-action-text"],
-});
+}, { version: 2 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_1_tracking",
@@ -233,7 +233,7 @@ TutorialManager.add({
         }
         return false;
     },
-});
+}, { version: 2 });
 const militaryVictoryContent2 = {
     title: "LOC_TUTORIAL_MILITARY_QUEST_2_TITLE",
     advisor: {
@@ -312,7 +312,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_2_tracking");
     }
-});
+}, { version: 2 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_2_tracking",
@@ -435,7 +435,7 @@ TutorialManager.add({
         }
         return bQuestComplete;
     },
-});
+}, { version: 2 });
 const militaryVictoryContent3 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_TITLE"),
     advisor: {
@@ -507,7 +507,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_3_tracking");
     }
-});
+}, { version: 2 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_3_tracking",
@@ -565,7 +565,7 @@ TutorialManager.add({
         }
         return false;
     },
-});
+}, { version: 2 });
 const militaryVictoryContent4 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_TITLE"),
     advisor: {
@@ -637,7 +637,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_4_tracking");
     }
-});
+}, { version: 2 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_4_tracking",
@@ -695,7 +695,7 @@ TutorialManager.add({
         }
         return false;
     },
-});
+}, { version: 2 });
 const militaryVictoryContent5 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_TITLE"),
     advisor: {
@@ -767,7 +767,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_5_tracking");
     }
-}, { version: 0, canDeliver: isNotLiveEventPlayer });
+}, { version: 2, canDeliver: isNotLiveEventPlayer });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_5_tracking",
@@ -825,7 +825,7 @@ TutorialManager.add({
         }
         return false;
     },
-}, { version: 0, canDeliver: isNotLiveEventPlayer });
+}, { version: 2, canDeliver: isNotLiveEventPlayer });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_line_completed",
@@ -873,6 +873,6 @@ TutorialManager.add({
         // Make sure the quest before this quest is completed
         return QuestTracker.isQuestVictoryCompleted("military_victory_quest_5_tracking");
     }
-});
+}, { version: 2 });
 
 
