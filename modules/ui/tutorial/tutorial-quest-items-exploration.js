@@ -72,7 +72,7 @@ const militaryVictoryContent1 = {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_BODY_MONGOLIA_PATH", commanderIcon, commanderName);
                 }
                 else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
-                    const fleetCommander = player.Units.getBuildUnit("UNIT_ARMY_COMMANDER");
+                    const fleetCommander = player.Units.getBuildUnit("UNIT_SWORDSMAN");
                     const commanderDef = GameInfo.Units.lookup(fleetCommander);
                     if (commanderDef) {
                         commanderIcon = "[icon:" + commanderDef.UnitType + "]";

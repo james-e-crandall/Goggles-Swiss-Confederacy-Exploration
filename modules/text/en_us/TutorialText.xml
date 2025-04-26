@@ -3,12 +3,12 @@
         <!-- INFO: Swiss Confederacy has an alternate scoring system for the Military Legacy Path. Most Military Quest strings will inject rather the GENERIC_PATH or the SWISS_CONFEDERACY_PATH version based on player's identity. I've labeled the first example-->
         <!-- EXAMPLE: this is the special questline for players who selected Mongolia. Note the _SWISS_CONFEDERACY_PATH suffix-->
         <Row Tag="LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-            <Text>SWISS_CONFEDERACY The world expands, yet dangers old and new lurk beyond our borders. Our homeland is paramount to our success, and we must protect it at all costs – through a show of strength. Which settlement shall we conquer first?</Text>
+            <Text>We want to be a single People of brethren, Never to part in danger nor distress. We want to be free, as our fathers were, And rather die than live in slavery. We want to trust in the one highest God And never be afraid of human power.</Text>
         </Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>{LOC_CIVILIZATION_MONGOLIA_NAME} offers you a unique way to establish a [icon:NOTIFICATION_DECLARE_WAR] Military Legacy in the Exploration Age. While other Civilization must traverse the [b]Deep Ocean[/b], you will receive points for [b]capturing Settlements in your Homeland[/b]. 
-				[n]Objective: Use the {1_CommanderIcon} {2_CommanderName}, the Mongolian Unique Commander, to [b]capture a Settlement[/b]. 
+			<Text>{LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME} offers you a unique way to establish a [icon:NOTIFICATION_DECLARE_WAR] Military Legacy in the Exploration Age. While other Civilization must traverse the [b]Deep Ocean[/b], you will receive points when [b]capturing Settlements while in an Alliance[/b]. 
+				[n]Objective: Use the {1_UnitIcon} {2_UnitName}, the Swiss Unique Unit, to [b]capture a Settlement[/b]. 
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b].</Text>
 		</Row>
 
@@ -21,7 +21,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>As {LOC_CIVILIZATION_MONGOLIA_NAME}, [b]any [/b]Settlement captured scores {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points. If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].
+			<Text>As {LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME}, [b]any [/b]Settlement captured [b] while in an Alliance [/b] scores {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points. If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].
 				[n][b]Distant Lands [/b]are any lands inaccessible in Antiquity, typically by [b]Deep Ocean[/b]. It can be especially dangerous to traverse the oceans.
 				[n]Next Objective: Capture [b]another Settlement[/b].</Text>
 		</Row>
@@ -35,12 +35,12 @@
 		</Row>
 
         <Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements while in an Alliance[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
 				[n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget}</Text>
+			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance {1_PointsCurrent}/{2_PointsTarget}</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
@@ -48,12 +48,12 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements while in an Alliance[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
 				[n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget}</Text>
+			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance {1_PointsCurrent}/{2_PointsTarget}</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
@@ -61,12 +61,12 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
+			<Text>Next Objective: [b]Earn {1_PointsTarget} {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points [/b]by capturing [b]Settlements while in an Alliance[/b], the first Milestone along the [b]{LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Legacy Path[/b].
 				[n]If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements {1_PointsCurrent}/{2_PointsTarget}</Text>
+			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance {1_PointsCurrent}/{2_PointsTarget}</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
