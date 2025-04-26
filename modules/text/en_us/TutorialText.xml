@@ -13,11 +13,11 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Capture any Settlement: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
+			<Text>Capture any Settlement while in an Alliance: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
 		</Row>
 
         <Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>The settlement has fallen to our forces. A bold battle, and well-fought! Our noyans are fearless and eagerly await your next command. Where will they bring their conquering blades next?</Text>
+			<Text>Each community shall help the other with every counsel and favour and at its own expense in the event of any assault on persons or goods within and without the valleys and to this end have sworn a solemn oath to uphold this agreement in confirmation and renewal of a more ancient accord.</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY_SWISS_CONFEDERACY_PATH">
@@ -27,11 +27,11 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Capture Settlements: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
+			<Text>Capture Settlements while in an Alliance: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Now we have seized two settlements, a clear demonstration of our strength and ferocity. The world will think twice about tangling with our people. All fear the {1_civAdj} army – and rightly so. We are coming for them.</Text>
+			<Text>War or discord amongst the Confederates shall be settled by an arbiter and if any party fails to accept the decision or fails to make good the damage, the Confederates are bound to defend the other party.</Text>
 		</Row>
 
         <Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_BODY_SWISS_CONFEDERACY_PATH">
@@ -44,7 +44,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Through the fires of war, our empire grows – and with it the safety and prosperity of the {1_civAdj} people. They are empowered by our show of strength, and strive to change the world beyond the battlefield. We must continue to safeguard these pursuits.</Text>
+			<Text>In view of the troubled circumstances of this time, the people and communities of {1_civAdj} promise to assist each other by every means possible against one and all who may inflict on them violence or injustice within their valleys and without.</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_BODY_SWISS_CONFEDERACY_PATH">
@@ -57,7 +57,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>The world bows before the fury of the great {1_civAdj} empire. Our armies are unstoppable! Yet reports suggest there are still lands that yearn to be settled – or conquered. We should not keep them waiting.</Text>
+			<Text>Any dispute amongst the Confederates shall be settled by the most prudent amongst us, the {1_civAdj} civilization , whose decision shall be defended by all.</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_BODY_SWISS_CONFEDERACY_PATH">
@@ -70,7 +70,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Our settlements spread across the earth, forged by soldiers and civilians alike. We have truly built an empire that has changed the course of history. All bow before the might of the {1_civAdj} civilization!</Text>
+			<Text>These rules for the common good of the {1_civAdj} civilization shall endure forever.</Text>
 		</Row>
 
     </EnglishText>
