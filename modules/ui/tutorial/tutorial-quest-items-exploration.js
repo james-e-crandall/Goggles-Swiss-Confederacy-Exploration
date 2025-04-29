@@ -25,10 +25,6 @@ const isNotLiveEventPlayer = (_item) => {
     return !isLiveEventPlayer;
 };
 // ------------------------------------------------------------------
-
-
-
-// ------------------------------------------------------------------
 // VICTORY QUEST LINE - MILITARY
 // ------------------------------------------------------------------
 const militaryVictoryContent1 = {
@@ -114,7 +110,7 @@ TutorialManager.add({
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_1_tracking");
     },
     hiders: [".tut-action-button", ".tut-action-text"],
-}, { version: 2 });
+}, { version: 20 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_1_tracking",
@@ -135,7 +131,9 @@ TutorialManager.add({
             //mongol path goal: take settlement.
             let settlementCaptured = 0;
             let settlementGoal = 1;
+            let allianceCount = 0;
             const player = Players.get(GameContext.localPlayerID);
+            const PlayersIDs = Players.getAlive();
             if (player) {
                 let playercivDef = GameInfo.Civilizations.lookup(player.civilizationType);
                 //mongol path
@@ -154,18 +152,8 @@ TutorialManager.add({
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_MONGOLIA_PATH", settlementCaptured, settlementGoal);
                 }
                 else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
-                    let playerCities = player.Cities?.getCities();
-                    if (player.Units && playerCities) {
-                        for (let i = 0; i < playerCities.length; ++i) {
-                            let city = playerCities[i];
-                            if (city != null) {
-                                if (city.originalOwner != player.id) {
-                                    settlementCaptured++;
-                                }
-                            }
-                        }
-                    }
-                    playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_SWISS_CONFEDERACY_PATH", settlementCaptured, settlementGoal);
+                    const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
+                    playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_SWISS_CONFEDERACY_PATH", score, settlementGoal); 
                 }
                 //generic path
                 else {
@@ -175,6 +163,7 @@ TutorialManager.add({
                     if (player.Techs?.isNodeUnlocked("NODE_TECH_EX_ASTRONOMY")) {
                         astronomyResearched = "[icon:QUEST_ITEM_COMPLETED]";
                     }
+                    astronomyResearched = "oh dang";
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_GENERIC_PATH", cartographyResearched, astronomyResearched);
                 }
             }
@@ -210,18 +199,8 @@ TutorialManager.add({
                 }
             }
             else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
-                let playerCities = player.Cities?.getCities();
-                if (playerCities) {
-                    for (let i = 0; i < playerCities.length; ++i) {
-                        let city = playerCities[i];
-                        if (city != null) {
-                            if (city.originalOwner != player.id) {
-                                settlementCaptured++;
-                            }
-                        }
-                    }
-                }
-                if (settlementCaptured > 0) {
+                const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
+                if (score > 0) {
                     return true;
                 }
             }
@@ -233,7 +212,7 @@ TutorialManager.add({
         }
         return false;
     },
-}, { version: 2 });
+}, { version: 20 });
 const militaryVictoryContent2 = {
     title: "LOC_TUTORIAL_MILITARY_QUEST_2_TITLE",
     advisor: {
@@ -312,7 +291,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_2_tracking");
     }
-}, { version: 2 });
+}, { version: 20 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_2_tracking",
@@ -342,18 +321,8 @@ TutorialManager.add({
                     }
                 }
                 else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
-                    let playerCities = player.Cities?.getCities();
-                    if (player.Units && playerCities) {
-                        for (let i = 0; i < playerCities.length; ++i) {
-                            let city = playerCities[i];
-                            if (city != null) {
-                                if (city.originalOwner != player.id) {
-                                    settlementCaptured++;
-                                }
-                            }
-                        }
-                        playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_SWISS_CONFEDERACY_PATH", settlementCaptured, settlementGoal);
-                    }
+                    const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
+                    playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_SWISS_CONFEDERACY_PATH", score, settlementGoal);
                 }
                 else {
                     let commanderIcon = "";
@@ -413,13 +382,8 @@ TutorialManager.add({
                 }
             }
             else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
-                let playerCities = player.Cities.getCities();
-                for (const city of playerCities) {
-                    if (city.originalOwner != player.id) {
-                        iCitiesCaptured++;
-                    }
-                }
-                if (iCitiesCaptured >= 2) {
+                const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
+                if (score >= 2) {
                     bQuestComplete = true;
                 }
             }
@@ -435,7 +399,7 @@ TutorialManager.add({
         }
         return bQuestComplete;
     },
-}, { version: 2 });
+}, { version: 20 });
 const militaryVictoryContent3 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_TITLE"),
     advisor: {
@@ -507,7 +471,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_3_tracking");
     }
-}, { version: 2 });
+}, { version: 20 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_3_tracking",
@@ -565,7 +529,7 @@ TutorialManager.add({
         }
         return false;
     },
-}, { version: 2 });
+}, { version: 20 });
 const militaryVictoryContent4 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_TITLE"),
     advisor: {
@@ -637,7 +601,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_4_tracking");
     }
-}, { version: 2 });
+}, { version: 20 });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_4_tracking",
@@ -695,7 +659,7 @@ TutorialManager.add({
         }
         return false;
     },
-}, { version: 2 });
+}, { version: 20 });
 const militaryVictoryContent5 = {
     title: Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_TITLE"),
     advisor: {
@@ -767,7 +731,7 @@ TutorialManager.add({
         }
         return QuestTracker.isQuestVictoryInProgress("military_victory_quest_5_tracking");
     }
-}, { version: 2, canDeliver: isNotLiveEventPlayer });
+}, { version: 20, canDeliver: isNotLiveEventPlayer });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_5_tracking",
@@ -825,7 +789,7 @@ TutorialManager.add({
         }
         return false;
     },
-}, { version: 2, canDeliver: isNotLiveEventPlayer });
+}, { version: 20, canDeliver: isNotLiveEventPlayer });
 // ------------------------------------------------------------------
 TutorialManager.add({
     ID: "military_victory_quest_line_completed",
@@ -873,6 +837,6 @@ TutorialManager.add({
         // Make sure the quest before this quest is completed
         return QuestTracker.isQuestVictoryCompleted("military_victory_quest_5_tracking");
     }
-}, { version: 2 });
+}, { version: 20 });
 
 

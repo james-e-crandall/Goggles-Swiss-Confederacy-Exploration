@@ -88,10 +88,12 @@
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME">
 			<Text>Zugewandte Orte</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION">
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_PURCHASE_RATE_DESCRIPTION">
 			<Text>+100% [icon:YIELD_GOLD]Gold towards purchasing Buildings in Fort Towns.</Text>
 		</Row>
-
+		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_GOLD_DESCRIPTION">
+			<Text>+20% [icon:YIELD_GOLD]Production in Fort Towns.</Text>
+		</Row>
 
 		<!-- PFAFFENBRIEF -->
 		<Row Tag="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME">
@@ -104,17 +106,13 @@
 			<Text>Priests’ Charter</Text>
 		</Row>
 
-		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_WORKER_CAP_DESCRIPTION">
-			<Text>+1 Specialist Limit in all Cities</Text>
-		</Row>
-
 		<!-- Tradition -->
 		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_NAME">
 			<Text>Eidgenossenschaft</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_DESCRIPTION">
-			<Text>+50% [icon:YIELD_PRODUCTION]Production in Fort Towns.</Text>
-		</Row>
 
+		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_WORKER_CAP_DESCRIPTION">
+			<Text>+1 Specialist Limit in all Cities</Text>
+		</Row>
 </EnglishText>
 </Database>

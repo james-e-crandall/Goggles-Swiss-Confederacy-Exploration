@@ -13,7 +13,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Capture any Settlement while in an Alliance: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
+			<Text>Capture any Settlement while in and Alliance(s) {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
 		</Row>
 
         <Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
@@ -27,7 +27,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Capture Settlements while in an Alliance: {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
+			<Text>Capture Settlements while in an Alliance. {1_SettlementCaptured}/{2_SettlementNeeded}</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
@@ -40,7 +40,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance {1_PointsCurrent}/{2_PointsTarget}</Text>
+			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance.</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">
@@ -53,7 +53,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance {1_PointsCurrent}/{2_PointsTarget}</Text>
+			<Text>Earn {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points by Capturing Settlements while in an Alliance.</Text>
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_SWISS_CONFEDERACY_PATH">

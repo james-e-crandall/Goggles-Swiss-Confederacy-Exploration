@@ -4,17 +4,17 @@
 		<!-- RUTLISCHWUR -->
 
 		<!-- DIPLOMACY_ACTION_FORM_ALLIANCE -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_ATTACH_MODIFIERS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
 				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
 			</Requirement>
 		</SubjectRequirements>
-			<Argument name="ModifierId">TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_HAPPINESS</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_DESCRIPTION</String>
+			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION</String>
 		</Modifier>
 
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
 			<Argument name="ConstructibleClass">RELIGIOUS</Argument>
 			<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 			<Argument name="Amount">2</Argument>
@@ -37,7 +37,7 @@
 				</Requirement>
 			</SubjectRequirements>
 			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_PURCHASE_RATE_DESCRIPTION</String>
 		</Modifier>
 
 		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
@@ -46,20 +46,22 @@
 			</SubjectRequirements>
 			<Argument name="ConstructibleClass">BUILDING</Argument>
 			<Argument name="Percent">100</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_NAME</Argument>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME</Argument>
 		</Modifier>
 
-		<!-- PFAFFENBRIEF -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_EIDGENOSSENSCHAFT_TOWN_FORT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
-			<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-			<Argument name="Percent">50</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_EIDGENOSSENSCHAFT_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SEIDGENOSSENSCHAFT_DESCRIPTION</String>
+			<Argument name="YieldType">YIELD_GOLD</Argument>
+			<Argument name="Percent">20</Argument>
+			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME</Argument>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_GOLD_DESCRIPTION</String>
 		</Modifier>
+
+		<!-- PFAFFENBRIEF -->
+
 
 </GameEffects>
