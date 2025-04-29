@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<Modifier id="ATTACH_MOD_WONDER_ZYTGLOGGE_URBAN_SCIENCE" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">URBAN</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_SCIENCE</Argument>
-		<Argument name="Amount">1</Argument>
+	<Modifier id="ATTACH_MOD_WONDER_ZYTGLOGGE_PLAYER_RELATIONSHIP" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+		<Argument name="UseAlliances">true</Argument>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Percent">200</Argument>
+		<Argument name="Tooltip">LOC_WONDER_ZYTGLOGGE_TOOLTIP</Argument>
 	</Modifier>
-	
+
 	<Modifier id="MOD_WONDER_ZYTGLOGGE_URBAN_SCIENCE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_ZYTGLOGGE</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_WONDER_ZYTGLOGGE_URBAN_SCIENCE</Argument>
+		<Argument name="ModifierId">ATTACH_MOD_WONDER_ZYTGLOGGE_PLAYER_RELATIONSHIP</Argument>
 		<String context="Description">LOC_WONDER_ZYTGLOGGE_DESCRIPTION</String>
 	</Modifier>
 
