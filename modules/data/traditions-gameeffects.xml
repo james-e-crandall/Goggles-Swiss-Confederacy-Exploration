@@ -5,11 +5,11 @@
 
 		<!-- DIPLOMACY_ACTION_FORM_ALLIANCE -->
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
-				<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
-			</Requirement>
-		</SubjectRequirements>
+			<SubjectRequirements>
+				<Requirement type="REQUIREMENT_CITY_HAS_TERRAIN">
+					<Argument name="TerrainType">TERRAIN_MOUNTAIN</Argument>
+				</Requirement>
+			</SubjectRequirements>
 			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_RELIGIOUS_HAPPINESS</Argument>
 			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_RELIGIOUS_DESCRIPTION</String>
 		</Modifier>
@@ -24,41 +24,24 @@
 		<Modifier id="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_EX_LAKE_ADJACENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ACTIVATE_CONSTRUCTIBLE_ADJACENCY">
 			<Argument name="ConstructibleAdjacency">SwissConfederacyLakeHappiness, SwissConfederacyLakeFood</Argument>
 			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION</String>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK_LAKE_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- GOTTHARD_PASS -->
 
 
 		<!-- ZUGEWANDTE_ORTE -->
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
-					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
-				</Requirement>
-			</SubjectRequirements>
-			<Argument name="ModifierId">ATTACH_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_TOWN_PURCHASE_RATE_DESCRIPTION</String>
-		</Modifier>
-
-		<Modifier id="ATTACH_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_TOWN_PURCHASE_RATE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
-			<SubjectRequirements>
-				<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
-			</SubjectRequirements>
-			<Argument name="ConstructibleClass">BUILDING</Argument>
-			<Argument name="Percent">100</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME</Argument>
-		</Modifier>
-
-		<Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+        <Modifier id="TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_EX_GOOLD_MILITARISTIC_ATTRIBUTE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_ATTRIBUTE">
 			<SubjectRequirements>
 				<Requirement type="REQUIREMENT_CITY_IS_PRODUCING_PROJECT">
 					<Argument name="ProjectType">PROJECT_TOWN_FORT</Argument>
 				</Requirement>
 			</SubjectRequirements>
 			<Argument name="YieldType">YIELD_GOLD</Argument>
-			<Argument name="Percent">20</Argument>
-			<Argument name="Tooltip">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_NAME</Argument>
-			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_GOLD_DESCRIPTION</String>
+			<Argument name="Amount">1</Argument>
+			<Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+			<String context="Summary">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
+			<String context="Description">LOC_TRADITION_SWISS_CONFEDERACY_ZUGEWANDTE_ORTE_DESCRIPTION</String>
 		</Modifier>
 
 		<!-- PFAFFENBRIEF -->

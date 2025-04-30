@@ -98,9 +98,9 @@
 		<Row ConstructibleType="BUILDING_STIFTSARCHIV" YieldChangeId="SwissConfederacyStiftsarchivScience"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="SwissConfederacyLakeHappiness" Age="AGE_EXPLORATION" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyLakeFood" Age="AGE_EXPLORATION" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
-		<Row ID="SwissConfederacyStiftsarchivScience" Age="AGE_EXPLORATION" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" Self="true" />
+		<Row ID="SwissConfederacyLakeHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyLakeFood" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentLake="true"/>
+		<Row ID="SwissConfederacyStiftsarchivScience" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" Self="true" />
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 	</Constructible_WarehouseYields>

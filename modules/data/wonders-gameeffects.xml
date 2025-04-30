@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 
-	<Modifier id="ATTACH_MOD_WONDER_ZYTGLOGGE_PLAYER_RELATIONSHIP" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
-		<Argument name="UseAlliances">true</Argument>
-		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
-		<Argument name="Percent">200</Argument>
-		<Argument name="Tooltip">LOC_WONDER_ZYTGLOGGE_TOOLTIP</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_WONDER_ZYTGLOGGE_URBAN_SCIENCE" collection="COLLECTION_ALL_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+	<Modifier id="MOD_WONDER_ZYTGLOGGE_PRODUCTION_PER_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_CONVERSION">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_WONDER_IS_ACTIVE">
 				<Argument name="ConstructibleType">WONDER_ZYTGLOGGE</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="ModifierId">ATTACH_MOD_WONDER_ZYTGLOGGE_PLAYER_RELATIONSHIP</Argument>
-		<String context="Description">LOC_WONDER_ZYTGLOGGE_DESCRIPTION</String>
+		<Argument name="FromYieldType">YIELD_SCIENCE</Argument>
+		<Argument name="ToYieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Percent">50</Argument>
 	</Modifier>
 
 </GameEffects>

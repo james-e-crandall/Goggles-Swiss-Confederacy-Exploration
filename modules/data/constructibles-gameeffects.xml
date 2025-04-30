@@ -46,7 +46,7 @@
 	<Modifier id="MOD_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_ADJACENCY_FLAT_AMOUNT">
 		<Argument name="Adjacency_YieldChange">SwissConfederacyStiftsarchivScience</Argument>
 		<Argument name="Amount">1</Argument>
-		<Argument name="Divisor">1</Argument>
+		<Argument name="Divisor">2</Argument>
 		<Argument name="Tooltip">LOC_MOD_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_NAME</Argument>
 		<String context="Description">LOC_MOD_IMPROVEMENT_SWISS_CONFEDERACY_MOUNTAIN_DESCRIPTION</String>
 	</Modifier>

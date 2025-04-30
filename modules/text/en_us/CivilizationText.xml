@@ -15,13 +15,13 @@
 		</Row>
 		<!--Swiss Confederacy Ability-->
 		<Row Tag="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_NAME">
-			<Text>Tagsatzung</Text>
+			<Text>Eidgenossenschaft</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION">
-			<Text>Mountain tiles can be worked for [icon:YIELD_FOOD]Food and [icon:YIELD_CULTURE]Culture with a Fürstabtei (Abby).</Text>
+			<Text>Mountain tiles can be worked for [icon:YIELD_FOOD]Food, and Fürstabtei (Abby) grants them addtional [icon:YIELD_CULTURE]Culture.s</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_SWISS_CONFEDERACY_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI]Mountain tiles can be worked for [icon:YIELD_FOOD]Food and [icon:YIELD_CULTURE]Culture with a Fürstabtei (Abby).[LI]Gain [B]1 Point [/B]toward the [B]Non Sufficit Orbis Legacy Path [/B] when Allied to at least 1 civilization for all [B]conquered Settlements[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Zytglogge (Clock Tower)[/B].[/LIST]</Text>
+			<Text>[LIST][LI]Mountain tiles can be worked for [icon:YIELD_FOOD]Food, and Fürstabtei (Abby) grants them addtional [icon:YIELD_CULTURE]Culture.[LI]Gain [B]1 Point [/B]toward the [B]Non Sufficit Orbis Legacy Path [/B] when Allied to at least 1 civilization for all [B]conquered Settlements[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Zytglogge (Clock Tower)[/B].[/LIST]</Text>
 		</Row>
 		<Row Tag="LOC_MOD_CIV_WONDER_PRODUCTION_SWISS_CONFEDERACY_DESCRIPTION">
 			<Text>+30% [icon:YIELD_PRODUCTION] Production from being the Swiss Confederacy's associated Wonder.</Text>
