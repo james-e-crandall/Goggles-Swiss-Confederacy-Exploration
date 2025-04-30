@@ -35,8 +35,11 @@
 		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPEL_QUOTE_AUTHOR">
 			<Text>Ulrich Zwingli</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_UNIT_SCIENCE_DESCRIPTION">
-			<Text>Producing an Infantry Unit grants [icon:YIELD_SCIENCE]Science equal to a 10% of the Unit's Production cost.</Text>
+		<Row Tag="LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH_DESCRIPTION">
+			<Text>Units gain +3 Combat Strength in Unfriendly Settlements that follow this Religion.</Text>
+		</Row>
+		<Row Tag="LOC_WARS_OF_KAPPLE_COMBAT_PREVIEW">
+			<Text>+{1_Amount} Wars of Kappel</Text>
 		</Row>
 
 		<!-- Tradition -->

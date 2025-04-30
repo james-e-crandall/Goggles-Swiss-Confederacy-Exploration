@@ -14,10 +14,12 @@
 			</Requirement>
 		</SubjectRequirements>
 		<Argument name="ModifierId">ATTACH_NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH</Argument>
+		<String context="Description">LOC_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH_DESCRIPTION</String>
 	</Modifier>
+
 	<Modifier id="ATTACH_NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_MOD_RELIGIOUS_STRENGTH" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">3</Argument>
-		<String context="Preview">LOC_WARS_OF_KAPPLE_PREVIEW</String>
+		<String context="Preview">LOC_WARS_OF_KAPPLE_COMBAT_PREVIEW</String>
 	</Modifier>
 
 	<!-- GOTTHARD_PASS -->
