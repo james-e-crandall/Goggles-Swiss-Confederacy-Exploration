@@ -44,28 +44,28 @@
             <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</From>
-            <To>UNIT_CONQUISTADOR_FERDINAND_MAGELLAN</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
             <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</From>
-            <To>UNIT_CONQUISTADOR_FRANCISCO_PIZARRO</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</ID>
             <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</From>
-            <To>UNIT_CONQUISTADOR_JUAN_PONCE_DE_LEON</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_AMTSBURGERMEISTER_MARX_ROIST</ID>
             <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_AMTSBURGERMEISTER_MARX_ROIST</From>
-            <To>UNIT_CONQUISTADOR_CHRISTOPHER_COLUMBUS</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
@@ -79,7 +79,7 @@
             <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</From>
-            <To>UNIT_CONQUISTADOR_HERNAN_CORTES</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
   
           <Row>
@@ -87,7 +87,7 @@
             <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</From>
-            <To>UNIT_CONQUISTADOR_HERNANDO_DE_SOTO</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
             <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</ID>
@@ -101,7 +101,7 @@
             <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_PARACELSUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
             <From>UNIT_LEHRBEAUFTRAGTER_PARACELSUS</From>
-            <To>UNIT_CONQUISTADOR_ALVAR_NUNEZ_CABEZA_DE_VACA</To>
+            <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         
     </VisualRemaps>

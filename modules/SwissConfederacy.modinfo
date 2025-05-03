@@ -48,6 +48,9 @@
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 
 	<ActionGroups>
@@ -113,6 +116,13 @@
 					<Item>ynamp/data/greatest-earth.xml</Item>
                 </UpdateDatabase>
             </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
 		</ActionGroup>
 		<!-- goggles_civ_swiss_confederacy -->
         <ActionGroup id="base-game-main-swiss-confederacy" scope="game" criteria="always">
@@ -222,6 +232,7 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
 					<Item>data/victories.xml</Item>
 				</UpdateDatabase>
 				<UIScripts>
