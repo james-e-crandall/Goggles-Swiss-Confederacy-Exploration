@@ -155,8 +155,8 @@
 					<Item>icons/unitflag_lehbeauftragter.png</Item>
 					<Item>icons/lsbg_swiss_confederacy_720</Item>
 					<Item>icons/lsbg_swiss_confederacy_1080</Item>
-					<Item>icons/bg-pannel-swiss-confederacy.png</Item>
-					
+					<Item>icons/bg-panel-swiss_confederacy.png</Item>
+					<Item>icons/bg-card-swiss_confederacy.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
@@ -273,7 +273,8 @@
 					<Item>icons/unitflag_amtsburgermeister.png</Item>
 					<Item>icons/lsbg_swiss_confederacy_720</Item>
 					<Item>icons/lsbg_swiss_confederacy_1080</Item>
-					<Item>icons/bg-pannel-swiss-confederacy.png</Item>
+					<Item>icons/bg-panel-swiss_confederacy.png</Item>
+					<Item>icons/bg-card-swiss_confederacy.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>

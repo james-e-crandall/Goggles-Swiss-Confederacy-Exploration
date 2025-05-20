@@ -54,9 +54,9 @@
 
 	<CivilizationUnlocks>
 		<!-- AntiquityAgeCivilizations -->
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" Icon="ICON_CIVILIZATION_SWISS_CONFEDERACY"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GERMANIA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_SWISS_CONFEDERACY" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME" Description="LOC_CIVILIZATION_SWISS_CONFEDERACY_DESCRIPTION" Icon="CIVILIZATION_SWISS_CONFEDERACY"/>
 		<!-- ExplorationAgeCivilizations -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="ICON_CIVILIZATION_PRUSSIA"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_PRUSSIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_PRUSSIA_NAME" Description="LOC_CIVILIZATION_PRUSSIA_DESCRIPTION" Icon="CIVILIZATION_PRUSSIA"/>
 	</CivilizationUnlocks>
 
 	<LeaderUnlocks>

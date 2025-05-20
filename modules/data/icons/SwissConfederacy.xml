@@ -2,7 +2,7 @@
 <Database>
     <IconDefinitions>
         <Row>
-            <ID>ICON_SWISS_CONFEDERACY</ID>
+            <ID>ICON_CIVILIZATION_SWISS_CONFEDERACY</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy</Path>
             <Context>DEFAULT</Context>
         </Row>
@@ -26,6 +26,14 @@
         <Row>
             <ID>civ_line_swiss_confederacy</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy.png</Path>
+        </Row>
+        <Row>
+            <ID>bg-panel-swiss_confederacy</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-panel-swiss_confederacy</Path>
+        </Row>
+        <Row>
+            <ID>bg-card-swiss_confederacy</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-card-swiss_confederacy</Path>
         </Row>
         <!-- Culture Tree -->
         <Row>
@@ -94,8 +102,6 @@
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
-
         <Row>
             <ID>UNIT_LEHRBEAUFTRAGTER</ID>
             <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
