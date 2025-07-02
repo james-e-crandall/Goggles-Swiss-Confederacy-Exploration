@@ -13,16 +13,16 @@
 		<!-- Unlock -->
 
 		<!-- Victories -->
-		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" Inverse="true"/>
+		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT" Inverse="true"/>
 	</Requirements>
 	<RequirementArguments>
 		<!-- SWISS_CONFEDERACY -->
 		<!-- Victories -->
-		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY" Name="TraitType" Value="TRAIT_SWISS_CONFEDERACY"/>
+		<Row RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC" Name="TraitType" Value="TRAIT_SWISS_CONFEDERACY_JEC"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<!-- Victories -->
-		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_NOT_MONGOLIA" RequirementId="REQ_PLAYER_DOES_NOT_HAVE_TRAIT_SWISS_CONFEDERACY_JEC"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
     </UnlockRequirements>

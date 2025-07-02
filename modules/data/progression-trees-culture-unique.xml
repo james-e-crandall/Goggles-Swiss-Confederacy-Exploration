@@ -2,7 +2,7 @@
 <Database>
 	<Types>
 		<!-- Civ Unique Trees -->
-		<Row Type="TREE_CIVICS_EX_SWISS_CONFEDERACY" Kind="KIND_TREE"/>
+		<Row Type="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Kind="KIND_TREE"/>
 		<!-- Civ Unique Tree Nodes -->
 		<!-- Swiss Confederacy -->
 		<Row Type="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" Kind="KIND_TREE_NODE"/>
@@ -23,28 +23,28 @@
 	<ProgressionTrees>
 		<!-- Civ Unique Trees -->
 		<!-- Swiss Confederacy -->
-		<Row ProgressionTreeType="TREE_CIVICS_EX_SWISS_CONFEDERACY" AgeType="AGE_EXPLORATION" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_SWISS_CONFEDERACY_NAME"/>
+		<Row ProgressionTreeType="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" AgeType="AGE_EXPLORATION" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
 		<!-- Swiss Confederacy -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY" Cost="800" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_RUTLISCHWUR_NAME" IconString="cult_swiss_confederacy" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="800" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_RUTLISCHWUR_NAME" IconString="cult_swiss_confederacy_jec" />
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY" Cost="800" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_TAGSATZUNG_NAME" IconString="cult_swiss_confederacy" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="800" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_TAGSATZUNG_NAME" IconString="cult_swiss_confederacy_jec" />
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY" Cost="1200" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_NAME" IconString="cult_swiss_confederacy" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="1200" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE_NAME" IconString="cult_swiss_confederacy_jec" />
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY" Cost="1200" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME" IconString="cult_swiss_confederacy" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_GOTTHARD_PASS" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="1200" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_GOTTHARD_PASS_NAME" IconString="cult_swiss_confederacy_jec" />
 		
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY" Cost="2000" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME" IconString="cult_swiss_confederacy" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_PFAFFENBRIEF" ProgressionTree="TREE_CIVICS_EX_SWISS_CONFEDERACY_JEC" Cost="2000" Name="LOC_CIVICS_EX_SWISS_CONFEDERACY_PFAFFENBRIEF_NAME" IconString="cult_swiss_confederacy_jec" />
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Swiss Confederacy -->
 		<!-- RUTLISCHWUR -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_KLOSTER" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_STIFTSARCHIV" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_KLOSTER_JEC" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_RUTLISCHWUR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_STIFTSARCHIV_JEC" UnlockDepth="2"/>
 		<!-- TAGSATZUNG -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" TargetKind="KIND_UNIT" TargetType="UNIT_AMTSBURGERMEISTER" UnlockDepth="1" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" TargetKind="KIND_UNIT" TargetType="UNIT_LEHRBEAUFTRAGTER" UnlockDepth="1" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" TargetKind="KIND_UNIT" TargetType="UNIT_AMTSBURGERMEISTER_JEC" UnlockDepth="1" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" TargetKind="KIND_UNIT" TargetType="UNIT_LEHRBEAUFTRAGTER_JEC" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_TAGSATZUNG" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_ZYTGLOGGE" UnlockDepth="2"/>
 		<!-- WARS_OF_KAPPLE -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_SWISS_CONFEDERACY_WARS_OF_KAPPLE" TargetKind="KIND_TRADITION" TargetType="TRADITION_SWISS_CONFEDERACY_GROSS_GLOCK" UnlockDepth="1"/>

@@ -7,7 +7,7 @@
         </Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_1_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>{LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME} offers you a unique way to establish a [icon:NOTIFICATION_DECLARE_WAR] Military Legacy in the Exploration Age. While other Civilization must traverse the [b]Deep Ocean[/b], you will receive points when [b]capturing Settlements while in an Alliance[/b]. 
+			<Text>{LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME} offers you a unique way to establish a [icon:NOTIFICATION_DECLARE_WAR] Military Legacy in the Exploration Age. While other Civilization must traverse the [b]Deep Ocean[/b], you will receive points when [b]capturing Settlements while in an Alliance[/b]. 
 				[n]Objective: Use the {1_UnitIcon} {2_UnitName}, the Swiss Unique Unit, to [b]capture a Settlement[/b]. 
 				[n][n]Remember: [icon:NOTIFICATION_TEAM_VICTORIOUS] [b]Legacies [/b]improve your performance in later Ages, but [b]you can choose to pursue one, multiple, or none at all[/b].</Text>
 		</Row>
@@ -21,7 +21,7 @@
 		</Row>
 
 		<Row Tag="LOC_TUTORIAL_MILITARY_QUEST_2_BODY_SWISS_CONFEDERACY_PATH">
-			<Text>As {LOC_CIVILIZATION_SWISS_CONFEDERACY_NAME}, [b]any [/b]Settlement captured [b] while in an Alliance [/b] scores {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points. If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].
+			<Text>As {LOC_CIVILIZATION_SWISS_CONFEDERACY_JEC_NAME}, [b]any [/b]Settlement captured [b] while in an Alliance [/b] scores {LOC_LEGACY_PATH_EXPLORATION_MILITARY_NAME} Points. If your Homeland is lacking in Settlements, you can follow your [icon:YIELD_GOLD] [b]Economic Advisor's [/b]advice to reach [b]Distant Lands[/b].
 				[n][b]Distant Lands [/b]are any lands inaccessible in Antiquity, typically by [b]Deep Ocean[/b]. It can be especially dangerous to traverse the oceans.
 				[n]Next Objective: Capture [b]another Settlement[/b].</Text>
 		</Row>

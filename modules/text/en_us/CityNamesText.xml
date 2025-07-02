@@ -2,70 +2,70 @@
 <Database>
 	<EnglishText>
 		<!--SWISS_CONFEDERACY-->
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY1">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC1">
 			<Text>Schwyz</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY2">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC2">
 			<Text>Altdorf</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY3">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC3">
 			<Text>Stans</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY4">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC4">
 			<Text>Lucerne</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY5">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC5">
 			<Text>Zürich</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY6">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC6">
 			<Text>Glarus</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY7">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC7">
 			<Text>Zug</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY8">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC8">
 			<Text>Bern</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY9">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC9">
 			<Text>Fribourg</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY10">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC10">
 			<Text>Solothurn</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY11">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC11">
 			<Text>Basel</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY12">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC12">
 			<Text>Schaffhausen</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY13">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC13">
 			<Text>Appenzell</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY14">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC14">
 			<Text>St. Gallen</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY15">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC15">
 			<Text>Neuchâtel</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY16">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC16">
 			<Text>Urseren</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY17">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC17">
 			<Text>Weggis</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY18">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC18">
 			<Text>Payerne</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY19">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC19">
 			<Text>Sargans</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY20">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC20">
 			<Text>Gruyère</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY21">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC21">
 			<Text>Rottweil </Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY22">
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC22">
 			<Text>Lugano</Text>
 		</Row>
 	</EnglishText>

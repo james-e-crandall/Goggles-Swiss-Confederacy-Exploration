@@ -30,23 +30,23 @@
 			<Text>Mountain tiles can be worked</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_KLOSTER_NAME">
+		<Row Tag="LOC_BUILDING_KLOSTER_JEC_NAME">
 			<Text>Kloster</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_KLOSTER_DESCRIPTION">
-			<Text>Kloster (Monestary) {LOC_BUILDING_KLOSTER_TOOLTIP}</Text>
+		<Row Tag="LOC_BUILDING_KLOSTER_JEC_DESCRIPTION">
+			<Text>Kloster (Monestary) {LOC_BUILDING_KLOSTER_JEC_TOOLTIP}</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_KLOSTER_TOOLTIP">
+		<Row Tag="LOC_BUILDING_KLOSTER_JEC_TOOLTIP">
 			<Text>+3[icon:YIELD_HAPPINESS] Happiness. Has 1 Relic slot.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_STIFTSARCHIV_NAME">
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_NAME">
 			<Text>Stiftsarchiv</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_STIFTSARCHIV_DESCRIPTION">
-			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_TOOLTIP}</Text>
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_DESCRIPTION">
+			<Text>Stiftsarchiv (Abbey Archives) {LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP}</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_STIFTSARCHIV_TOOLTIP">
+		<Row Tag="LOC_BUILDING_STIFTSARCHIV_JEC_TOOLTIP">
 			<Text>Increased [icon:YIELD_SCIENCE]Science adjacency per Mountain in a city.</Text>
 		</Row>
 

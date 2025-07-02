@@ -74,7 +74,7 @@
 	</Modifier>
 
 	<Modifier id="AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS" run-once="true" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_KLOSTER</Argument>
+		<Argument name="ConstructibleType">BUILDING_KLOSTER_JEC</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_AMTSBURGERMEISTER_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION</String>
 	</Modifier>

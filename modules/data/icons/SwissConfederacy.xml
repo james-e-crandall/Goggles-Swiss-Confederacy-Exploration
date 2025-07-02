@@ -2,124 +2,124 @@
 <Database>
     <IconDefinitions>
         <Row>
-            <ID>ICON_CIVILIZATION_SWISS_CONFEDERACY</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy</Path>
+            <ID>ICON_CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy</Path>
+            <ID>CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_sym_swiss_confederacy_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
+			<ID>CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_1080</Path>
+			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_SWISS_CONFEDERACY</ID>
+			<ID>CIVILIZATION_SWISS_CONFEDERACY_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_720</Path>
+			<Path>fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <Row>
-            <ID>civ_line_swiss_confederacy</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy.png</Path>
+            <ID>civ_line_swiss_confederacy_jec</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy_jec.png</Path>
         </Row>
         <Row>
-            <ID>bg-panel-swiss_confederacy</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-panel-swiss_confederacy</Path>
+            <ID>bg-panel-swiss_confederacy_jec</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-panel-swiss_confederacy_jec</Path>
         </Row>
         <Row>
-            <ID>bg-card-swiss_confederacy</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-card-swiss_confederacy</Path>
+            <ID>bg-card-swiss_confederacy_jec</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/bg-card-swiss_confederacy_jec</Path>
         </Row>
         <!-- Culture Tree -->
         <Row>
-            <ID>cult_swiss_confederacy</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/cult_swiss_confederacy.png</Path>
+            <ID>cult_swiss_confederacy_jec</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/cult_swiss_confederacy_jec.png</Path>
         </Row>
         <!-- constructables -->
         <Row>
-            <ID>BUILDING_KLOSTER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster.png</Path>
+            <ID>BUILDING_KLOSTER_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_kloster_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>BUILDING_STIFTSARCHIV</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv.png</Path>
+            <ID>BUILDING_STIFTSARCHIV_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/buildicon_stiftsarchiv_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 
         <Row>
-            <ID>UNIT_PIKE_SQUARE</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square.png</Path>
+            <ID>UNIT_PIKE_SQUARE_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_PIKE_SQUARE_2</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_2.png</Path>
+            <ID>UNIT_PIKE_SQUARE_JEC_2</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_jec_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>        
         <Row>
-            <ID>UNIT_PIKE_SQUARE_3</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_3.png</Path>
+            <ID>UNIT_PIKE_SQUARE_JEC_3</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_pike_square_jec_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>  
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_JOHANN_CONRAD_FISCHER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_JOACHIM_VADIAN</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_WILHELM_HERTER_VON_HERTNECK</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_MARX_ROIST</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_MARX_ROIST</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_ELISABTH_OF_WETZIKON</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister.png</Path>
+            <ID>UNIT_AMTSBURGERMEISTER_JEC_HULDRYCH_ZEINGLI</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_amtsburgermeister_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_LEHRBEAUFTRAGTER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <ID>UNIT_LEHRBEAUFTRAGTER_JEC</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
                 <Row>
-            <ID>UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <ID>UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <ID>UNIT_LEHRBEAUFTRAGTER_JEC_LEONHARD_EULER</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_LEHRBEAUFTRAGTER_PARACELSUS</ID>
-            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter.png</Path>
+            <ID>UNIT_LEHRBEAUFTRAGTER_JEC_PARACELSUS</ID>
+            <Path>fs://game/goggles_civ_swiss_confederacy/icons/unitflag_lehbeauftragter_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
     </IconDefinitions>

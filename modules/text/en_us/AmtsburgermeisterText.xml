@@ -2,10 +2,10 @@
 <Database>
 	<EnglishText>
 		<!--Amtsbürgermeister-->
-		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_NAME">
+		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_JEC_NAME">
 			<Text>Amtsbürgermeister</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_DESCRIPTION">
+		<Row Tag="LOC_UNIT_AMTSBURGERMEISTER_JEC_DESCRIPTION">
 			<Text>A Great Person with one charge. Can only be trained in a Capitol, and the specific Amtsbürgermeister received is random. Each Amtsbürgermeister can only be received once. Cost increases per Amtsbürgermeister trained.</Text>
 		</Row>
 		<!-- Great Person -->

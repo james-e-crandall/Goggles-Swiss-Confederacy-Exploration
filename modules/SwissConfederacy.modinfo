@@ -146,17 +146,17 @@
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-                    <Item>icons/civ_sym_swiss_confederacy</Item>
-					<Item>icons/cult_swiss_confederacy.png</Item>
-					<Item>icons/unitflag_pike_square.png</Item>
-					<Item>icons/unitflag_pike_square_2.png</Item>
-					<Item>icons/unitflag_pike_square_3.png</Item>
-					<Item>icons/unitflag_amtsburgermeister.png</Item>
-					<Item>icons/unitflag_lehbeauftragter.png</Item>
-					<Item>icons/lsbg_swiss_confederacy_720</Item>
-					<Item>icons/lsbg_swiss_confederacy_1080</Item>
-					<Item>icons/bg-panel-swiss_confederacy.png</Item>
-					<Item>icons/bg-card-swiss_confederacy.png</Item>
+                    <Item>icons/civ_sym_swiss_confederacy_jec</Item>
+					<Item>icons/cult_swiss_confederacy_jec.png</Item>
+					<Item>icons/unitflag_pike_square_jec.png</Item>
+					<Item>icons/unitflag_pike_square_jec_2.png</Item>
+					<Item>icons/unitflag_pike_square_jec_3.png</Item>
+					<Item>icons/unitflag_amtsburgermeister_jec.png</Item>
+					<Item>icons/unitflag_lehbeauftragter_jec.png</Item>
+					<Item>icons/lsbg_swiss_confederacy_jec_720</Item>
+					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
+					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
+					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
@@ -264,17 +264,17 @@
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-                    <Item>icons/civ_sym_swiss_confederacy</Item>
-					<Item>icons/cult_swiss_confederacy.png</Item>
-					<Item>icons/unitflag_pike_square.png</Item>
-					<Item>icons/unitflag_pike_square_2.png</Item>
-					<Item>icons/unitflag_pike_square_3.png</Item>
-					<Item>icons/unitflag_lehbeauftragter.png</Item>
-					<Item>icons/unitflag_amtsburgermeister.png</Item>
-					<Item>icons/lsbg_swiss_confederacy_720</Item>
-					<Item>icons/lsbg_swiss_confederacy_1080</Item>
-					<Item>icons/bg-panel-swiss_confederacy.png</Item>
-					<Item>icons/bg-card-swiss_confederacy.png</Item>
+                    <Item>icons/civ_sym_swiss_confederacy_jec</Item>
+					<Item>icons/cult_swiss_confederacy_jec.png</Item>
+					<Item>icons/unitflag_pike_square_jec.png</Item>
+					<Item>icons/unitflag_pike_square_jec_2.png</Item>
+					<Item>icons/unitflag_pike_square_jec_3.png</Item>
+					<Item>icons/unitflag_amtsburgermeister_jec.png</Item>
+					<Item>icons/unitflag_lehbeauftragter_jec.png</Item>
+					<Item>icons/lsbg_swiss_confederacy_jec_720</Item>
+					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
+					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
+					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>

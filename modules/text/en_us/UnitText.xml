@@ -4,19 +4,19 @@
 		<!-- Unit Abilities -->
 
 		<!-- Greece Unique Units -->
-		<Row Tag="LOC_UNIT_PIKE_SQUARE_NAME">
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_JEC_NAME">
 			<Text>Pike Square</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PIKE_SQUARE_BASE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_JEC_BASE_DESCRIPTION">
 			<Text>Swiss Confederacy Unique Infantry Unit. Increased Combat Strength against Cavalry.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PIKE_SQUARE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_JEC_DESCRIPTION">
 			<Text>Swiss Confederacy Unique Infantry Unit. Increased Combat Strength against Cavalry.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PIKE_SQUARE_2_DESCRIPTION">
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_JEC_2_DESCRIPTION">
 			<Text>Tier 2 Swiss Confederacy Unique Infantry Unit. Increased Combat Strength against Cavalry.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PIKE_SQUARE_3_DESCRIPTION">
+		<Row Tag="LOC_UNIT_PIKE_SQUARE_JEC_3_DESCRIPTION">
 			<Text>Tier 3 Swiss Confederacy Unique Infantry Unit. Increased Combat Strength against Cavalry.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_PIKE_SQUARE_PREVIEW">

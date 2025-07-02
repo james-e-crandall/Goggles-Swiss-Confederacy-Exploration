@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-    <Requirement id="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
-        <Argument name="CivilizationType">CIVILIZATION_SWISS_CONFEDERACY</Argument>
+    <Requirement id="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+        <Argument name="CivilizationType">CIVILIZATION_SWISS_CONFEDERACY_JEC</Argument>
     </Requirement>
 
     <!-- LEONHARD_EULER -->
     <RequirementSet id="REQSET_STORY_LEONHARD_EULER_START_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
-            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</Argument>
+            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_JEC_LEONHARD_EULER</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_LEONHARD_EULER_START_NARRATIVE_REQUISITE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_LEONHARD_EULER_END_NARRATIVE">
@@ -25,7 +25,7 @@
     </RequirementSet>
 
 	<Modifier id="STORY_LEONHARD_EULER_END_NARRATIVE_MODIFIER_1" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
-		<Argument name="ConstructibleType">BUILDING_STIFTSARCHIV</Argument>
+		<Argument name="ConstructibleType">BUILDING_STIFTSARCHIV_JEC</Argument>
 		<Argument name="YieldType">YIELD_SCIENCE</Argument>
 		<Argument name="Amount">2</Argument>
 		<String context="Summary">LOC_LEONHARD_EULER_DESCRIPTION</String>
@@ -40,15 +40,15 @@
 
     <!-- DANIEL_BERNOULLI -->
     <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_START_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
-            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</Argument>
+            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_START_NARRATIVE_REQUISITE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_DANIEL_BERNOULLI_END_NARRATIVE">
@@ -67,15 +67,15 @@
 
     <!-- PARACELSUS -->
     <RequirementSet id="REQSET_STORY_PARACELSUS_START_NARRATIVE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_UNIT_TYPE">
-            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_PARACELSUS</Argument>
+            <Argument name="UnitType">UNIT_LEHRBEAUFTRAGTER_JEC_PARACELSUS</Argument>
             <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_PARACELSUS_START_NARRATIVE_REQUISITE">
-        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY"/>
+        <Requirement xref="REQ_STORY_CIVILIZATION_SWISS_CONFEDERACY_JEC"/>
     </RequirementSet>
 
     <RequirementSet id="REQSET_STORY_PARACELSUS_END_NARRATIVE">

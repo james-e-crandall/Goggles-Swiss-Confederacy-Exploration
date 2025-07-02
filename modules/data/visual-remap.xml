@@ -3,104 +3,104 @@
     <VisualRemaps>
         <Row>
             <ID>REMAP_KLOSTER</ID>
-            <DisplayName>LOC__BUILDING_KLOSTER_NAME</DisplayName>
+            <DisplayName>LOC__BUILDING_KLOSTER_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_KLOSTER</From>
+            <From>BUILDING_KLOSTER_JEC</From>
             <To>BUILDING_TEMPLE</To>
         </Row>
         <Row>
             <ID>REMAP_STIFTSARCHIV</ID>
-            <DisplayName>LOC_BUILDING_STIFTSARCHIV_NAME</DisplayName>
+            <DisplayName>LOC_BUILDING_STIFTSARCHIV_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_STIFTSARCHIV</From>
+            <From>BUILDING_STIFTSARCHIV_JEC</From>
             <To>BUILDING_UNIVERSITY</To>
         </Row>
 
         <!-- subei -->
         <Row>
-            <ID>REMAP_UNIT_PIKE_SQUARE</ID>
-            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <ID>REMAP_UNIT_PIKE_SQUARE_JEC</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_PIKE_SQUARE</From>
+            <From>UNIT_PIKE_SQUARE_JEC</From>
             <To>UNIT_PIKEMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_PIKE_SQUARE_2</ID>
-            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <ID>REMAP_UNIT_PIKE_SQUARE_JEC_2</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_PIKE_SQUARE_2</From>
+            <From>UNIT_PIKE_SQUARE_JEC_2</From>
             <To>UNIT_PIKEMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_PIKE_SQUARE_3</ID>
-            <DisplayName>LOC_UNIT_PIKE_SQUARE_NAME</DisplayName>
+            <ID>REMAP_UNIT_PIKE_SQUARE_JEC_3</ID>
+            <DisplayName>LOC_UNIT_PIKE_SQUARE_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_PIKE_SQUARE_3</From>
+            <From>UNIT_PIKE_SQUARE_JEC_3</From>
             <To>UNIT_PIKEMAN</To>
         </Row>
         <!-- AMTSBURGERMEISTER -->
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_JOHANN_CONRAD_FISCHER</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_JOHANN_CONRAD_FISCHER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_JOHANN_CONRAD_FISCHER</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_JOHANN_CONRAD_FISCHER</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_JOACHIM_VADIAN</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_JOACHIM_VADIAN_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_JOACHIM_VADIAN</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_WILHELM_HERTER_VON_HERTNECK</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_WILHELM_HERTER_VON_HERTNECK_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_WILHELM_HERTER_VON_HERTNECK</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_WILHELM_HERTER_VON_HERTNECK</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_MARX_ROIST</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JOACHIM_VADIAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_MARX_ROIST</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_JOACHIM_VADIAN_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_MARX_ROIST</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_MARX_ROIST</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_ELISABTH_OF_WETZIKON</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_ELISABTH_OF_WETZIKON_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_ELISABTH_OF_WETZIKON</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_ELISABTH_OF_WETZIKON</From>
             <To>UNIT_ALIM_RABIA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</ID>
-            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI_NAME</DisplayName>
+            <ID>REMAP_UNIT_AMTSBURGERMEISTER_JEC_HULDRYCH_ZEINGLI</ID>
+            <DisplayName>LOC_UNIT_AMTSBURGERMEISTER_JEC_HULDRYCH_ZEINGLI_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_AMTSBURGERMEISTER_HULDRYCH_ZEINGLI</From>
+            <From>UNIT_AMTSBURGERMEISTER_JEC_HULDRYCH_ZEINGLI</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
   
           <Row>
-            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</ID>
-            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER_NAME</DisplayName>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_JEC_LEONHARD_EULER</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_JEC_LEONHARD_EULER_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LEHRBEAUFTRAGTER_LEONHARD_EULER</From>
+            <From>UNIT_LEHRBEAUFTRAGTER_JEC_LEONHARD_EULER</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</ID>
-            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI_NAME</DisplayName>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LEHRBEAUFTRAGTER_DANIEL_BERNOULLI</From>
+            <From>UNIT_LEHRBEAUFTRAGTER_JEC_DANIEL_BERNOULLI</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_PARACELSUS</ID>
-            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_PARACELSUS_NAME</DisplayName>
+            <ID>REMAP_UNIT_LEHRBEAUFTRAGTER_JEC_PARACELSUS</ID>
+            <DisplayName>LOC_UNIT_LEHRBEAUFTRAGTER_JEC_PARACELSUS_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_LEHRBEAUFTRAGTER_PARACELSUS</From>
+            <From>UNIT_LEHRBEAUFTRAGTER_JEC_PARACELSUS</From>
             <To>UNIT_CONQUISTADOR_FRANCISCO_DE_ORELLANA</To>
         </Row>
         

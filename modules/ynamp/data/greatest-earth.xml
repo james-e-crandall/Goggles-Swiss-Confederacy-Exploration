@@ -8,7 +8,7 @@
 
 	<StartPosition>
 		<!-- Civ7 -->
-		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_SWISS_CONFEDERACY"			X="49"	Y="47" />
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_SWISS_CONFEDERACY_JEC"			X="49"	Y="47" />
     </StartPosition>
 
 

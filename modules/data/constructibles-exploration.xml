@@ -2,7 +2,7 @@
 <Database>  
 	
 	<Constructible_GreatWorks>
-		<Row ConstructibleType="BUILDING_KLOSTER" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row ConstructibleType="BUILDING_KLOSTER_JEC" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 	</Constructible_GreatWorks>
 	
 

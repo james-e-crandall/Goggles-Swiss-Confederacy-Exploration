@@ -39,7 +39,7 @@ const militaryVictoryContent1 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY_MONGOLIA_PATH";
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_1_ADVISOR_BODY_SWISS_CONFEDERACY_PATH";
                 }
                 else {
@@ -67,7 +67,7 @@ const militaryVictoryContent1 = {
                     }
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_BODY_MONGOLIA_PATH", commanderIcon, commanderName);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     const fleetCommander = player.Units.getBuildUnit("UNIT_SWORDSMAN");
                     const commanderDef = GameInfo.Units.lookup(fleetCommander);
                     if (commanderDef) {
@@ -151,7 +151,7 @@ TutorialManager.add({
                     }
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_MONGOLIA_PATH", settlementCaptured, settlementGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_1_TRACKING_BODY_SWISS_CONFEDERACY_PATH", score, settlementGoal); 
                 }
@@ -198,7 +198,7 @@ TutorialManager.add({
                     return true;
                 }
             }
-            else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+            else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                 const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
                 if (score > 0) {
                     return true;
@@ -225,7 +225,7 @@ const militaryVictoryContent2 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_MONGOLIA_PATH";
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_2_ADVISOR_BODY_SWISS_CONFEDERACY_PATH";
                 }
                 else {
@@ -245,7 +245,7 @@ const militaryVictoryContent2 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_2_BODY_MONGOLIA_PATH";
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = "LOC_TUTORIAL_MILITARY_QUEST_2_BODY_SWISS_CONFEDERACY_PATH";
                 }
                 else {
@@ -320,7 +320,7 @@ TutorialManager.add({
                         playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_MONGOLIA_PATH", settlementCaptured, settlementGoal);
                     }
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_2_TRACKING_BODY_SWISS_CONFEDERACY_PATH", score, settlementGoal);
                 }
@@ -381,7 +381,7 @@ TutorialManager.add({
                     bQuestComplete = true;
                 }
             }
-            else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+            else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                 const score = player.LegacyPaths?.getScore("LEGACY_PATH_EXPLORATION_MILITARY");
                 if (score >= 2) {
                     bQuestComplete = true;
@@ -414,7 +414,7 @@ const militaryVictoryContent3 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_MONGOLIA_PATH", civAdj);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_ADVISOR_BODY_SWISS_CONFEDERACY_PATH", civAdj);
                 }
                 else {
@@ -435,7 +435,7 @@ const militaryVictoryContent3 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_BODY_MONGOLIA_PATH", pointGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_BODY_SWISS_CONFEDERACY_PATH", pointGoal);
                 }
                 else {
@@ -498,7 +498,7 @@ TutorialManager.add({
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_MONGOLIA_PATH", iPointsCurrent, iPointsGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_3_TRACKING_BODY_SWISS_CONFEDERACY_PATH", iPointsCurrent, iPointsGoal);
                 }
                 else {
@@ -544,7 +544,7 @@ const militaryVictoryContent4 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_MONGOLIA_PATH", civAdj);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_ADVISOR_BODY_SWISS_CONFEDERACY_PATH", civAdj);
                 }
                 else {
@@ -565,7 +565,7 @@ const militaryVictoryContent4 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_BODY_MONGOLIA_PATH", pointGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_BODY_SWISS_CONFEDERACY_PATH", pointGoal);
                 }
                 else {
@@ -628,7 +628,7 @@ TutorialManager.add({
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_MONGOLIA_PATH", iPointsCurrent, iPointsGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_4_TRACKING_BODY_SWISS_CONFEDERACY_PATH", iPointsCurrent, iPointsGoal);
                 }
                 else {
@@ -674,7 +674,7 @@ const militaryVictoryContent5 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_MONGOLIA_PATH", civAdj);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_ADVISOR_BODY_SWISS_CONFEDERACY_PATH", civAdj);
                 }
                 else {
@@ -695,7 +695,7 @@ const militaryVictoryContent5 = {
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_BODY_MONGOLIA_PATH", pointGoal);
                 }
-                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_BODY_SWISS_CONFEDERACY_PATH", pointGoal);
                 }
                 else {
@@ -758,7 +758,7 @@ TutorialManager.add({
                 if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY_MONGOLIA_PATH", iPointsCurrent, iPointsGoal);
                 }
-                if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                     playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_5_TRACKING_BODY_SWISS_CONFEDERACY_PATH", iPointsCurrent, iPointsGoal);
                 }
                 else {
@@ -809,7 +809,7 @@ TutorialManager.add({
                     if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_MONGOLIA") {
                         playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_MONGOLIA_PATH", civAdj);
                     }
-                    else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY") {
+                    else if (playercivDef != null && playercivDef.CivilizationType == "CIVILIZATION_SWISS_CONFEDERACY_JEC") {
                         playerPathText = Locale.compose("LOC_TUTORIAL_MILITARY_QUEST_LINE_COMPLETE_ADVISOR_BODY_SWISS_CONFEDERACY_PATH", civAdj);
                     }
                     else {

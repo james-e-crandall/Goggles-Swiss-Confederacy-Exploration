@@ -12,8 +12,8 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!--  -->
-		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE_2" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE_3" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_PIKE_SQUARE_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_SWISS_CONFEDERACY_JEC"/>
 		<Row ProgressionTreeNodeType="NODE_TECH_EX_ARCHITECTURE" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_ZYTGLOGGE" UnlockDepth="1"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>

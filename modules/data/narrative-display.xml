@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<NarrativeDisplay_Civilizations>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY" CivilizationImage="bg-panel-swiss-confederacy.png"/>
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationImage="bg-panel-swiss-confederacy.png"/>
 	</NarrativeDisplay_Civilizations>
 </Database>
