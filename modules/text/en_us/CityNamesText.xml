@@ -68,5 +68,31 @@
 		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC22">
 			<Text>Lugano</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC23">
+			<Text>Chur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC24">
+			<Text>Rheinfelden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC25">
+			<Text>Sion</Text>
+		</Row>		
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC26">
+			<Text>Zofingen</Text>
+		</Row>	
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC27">
+			<Text>Samaden</Text>
+		</Row>	
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC28">
+			<Text>Porrentruy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC29">
+			<Text>Bellinzona</Text>
+		</Row>	
+		<Row Tag="LOC_CITY_NAME_SWISS_CONFEDERACY_JEC30">
+			<Text>Villmergen</Text>
+		</Row>	 
+
+		
 	</EnglishText>
 </Database>
