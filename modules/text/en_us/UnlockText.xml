@@ -13,5 +13,8 @@
 		<Row Tag="LOC_UNLOCK_MOUNTAIN_SETTLEMENTS_SWISS_CONFEDERACY_NARRATIVE">
 			<Text>{1_Civilization_Adj} 2 Tundra Cities and 1 Mountain Cities</Text>
 		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_SWISS_CONFEDERACY_PRUSSIA_TOOLTIP">
+			<Text>The [B]Swiss Confederacy[/B] influenced the development of [B]Prussia[/B].</Text>
+		</Row>
 	</EnglishText>
 </Database>
