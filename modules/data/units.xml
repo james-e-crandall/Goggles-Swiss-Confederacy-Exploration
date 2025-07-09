@@ -176,8 +176,11 @@
 		<Row UnitType="UNIT_PIKE_SQUARE_JEC_3" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<!-- Civ Unique Civilian -->
 		<Row UnitType="UNIT_AMTSBURGERMEISTER_JEC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
-
 		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_JEC" AdvisoryClassType="ADVISORY_CLASS_SCIENCE"/>
 	</Unit_Advisories>
+	<AIUnitPrioritizedActions>
+		<Row UnitType="UNIT_AMTSBURGERMEISTER_JEC" CommandType="UNITCOMMAND_ACTIVATE_GREAT_PERSON" />
+		<Row UnitType="UNIT_LEHRBEAUFTRAGTER_JEC" CommandType="UNITCOMMAND_ACTIVATE_GREAT_PERSON" />
+	</AIUnitPrioritizedActions>
 
 </Database>
