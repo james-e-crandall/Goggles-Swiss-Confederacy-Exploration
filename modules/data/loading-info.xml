@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_SWISS_CONFEDERACY" Audio="VO_Loading_swiss_confederacy" Subtitle="LOC_LOADING_INTRO_SWISS_CONFEDERACY" BackgroundImageHigh="fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_1080" BackgroundImageLow="fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_720" ForegroundImage="fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy_jec.png" />
+		<Row CivilizationType="CIVILIZATION_SWISS_CONFEDERACY_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_SWISS_CONFEDERACY" Audio="VO_Loading_swiss_confederacy" Subtitle="LOC_LOADING_INTRO_SWISS_CONFEDERACY" BackgroundImageHigh="fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_1080" BackgroundImageLow="fs://game/goggles_civ_swiss_confederacy/icons/lsbg_swiss_confederacy_jec_720" ForegroundImage="fs://game/goggles_civ_swiss_confederacy/icons/civ_line_swiss_confederacy_jec.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_SWISS_CONFEDERACY" />
 	</LoadingInfo_Civilizations>
 
 </Database>

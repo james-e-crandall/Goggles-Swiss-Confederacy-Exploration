@@ -147,6 +147,7 @@
                 </UpdateText>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy_jec</Item>
+					<Item>icons/civ_sym_swiss_confederacy_jec.png</Item>
 					<Item>icons/cult_swiss_confederacy_jec.png</Item>
 					<Item>icons/unitflag_pike_square_jec.png</Item>
 					<Item>icons/unitflag_pike_square_jec_2.png</Item>
@@ -157,6 +158,9 @@
 					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
 					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
+					<Item>icons/buildicon_kloster_jec.png</Item>
+					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
+					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
@@ -199,7 +203,7 @@
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
-					<Item>text/en_us/amtsburgermeisterText.xml</Item>
+					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/WonderText.xml</Item>
@@ -265,6 +269,7 @@
 				</UpdateDatabase>
                 <ImportFiles>
                     <Item>icons/civ_sym_swiss_confederacy_jec</Item>
+					<Item>icons/civ_sym_swiss_confederacy_jec.png</Item>
 					<Item>icons/cult_swiss_confederacy_jec.png</Item>
 					<Item>icons/unitflag_pike_square_jec.png</Item>
 					<Item>icons/unitflag_pike_square_jec_2.png</Item>
@@ -275,9 +280,13 @@
 					<Item>icons/lsbg_swiss_confederacy_jec_1080</Item>
 					<Item>icons/bg-panel-swiss_confederacy_jec.png</Item>
 					<Item>icons/bg-card-swiss_confederacy_jec.png</Item>
+					<Item>icons/buildicon_kloster_jec.png</Item>
+					<Item>icons/buildicon_stiftsarchiv_jec.png</Item>
+					<Item>icons/wondericon_zytglogge.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
 				 	<Item>data/icons/SwissConfederacy.xml</Item>
+					<Item>data/icons/wonder-icons.xml</Item>
                 </UpdateIcons>
 				<UpdateText>
 					<!-- Standard Text -->
@@ -285,7 +294,7 @@
 					<Item>text/en_us/CivilizationText.xml</Item>
 					<Item>text/en_us/ConstructiblesText.xml</Item>
 					<Item>text/en_us/CultureText.xml</Item>
-					<Item>text/en_us/amtsburgermeisterText.xml</Item>
+					<Item>text/en_us/AmtsburgermeisterText.xml</Item>
 					<Item>text/en_us/LehrbeauftragterText.xml</Item>
 					<Item>text/en_us/UnitText.xml</Item>
 					<!-- Civ Chosing Screen Text -->
