@@ -51,7 +51,7 @@
         <Row NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD" ModifierID="STORY_DANIEL_BERNOULLI_END_NARRATIVE_MODIFIER"/>
         <!-- PARACELSUS -->
         <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_1"/>
-        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_2"/>
+        <Row NarrativeRewardType="STORY_PARACELSUS_END_REWARD_2" ModifierID="STORY_PARACELSUS_END_NARRATIVE_MODIFIER_2"/>
     </NarrativeRewards>
 
     <NarrativeStory_Rewards>
@@ -62,6 +62,7 @@
         <Row NarrativeStoryType="STORY_DANIEL_BERNOULLI_END" NarrativeRewardType="STORY_DANIEL_BERNOULLI_END_REWARD" Activation="COMPLETE"/>
         <!-- PARACELSUS -->
         <Row NarrativeStoryType="STORY_PARACELSUS_END" NarrativeRewardType="STORY_PARACELSUS_END_REWARD" Activation="COMPLETE"/>
+        <Row NarrativeStoryType="STORY_PARACELSUS_END" NarrativeRewardType="STORY_PARACELSUS_END_REWARD_2" Activation="COMPLETE"/>
     </NarrativeStory_Rewards>
 
     <NarrativeRewardIcons>
