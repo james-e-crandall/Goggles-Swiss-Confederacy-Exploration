@@ -94,7 +94,7 @@
 			<Text>Paracelsus</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_DESCRIPTION">
-			<Text>Activate in foreign capital to grants it a Hospital. You receive a Scientific Attributes point.</Text>
+			<Text>Activate in foreign capital to grants it a Hospital. You receive a Scientific and Militaristic Attribute points.</Text>
 		</Row>
 		<Row Tag="LOC_STORY_PARACELSUS_START_STORYTITLE">
 			<Text>{LOC_GREAT_PERSON_INDIVIDUAL_LEHRBEAUFTRAGTER_PARACELSUS_NAME}</Text>
